@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs  # 关键：用于 GitHub Pages 发布
+
+website:
+  title: "Simon Yan | Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: resume.qmd
+        text: Resume
+
+format:
+  html:
+    theme: cosmo     # 推荐使用 cosmo 或 lux，看起来更商务专业
+    css: styles.css
+    toc: true        # 开启右侧目录

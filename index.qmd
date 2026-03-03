@@ -1,0 +1,24 @@
+---
+title: "Simon Yan"
+about:
+  template: jolla
+  image: profile.jpg # 如果你有照片，放一张在这里，没有就删掉这行
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/your-profile
+    - icon: github
+      text: Github
+      href: https://github.com/hy86652
+---
+
+## Welcome to my Portfolio
+
+I am a Data Analyst specializing in **Assurance Artificial Intelligence Technology** and Technical Analysis. 
+
+My work focuses on leveraging R and Python to ensure the robustness of AI systems and identifying patterns in financial markets.
+
+### Core Competencies:
+* **AI Assurance**: Model validation, bias detection, and quality control.
+* **Data Visualization**: Advanced plotting using `ggplot2` and `plotly`.
+* **Trading Analytics**: Technical analysis and options strategies.
