@@ -1,24 +1,161 @@
 ---
-title: "Simon Yan"
-about:
-  template: jolla
-  image: profile.jpg # 如果你有照片，放一张在这里，没有就删掉这行
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/your-profile
-    - icon: github
-      text: Github
-      href: https://github.com/hy86652
+title: "Han (Simon) Yan"
+format:
+  html:
+    page-layout: full
+    css: styles.css
 ---
 
-## Welcome to my Portfolio
+::: {.column-screen .gradient-banner}
+::: {.container .header-container}
 
-I am a Data Analyst specializing in **Assurance Artificial Intelligence Technology** and Technical Analysis. 
+# Han (Simon) Yan
+### Bridging Quantitative Modeling with Business-Critical AI Assurance
+Master of Professional Studies in Information Science @ Cornell University
 
-My work focuses on leveraging R and Python to ensure the robustness of AI systems and identifying patterns in financial markets.
+:::
+:::
 
-### Core Competencies:
-* **AI Assurance**: Model validation, bias detection, and quality control.
-* **Data Visualization**: Advanced plotting using `ggplot2` and `plotly`.
-* **Trading Analytics**: Technical analysis and options strategies.
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-8 .profile-text}
+I am a Data Science specialist at **Cornell University** focusing on **Assurance AI Technology**. My mission is to ensure that AI systems are not only intelligent but also robust, transparent, and reliable.
+
+By leveraging my academic foundation in **Stochastic Processes**, **Markov Chains**, and **Monte Carlo Simulations**, I architect scalable data solutions that bridge the gap between complex mathematical theory and actionable business integrity.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.glass-card}
+### ✉️ Connect
+
+- [**LinkedIn**](https://www.linkedin.com/in/sy31)
+- [**GitHub**](https://github.com/hy86652)
+- [**Email**](mailto:hyan86652@gmail.com)
+- **Location**: Ithaca, NY
+
+:::
+:::
+
+:::
+
+---
+
+## 🛠️ Technical Ecosystem
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .tech-card .h-100}
+::: {.card-body}
+#### **AI & Modeling**
+- Machine Learning (Scikit-learn)
+- Monte Carlo Simulation
+- Markov Chains & Stochastic Processes
+- Probability & Statistics
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .tech-card .h-100}
+::: {.card-body}
+#### **Data Engineering**
+- Python (Pandas, NumPy)
+- R (Tidyverse, ggplot2)
+- SQL & ETL Pipelines
+- Docker & Git
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .tech-card .h-100}
+::: {.card-body}
+#### **Visualization & GIS**
+- Mapbox & Leaflet APIs
+- Tableau
+- Matplotlib / Seaborn
+- Interactive Dashboards
+:::
+:::
+:::
+
+:::
+
+---
+
+## 📊 Core Expertise: Assurance & Quant Research
+
+### **High-Stakes Data Reliability**
+
+During my tenure at **Central China Securities**, I architected an automated ETL pipeline processing **100K+ daily entries**. I implemented rigorous cleaning logic and outlier handling — the bedrock of **Assurance AI** — to ensure the stability of 10+ multi-factor alpha signals.
+
+```{mermaid}
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#ebf4ff',
+  'primaryBorderColor': '#1a365d',
+  'primaryTextColor': '#1a365d',
+  'lineColor': '#f6ad55',
+  'edgeLabelBackground': '#ffffff'
+}}}%%
+graph LR
+    A([100K+ Daily Data]) -->|Pandas Core| B[[Cleaning Logic]]
+    B --> C{Outlier Handling}
+    C -->|Validation| D([Standardized Factors])
+    D --> E[[Alpha Signal Optimization]]
+
+    style C fill:#fffaf0,stroke:#f6ad55,stroke-width:2px
+    style E fill:#1a365d,stroke:#1a365d,stroke-width:2px,color:#ffffff
+```
+
+### **Stochastic Modeling for Risk**
+
+Applying **Markov Chains** and **Monte Carlo Simulations** to quantify uncertainty and model regime-switching behavior in financial time series — translating probabilistic outputs into interpretable risk metrics for business stakeholders.
+
+---
+
+## 💼 Experience
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .experience-card}
+::: {.card-body}
+### Central China Securities
+**Data Science Intern** · 2023
+
+- Built ETL pipeline handling 100K+ daily records with automated outlier detection
+- Engineered 10+ multi-factor alpha signals with rigorous validation logic
+- Reduced data processing errors by standardizing cleaning workflows in Python
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card .experience-card}
+::: {.card-body}
+### Cornell University
+**MPS in Information Science** · 2024–Present
+
+- Specializing in AI Assurance, data reliability, and scalable ML systems
+- Coursework: Stochastic Processes, Machine Learning, Data Engineering
+- Focused on the intersection of quantitative finance and trustworthy AI
+:::
+:::
+:::
+
+:::
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Year |
+|--------|-------------|------|
+| MPS, Information Science | Cornell University | 2024–Present |
+
+---
+
+::: {.footer-note}
+*Built with [Quarto](https://quarto.org) · Last updated 2025*
+:::

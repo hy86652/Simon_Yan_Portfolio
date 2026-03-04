@@ -1,1 +1,203 @@
-/* css styles */
+/* ============================================
+   Han (Simon) Yan - Portfolio Styles
+   ============================================ */
+
+/* --- Gradient Banner --- */
+.gradient-banner {
+  background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 60%, #f6ad55 100%);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.gradient-banner h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.gradient-banner h3 {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.88);
+  margin-bottom: 0.75rem;
+}
+
+.gradient-banner p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+}
+
+/* --- Profile Text --- */
+.profile-text {
+  padding: 2rem 1rem 1rem 1rem;
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: #2d3748;
+}
+
+/* --- Glass Card (Connect sidebar) --- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(26, 54, 93, 0.15);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 16px rgba(26, 54, 93, 0.08);
+}
+
+.glass-card h3 {
+  color: #1a365d;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.glass-card ul, .glass-card li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.glass-card li {
+  padding: 0.35rem 0;
+  font-size: 0.95rem;
+}
+
+.glass-card a {
+  color: #2b6cb0;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.glass-card a:hover {
+  color: #f6ad55;
+  text-decoration: underline;
+}
+
+/* --- Tech Cards --- */
+.tech-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: #ffffff;
+}
+
+.tech-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(26, 54, 93, 0.12);
+}
+
+.tech-card .card-body {
+  padding: 1.5rem;
+}
+
+.tech-card h4 {
+  color: #1a365d;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f6ad55;
+  padding-bottom: 0.5rem;
+}
+
+.tech-card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.tech-card li {
+  font-size: 0.9rem;
+  color: #4a5568;
+  padding: 0.2rem 0;
+}
+
+/* --- Experience Cards --- */
+.experience-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background: #f7fafc;
+}
+
+.experience-card .card-body {
+  padding: 1.5rem;
+}
+
+.experience-card h3 {
+  color: #1a365d;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.experience-card ul {
+  padding-left: 1.2rem;
+  margin-top: 0.75rem;
+}
+
+.experience-card li {
+  font-size: 0.9rem;
+  color: #4a5568;
+  padding: 0.2rem 0;
+}
+
+/* --- Section Headings --- */
+h2 {
+  color: #1a365d;
+  border-left: 4px solid #f6ad55;
+  padding-left: 0.75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  color: #2b6cb0;
+}
+
+/* --- Table --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th {
+  background: #1a365d;
+  color: white;
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+  color: #4a5568;
+}
+
+tr:hover td {
+  background: #ebf8ff;
+}
+
+/* --- Footer --- */
+.footer-note {
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.85rem;
+  padding: 2rem 0 1rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .gradient-banner h1 {
+    font-size: 2rem;
+  }
+
+  .gradient-banner h3 {
+    font-size: 1rem;
+  }
+
+  .glass-card {
+    margin-top: 1rem;
+  }
+}
