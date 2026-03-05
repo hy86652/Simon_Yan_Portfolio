@@ -19,12 +19,12 @@ website:
         text: About
       - href: projects.qmd
         text: Projects
-      - href: blog.qmd
-        text: Blog
-      - href: resume.qmd
-        text: Resume
-      - href: contact.qmd
-        text: Contact
+      # - href: blog.qmd
+      #   text: Blog
+      #- href: resume.qmd
+      #  text: Resume
+      # - href: contact.qmd
+      #   text: Contact
     right:
       - icon: github
         href: https://github.com/hy86652
@@ -32,9 +32,6 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/sy31
         aria-label: LinkedIn
-      - icon: circle-half
-        aria-label: Toggle dark mode
-        href: "javascript:toggleDarkMode()"
 
   # ── 页脚 ────────────────────────────────────────────
   page-footer:
@@ -55,39 +52,24 @@ website:
     title: "Simon Yan | Portfolio"
     description: "Data Science & AI Assurance | Cornell University MPS"
 
-  # ── 回到顶部 & 深色模式（全站注入）──────────────────
+  # ── 回到顶部按钮（全站注入）────────────────────────
   body-footer: |
     <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"
       aria-label="Back to top" title="Back to top">↑</button>
-
     <script>
     window.addEventListener('scroll', () => {
       document.getElementById('back-to-top').classList
         .toggle('visible', window.scrollY > 400);
     });
-
-    function toggleDarkMode() {
-      const html = document.documentElement;
-      const isDark = html.getAttribute('data-bs-theme') === 'dark';
-      html.setAttribute('data-bs-theme', isDark ? 'light' : 'dark');
-      localStorage.setItem('theme', isDark ? 'light' : 'dark');
-    }
-
-    (function() {
-      const saved = localStorage.getItem('theme') ||
-        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-      document.documentElement.setAttribute('data-bs-theme', saved);
-    })();
     </script>
 
 # ── 全局 HTML 格式 ──────────────────────────────────
 format:
   html:
-    theme:
-      light: cosmo
-      dark: darkly
+    theme: cosmo
     css: styles.css
-    toc: false
+    toc: false        # 不渲染目录
+    toc-depth: 0      # 不扫描标题
     smooth-scroll: true
     link-external-newwindow: true
     page-layout: full
