@@ -121,12 +121,12 @@ Applying **Markov Chains** and **Monte Carlo Simulations** to quantify uncertain
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .experience-card}
 ::: {.card-body}
-### Central China Securities
-**Data Science Intern** · 2023
+### Cornell University
+**MPS in Information Science** · 2024–Present
 
-- Built ETL pipeline handling 100K+ daily records with automated outlier detection
-- Engineered 10+ multi-factor alpha signals with rigorous validation logic
-- Reduced data processing errors by standardizing cleaning workflows in Python
+- 
+- Coursework: Stochastic Processes, Machine Learning, Data Engineering
+- Focused on the intersection of quantitative finance and trustworthy AI
 :::
 :::
 :::
@@ -134,12 +134,12 @@ Applying **Markov Chains** and **Monte Carlo Simulations** to quantify uncertain
 ::: {.g-col-12 .g-col-md-6}
 ::: {.card .experience-card}
 ::: {.card-body}
-### Cornell University
-**MPS in Information Science** · 2024–Present
+### Central China Securities
+**Data Science Intern** · 2023
 
-- Specializing in AI Assurance, data reliability, and scalable ML systems
-- Coursework: Stochastic Processes, Machine Learning, Data Engineering
-- Focused on the intersection of quantitative finance and trustworthy AI
+- Built ETL pipeline handling 100K+ daily records with automated outlier detection
+- Engineered 10+ multi-factor alpha signals with rigorous validation logic
+- Reduced data processing errors by standardizing cleaning workflows in Python
 :::
 :::
 :::
@@ -152,7 +152,10 @@ Applying **Markov Chains** and **Monte Carlo Simulations** to quantify uncertain
 
 | Degree | Institution | Year |
 |--------|-------------|------|
-| MPS, Information Science | Cornell University | 2024–Present |
+| MPS, Information Science | Cornell University | 2025–Present |
+| BA, Geography: Data Science | University of Washington | 2021–2025 |
+
+
 
 ---
 

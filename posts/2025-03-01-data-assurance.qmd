@@ -1,0 +1,39 @@
+---
+title: "Why Data Assurance Is the Unglamorous Core of AI"
+description: "The gap between a model that works in a notebook and one that works in production is almost always a data problem — not a modeling problem."
+date: 2025-03-01
+categories: [AI Assurance, Data Engineering, Opinion]
+image: ""
+---
+
+## The Problem Nobody Talks About
+
+Everyone wants to build the model. Nobody wants to validate the pipeline that feeds it.
+
+This is the central tension I've observed across both academic ML courses and real-world financial data work: we spend enormous energy on architecture choices, hyperparameter tuning, and benchmark performance — and comparatively little on the question of whether the data coming in is actually trustworthy.
+
+At **Central China Securities**, I built ETL pipelines processing 100K+ financial records daily. The most valuable thing I learned wasn't pandas syntax or SQL optimization. It was this: **the cost of a bad data point isn't just a slightly worse model — it's a compounding error that can silently corrupt every downstream signal you produce.**
+
+## What "Assurance" Actually Means
+
+AI Assurance isn't a product category or a compliance checkbox. It's a design philosophy with three components:
+
+**1. Reliability** — Does the system produce consistent outputs when given consistent inputs? Can you reproduce results?
+
+**2. Transparency** — Can you explain *why* the model produced a given output? Not just in theory, but to a non-technical stakeholder who needs to act on it?
+
+**3. Robustness** — Does the system degrade gracefully when data drifts, when edge cases appear, or when upstream sources change format without warning?
+
+Most ML projects nail none of these. A few nail reliability. Almost none nail all three.
+
+## The Markov Chain Analogy
+
+I find it useful to think about data pipelines as Markov chains. Each transformation step has a probability of introducing an error — a dropped row, a miscoded category, a join that silently drops nulls. These errors compound. If each of five steps has a 98% chance of being correct, your end-to-end correctness is only **0.98⁵ ≈ 90%** — and that's before you've run a single model.
+
+Assurance engineering is the discipline of pushing each step's reliability toward 99.9%+ through logging, schema validation, automated tests, and anomaly detection. It's boring. It's also what separates a research demo from a production system.
+
+## Where I'm Taking This
+
+My current work at Cornell is exploring how to make assurance practices *systematic* — not something you bolt on after the model is built, but something baked into the pipeline from the start. More on that as the project develops.
+
+If this resonates with you, I'd love to hear how you approach data reliability in your own work. Reach out via the [Contact](/contact.html) page.

@@ -1,5 +1,178 @@
 ---
 title: "About"
+format:
+  html:
+    page-layout: full
+    toc: false
 ---
 
-About this site
+::: {.column-screen .gradient-banner}
+::: {.container .header-container}
+
+# About Me
+### The story behind the work
+
+:::
+:::
+
+<!-- ── 主体内容 ─────────────────────────────── -->
+::: {.about-grid}
+
+::: {.about-left}
+
+## Who I Am
+
+I'm **Han (Simon) Yan**, a data scientist and quantitative researcher currently pursuing a **Master of Professional Studies in Information Science** at Cornell University, with a focus on **AI Assurance Technology**.
+
+My work sits at an unusual intersection: I care deeply about making AI systems not just *smart*, but *trustworthy* — reliable enough that a business can stake real decisions on them. That means thinking carefully about data integrity, model transparency, and the gap between a model's performance on paper and its behavior in the wild.
+
+Before Cornell, I worked at **Central China Securities**, where I built data pipelines handling hundreds of thousands of financial records daily and developed multi-factor alpha signals for equity research. That experience taught me that the unglamorous work — cleaning, validating, and stress-testing data — is often where real analytical value is created.
+
+---
+
+## Academic Foundation
+
+My quantitative backbone comes from deep study of:
+
+- **Stochastic Processes & Markov Chains** — modeling systems that evolve probabilistically over time
+- **Monte Carlo Simulation** — quantifying uncertainty where closed-form solutions don't exist
+- **Machine Learning** — with a critical eye toward when and why models fail
+- **Geospatial Analysis** — visualizing socioeconomic phenomena across space and time
+
+I believe mathematical rigor and practical engineering need each other. A model that can't be deployed is a thought experiment. A pipeline without statistical foundations is a liability.
+
+---
+
+## Beyond the Work
+
+When I'm not in the weeds of a dataset, I'm interested in the broader questions of how quantitative tools shape decisions — in finance, in policy, and increasingly in AI governance. I'm based in **Ithaca, NY**, and I enjoy long walks by Cayuga Lake when the Ithaca weather cooperates (which is not always).
+
+:::
+
+::: {.about-right}
+
+::: {.about-card}
+### 🎓 Education
+**Cornell University**
+MPS, Information Science
+*2024 – Present*
+
+Focus: AI Assurance, Data Engineering, Stochastic Modeling
+:::
+
+::: {.about-card}
+### 💼 Experience
+**Central China Securities**
+Data Science Intern
+*2023*
+
+ETL pipelines · Alpha signal engineering · Financial data assurance
+:::
+
+::: {.about-card}
+### 📍 Currently
+Ithaca, New York
+Open to full-time roles in Data Science, Quant Research, and AI Assurance starting **Summer / Fall 2025**
+:::
+
+::: {.about-card}
+### 🌐 Languages
+- English — Professional
+- Mandarin Chinese — Native
+:::
+
+:::
+
+:::
+
+```{=html}
+<style>
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem 3rem;
+  align-items: start;
+}
+
+.about-left {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #2d3748;
+}
+
+.about-left h2 {
+  color: #1a365d;
+  border-left: 4px solid #f6ad55;
+  padding-left: 0.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-left ul {
+  padding-left: 1.3rem;
+}
+
+.about-left li {
+  padding: 0.25rem 0;
+  color: #4a5568;
+}
+
+.about-left li::marker {
+  color: #f6ad55;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: sticky;
+  top: 5rem;
+}
+
+.about-card {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 1.2rem 1.4rem;
+  font-size: 0.9rem;
+  color: #4a5568;
+  line-height: 1.65;
+}
+
+.about-card h3 {
+  color: #1a365d;
+  font-size: 0.95rem;
+  margin: 0 0 0.6rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.4rem;
+}
+
+.about-card strong {
+  color: #2d3748;
+}
+
+.about-card em {
+  color: #718096;
+  font-size: 0.82rem;
+}
+
+.about-card ul {
+  padding-left: 1rem;
+  margin: 0.4rem 0 0;
+}
+
+.about-card li { padding: 0.15rem 0; }
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-right {
+    position: static;
+  }
+}
+</style>
+```

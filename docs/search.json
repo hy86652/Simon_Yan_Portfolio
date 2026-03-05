@@ -81,13 +81,97 @@
     "href": "index.html#experience",
     "title": "Han (Simon) Yan",
     "section": "💼 Experience",
-    "text": "💼 Experience\n\n\n\n\nCentral China Securities\nData Science Intern · 2023\n\nBuilt ETL pipeline handling 100K+ daily records with automated outlier detection\nEngineered 10+ multi-factor alpha signals with rigorous validation logic\nReduced data processing errors by standardizing cleaning workflows in Python\n\n\n\n\n\n\n\nCornell University\nMPS in Information Science · 2024–Present\n\nSpecializing in AI Assurance, data reliability, and scalable ML systems\nCoursework: Stochastic Processes, Machine Learning, Data Engineering\nFocused on the intersection of quantitative finance and trustworthy AI"
+    "text": "💼 Experience\n\n\n\n\nCornell University\nMPS in Information Science · 2024–Present\n\n\nCoursework: Stochastic Processes, Machine Learning, Data Engineering\nFocused on the intersection of quantitative finance and trustworthy AI\n\n\n\n\n\n\n\nCentral China Securities\nData Science Intern · 2023\n\nBuilt ETL pipeline handling 100K+ daily records with automated outlier detection\nEngineered 10+ multi-factor alpha signals with rigorous validation logic\nReduced data processing errors by standardizing cleaning workflows in Python"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Han (Simon) Yan",
     "section": "🎓 Education",
-    "text": "🎓 Education\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nMPS, Information Science\nCornell University\n2024–Present\n\n\n\n\n\nBuilt with Quarto · Last updated 2025"
+    "text": "🎓 Education\n\n\n\nDegree\nInstitution\nYear\n\n\n\n\nMPS, Information Science\nCornell University\n2025–Present\n\n\nBA, Geography: Data Science\nUniversity of Washington\n2021–2025\n\n\n\n\n\nBuilt with Quarto · Last updated 2025"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\n\nApplied work at the intersection of quantitative modeling, AI assurance, and data engineering\n\n\n\n\n\n\nAll AI Assurance Quantitative Data Engineering Visualization\n\n\n\n\n\n\n\nNo projects match this filter yet — check back soon.\n\n\n\n\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "about.html#who-i-am",
+    "href": "about.html#who-i-am",
+    "title": "About",
+    "section": "Who I Am",
+    "text": "Who I Am\nI’m Han (Simon) Yan, a data scientist and quantitative researcher currently pursuing a Master of Professional Studies in Information Science at Cornell University, with a focus on AI Assurance Technology.\nMy work sits at an unusual intersection: I care deeply about making AI systems not just smart, but trustworthy — reliable enough that a business can stake real decisions on them. That means thinking carefully about data integrity, model transparency, and the gap between a model’s performance on paper and its behavior in the wild.\nBefore Cornell, I worked at Central China Securities, where I built data pipelines handling hundreds of thousands of financial records daily and developed multi-factor alpha signals for equity research. That experience taught me that the unglamorous work — cleaning, validating, and stress-testing data — is often where real analytical value is created."
+  },
+  {
+    "objectID": "about.html#academic-foundation",
+    "href": "about.html#academic-foundation",
+    "title": "About",
+    "section": "Academic Foundation",
+    "text": "Academic Foundation\nMy quantitative backbone comes from deep study of:\n\nStochastic Processes & Markov Chains — modeling systems that evolve probabilistically over time\nMonte Carlo Simulation — quantifying uncertainty where closed-form solutions don’t exist\nMachine Learning — with a critical eye toward when and why models fail\nGeospatial Analysis — visualizing socioeconomic phenomena across space and time\n\nI believe mathematical rigor and practical engineering need each other. A model that can’t be deployed is a thought experiment. A pipeline without statistical foundations is a liability."
+  },
+  {
+    "objectID": "about.html#beyond-the-work",
+    "href": "about.html#beyond-the-work",
+    "title": "About",
+    "section": "Beyond the Work",
+    "text": "Beyond the Work\nWhen I’m not in the weeds of a dataset, I’m interested in the broader questions of how quantitative tools shape decisions — in finance, in policy, and increasingly in AI governance. I’m based in Ithaca, NY, and I enjoy long walks by Cayuga Lake when the Ithaca weather cooperates (which is not always)."
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume\n\nHan (Simon) Yan — Data Science & AI Assurance\n\n\n\n\n\n ⬇ Download PDF   ↗ Open in New Tab \n\n\n\n\n&lt;p&gt;\nYour browser does not support PDF preview. &lt;a href=\"assets/pdf/Simon Yan.pdf\"&gt;Click here to download.&lt;/a&gt;\n&lt;/p&gt;\n\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Contact\n\nLet’s connect — I’m always open to research collaborations, opportunities, and interesting conversations.\n\n\n\n\n\n\n\n📧 Email\nhyan86652@gmail.com\nBest for: job opportunities, project collaborations, academic inquiries\n\n\n💼 LinkedIn\nlinkedin.com/in/sy31\nBest for: professional networking and career connections\n\n\n💻 GitHub\ngithub.com/hy86652\nExplore my code, projects, and open-source contributions\n\n\n📍 Location\nIthaca, New York, USA\nCornell University · Available for remote or on-site roles\n\n\n\n\nSend a Message\n\n\n&lt;label for=\"cf-name\"&gt;Name&lt;/label&gt;\n&lt;input type=\"text\" id=\"cf-name\" placeholder=\"Your name\" /&gt;\n\n\n&lt;label for=\"cf-email\"&gt;Email&lt;/label&gt;\n&lt;input type=\"email\" id=\"cf-email\" placeholder=\"your@email.com\" /&gt;\n\n\n&lt;label for=\"cf-subject\"&gt;Subject&lt;/label&gt;\n&lt;input type=\"text\" id=\"cf-subject\" placeholder=\"What's this about?\" /&gt;\n\n\n&lt;label for=\"cf-msg\"&gt;Message&lt;/label&gt;\n&lt;textarea id=\"cf-msg\" rows=\"5\" placeholder=\"Your message here...\"&gt;&lt;/textarea&gt;\n\nSend Message →\n\n\n\n\n\n\n\n\n\n\n\n\n↑"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\n\nNotes on data science, AI assurance, quantitative modeling, and the craft of building reliable systems.\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\nWhy Data Assurance Is the Unglamorous Core of AI\n\n2 min\n\n\nAI Assurance\n\nData Engineering\n\nOpinion\n\n\n\nThe gap between a model that works in a notebook and one that works in production is almost always a data problem — not a modeling problem.\n\n\n\nMar 1, 2025\n\n\n\n\n\n\nNo matching items\n\n↑"
+  },
+  {
+    "objectID": "posts/2025-03-01-data-assurance.html",
+    "href": "posts/2025-03-01-data-assurance.html",
+    "title": "Why Data Assurance Is the Unglamorous Core of AI",
+    "section": "",
+    "text": "Everyone wants to build the model. Nobody wants to validate the pipeline that feeds it.\nThis is the central tension I’ve observed across both academic ML courses and real-world financial data work: we spend enormous energy on architecture choices, hyperparameter tuning, and benchmark performance — and comparatively little on the question of whether the data coming in is actually trustworthy.\nAt Central China Securities, I built ETL pipelines processing 100K+ financial records daily. The most valuable thing I learned wasn’t pandas syntax or SQL optimization. It was this: the cost of a bad data point isn’t just a slightly worse model — it’s a compounding error that can silently corrupt every downstream signal you produce."
+  },
+  {
+    "objectID": "posts/2025-03-01-data-assurance.html#the-problem-nobody-talks-about",
+    "href": "posts/2025-03-01-data-assurance.html#the-problem-nobody-talks-about",
+    "title": "Why Data Assurance Is the Unglamorous Core of AI",
+    "section": "",
+    "text": "Everyone wants to build the model. Nobody wants to validate the pipeline that feeds it.\nThis is the central tension I’ve observed across both academic ML courses and real-world financial data work: we spend enormous energy on architecture choices, hyperparameter tuning, and benchmark performance — and comparatively little on the question of whether the data coming in is actually trustworthy.\nAt Central China Securities, I built ETL pipelines processing 100K+ financial records daily. The most valuable thing I learned wasn’t pandas syntax or SQL optimization. It was this: the cost of a bad data point isn’t just a slightly worse model — it’s a compounding error that can silently corrupt every downstream signal you produce."
+  },
+  {
+    "objectID": "posts/2025-03-01-data-assurance.html#what-assurance-actually-means",
+    "href": "posts/2025-03-01-data-assurance.html#what-assurance-actually-means",
+    "title": "Why Data Assurance Is the Unglamorous Core of AI",
+    "section": "What “Assurance” Actually Means",
+    "text": "What “Assurance” Actually Means\nAI Assurance isn’t a product category or a compliance checkbox. It’s a design philosophy with three components:\n1. Reliability — Does the system produce consistent outputs when given consistent inputs? Can you reproduce results?\n2. Transparency — Can you explain why the model produced a given output? Not just in theory, but to a non-technical stakeholder who needs to act on it?\n3. Robustness — Does the system degrade gracefully when data drifts, when edge cases appear, or when upstream sources change format without warning?\nMost ML projects nail none of these. A few nail reliability. Almost none nail all three."
+  },
+  {
+    "objectID": "posts/2025-03-01-data-assurance.html#the-markov-chain-analogy",
+    "href": "posts/2025-03-01-data-assurance.html#the-markov-chain-analogy",
+    "title": "Why Data Assurance Is the Unglamorous Core of AI",
+    "section": "The Markov Chain Analogy",
+    "text": "The Markov Chain Analogy\nI find it useful to think about data pipelines as Markov chains. Each transformation step has a probability of introducing an error — a dropped row, a miscoded category, a join that silently drops nulls. These errors compound. If each of five steps has a 98% chance of being correct, your end-to-end correctness is only 0.98⁵ ≈ 90% — and that’s before you’ve run a single model.\nAssurance engineering is the discipline of pushing each step’s reliability toward 99.9%+ through logging, schema validation, automated tests, and anomaly detection. It’s boring. It’s also what separates a research demo from a production system."
+  },
+  {
+    "objectID": "posts/2025-03-01-data-assurance.html#where-im-taking-this",
+    "href": "posts/2025-03-01-data-assurance.html#where-im-taking-this",
+    "title": "Why Data Assurance Is the Unglamorous Core of AI",
+    "section": "Where I’m Taking This",
+    "text": "Where I’m Taking This\nMy current work at Cornell is exploring how to make assurance practices systematic — not something you bolt on after the model is built, but something baked into the pipeline from the start. More on that as the project develops.\nIf this resonates with you, I’d love to hear how you approach data reliability in your own work. Reach out via the Contact page."
   }
 ]

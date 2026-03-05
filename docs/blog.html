@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Simon Yan | Portfolio</title>
+<title>Blog – Simon Yan | Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/img/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -72,8 +74,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="Simon Yan | Portfolio">
@@ -265,7 +325,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -273,7 +333,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.qmd"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
@@ -313,14 +373,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QUklMjBBc3N1cmFuY2U=">AI Assurance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMEVuZ2luZWVyaW5n">Data Engineering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3Bpbmlvbg==">Opinion <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content page-columns page-full column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -338,157 +399,110 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="column-screen gradient-banner">
-<section id="about-me" class="level1 container header-container">
-<h1>About Me</h1>
-<section id="the-story-behind-the-work" class="level3">
-<h3 class="anchored" data-anchor-id="the-story-behind-the-work">The story behind the work</h3>
+<section id="blog" class="level1 container header-container">
+<h1>Blog</h1>
+<section id="notes-on-data-science-ai-assurance-quantitative-modeling-and-the-craft-of-building-reliable-systems." class="level3">
+<h3 class="anchored" data-anchor-id="notes-on-data-science-ai-assurance-quantitative-modeling-and-the-craft-of-building-reliable-systems.">Notes on data science, AI assurance, quantitative modeling, and the craft of building reliable systems.</h3>
 </section>
 </section>
-</div>
-<!-- ── 主体内容 ─────────────────────────────── -->
-<div class="about-grid">
-<div class="about-left">
-<section id="who-i-am" class="level2">
-<h2 class="anchored" data-anchor-id="who-i-am">Who I Am</h2>
-<p>I’m <strong>Han (Simon) Yan</strong>, a data scientist and quantitative researcher currently pursuing a <strong>Master of Professional Studies in Information Science</strong> at Cornell University, with a focus on <strong>AI Assurance Technology</strong>.</p>
-<p>My work sits at an unusual intersection: I care deeply about making AI systems not just <em>smart</em>, but <em>trustworthy</em> — reliable enough that a business can stake real decisions on them. That means thinking carefully about data integrity, model transparency, and the gap between a model’s performance on paper and its behavior in the wild.</p>
-<p>Before Cornell, I worked at <strong>Central China Securities</strong>, where I built data pipelines handling hundreds of thousands of financial records daily and developed multi-factor alpha signals for equity research. That experience taught me that the unglamorous work — cleaning, validating, and stress-testing data — is often where real analytical value is created.</p>
-<hr>
-</section>
-<section id="academic-foundation" class="level2">
-<h2 class="anchored" data-anchor-id="academic-foundation">Academic Foundation</h2>
-<p>My quantitative backbone comes from deep study of:</p>
-<ul>
-<li><strong>Stochastic Processes &amp; Markov Chains</strong> — modeling systems that evolve probabilistically over time</li>
-<li><strong>Monte Carlo Simulation</strong> — quantifying uncertainty where closed-form solutions don’t exist</li>
-<li><strong>Machine Learning</strong> — with a critical eye toward when and why models fail</li>
-<li><strong>Geospatial Analysis</strong> — visualizing socioeconomic phenomena across space and time</li>
-</ul>
-<p>I believe mathematical rigor and practical engineering need each other. A model that can’t be deployed is a thought experiment. A pipeline without statistical foundations is a liability.</p>
-<hr>
-</section>
-<section id="beyond-the-work" class="level2">
-<h2 class="anchored" data-anchor-id="beyond-the-work">Beyond the Work</h2>
-<p>When I’m not in the weeds of a dataset, I’m interested in the broader questions of how quantitative tools shape decisions — in finance, in policy, and increasingly in AI governance. I’m based in <strong>Ithaca, NY</strong>, and I enjoy long walks by Cayuga Lake when the Ithaca weather cooperates (which is not always).</p>
-</section>
-</div>
-<div class="about-right">
-<section id="education" class="level3 about-card">
-<h3 class="anchored" data-anchor-id="education">🎓 Education</h3>
-<p><strong>Cornell University</strong> MPS, Information Science <em>2024 – Present</em></p>
-<p>Focus: AI Assurance, Data Engineering, Stochastic Modeling</p>
-</section>
-<section id="experience" class="level3 about-card">
-<h3 class="anchored" data-anchor-id="experience">💼 Experience</h3>
-<p><strong>Central China Securities</strong> Data Science Intern <em>2023</em></p>
-<p>ETL pipelines · Alpha signal engineering · Financial data assurance</p>
-</section>
-<section id="currently" class="level3 about-card">
-<h3 class="anchored" data-anchor-id="currently">📍 Currently</h3>
-<p>Ithaca, New York Open to full-time roles in Data Science, Quant Research, and AI Assurance starting <strong>Summer / Fall 2025</strong></p>
-</section>
-<section id="languages" class="level3 about-card">
-<h3 class="anchored" data-anchor-id="languages">🌐 Languages</h3>
-<ul>
-<li>English — Professional</li>
-<li>Mandarin Chinese — Native</li>
-</ul>
-</section>
-</div>
 </div>
 <style>
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: 2.5rem;
-  max-width: 1100px;
-  margin: 2.5rem auto;
-  padding: 0 1.5rem 3rem;
-  align-items: start;
+/* ── Quarto listing card overrides ─── */
+.quarto-grid-item {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  overflow: hidden;
 }
 
-.about-left {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #2d3748;
+.quarto-grid-item:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 28px rgba(26,54,93,0.12) !important;
+  border-color: #bee3f8 !important;
 }
 
-.about-left h2 {
-  color: #1a365d;
-  border-left: 4px solid #f6ad55;
-  padding-left: 0.75rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+.quarto-grid-item .card-title a {
+  color: #1a365d !important;
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.about-left ul {
-  padding-left: 1.3rem;
+.quarto-grid-item .card-title a:hover {
+  color: #f6ad55 !important;
 }
 
-.about-left li {
-  padding: 0.25rem 0;
-  color: #4a5568;
+.listing-category {
+  background: #ebf8ff !important;
+  color: #2b6cb0 !important;
+  border: none !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
 }
 
-.about-left li::marker {
-  color: #f6ad55;
-}
-
-.about-right {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  position: sticky;
-  top: 5rem;
-}
-
-.about-card {
-  background: #f7fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 10px;
-  padding: 1.2rem 1.4rem;
-  font-size: 0.9rem;
-  color: #4a5568;
-  line-height: 1.65;
-}
-
-.about-card h3 {
-  color: #1a365d;
-  font-size: 0.95rem;
-  margin: 0 0 0.6rem;
-  border-bottom: 1px solid #e2e8f0;
-  padding-bottom: 0.4rem;
-}
-
-.about-card strong {
-  color: #2d3748;
-}
-
-.about-card em {
-  color: #718096;
-  font-size: 0.82rem;
-}
-
-.about-card ul {
-  padding-left: 1rem;
-  margin: 0.4rem 0 0;
-}
-
-.about-card li { padding: 0.15rem 0; }
-
-@media (max-width: 768px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-  .about-right {
-    position: static;
-  }
+.quarto-listing-filter input {
+  border: 1.5px solid #1a365d !important;
+  border-radius: 6px !important;
 }
 </style>
 
 
 
-<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Back to top">
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="QUklMjBBc3N1cmFuY2UlMkNEYXRhJTIwRW5naW5lZXJpbmclMkNPcGluaW9u" data-listing-date-sort="1740805200000" data-listing-file-modified-sort="1772730212495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
+<a href="./posts/2025-03-01-data-assurance.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Why Data Assurance Is the Unglamorous Core of AI
+</h5>
+<div class="listing-reading-time card-text text-muted">2 min</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBBc3N1cmFuY2U='); return false;">AI Assurance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEVuZ2luZWVyaW5n'); return false;">Data Engineering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3Bpbmlvbg=='); return false;">Opinion</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>The gap between a model that works in a notebook and one that works in production is almost always a data problem — not a modeling problem.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 1, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Back to top">
 ↑
 </button></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

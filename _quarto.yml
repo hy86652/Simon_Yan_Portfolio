@@ -1,20 +1,93 @@
 project:
   type: website
-  output-dir: docs  # 关键：用于 GitHub Pages 发布
+  output-dir: docs
 
 website:
   title: "Simon Yan | Portfolio"
+  description: "Data Science & AI Assurance | Cornell University MPS"
+  favicon: assets/img/favicon.ico   # 没有 favicon 可删此行
+
+  # ── 导航栏 ──────────────────────────────────────────
   navbar:
+    background: "#1a365d"
+    foreground: "#ffffff"
+    pinned: true
     left:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: projects.qmd
         text: Projects
+      - href: blog.qmd
+        text: Blog
       - href: resume.qmd
         text: Resume
+      - href: contact.qmd
+        text: Contact
+    right:
+      - icon: github
+        href: https://github.com/hy86652
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sy31
+        aria-label: LinkedIn
+      - icon: circle-half
+        aria-label: Toggle dark mode
+        href: "javascript:toggleDarkMode()"
 
+  # ── 页脚 ────────────────────────────────────────────
+  page-footer:
+    background: "#1a365d"
+    foreground: "#a0aec0"
+    left: "© 2025 Han (Simon) Yan"
+    center: "Built with [Quarto](https://quarto.org)"
+    right:
+      - icon: github
+        href: https://github.com/hy86652
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sy31
+      - icon: envelope
+        href: mailto:hyan86652@gmail.com
+
+  # ── Open Graph ──────────────────────────────────────
+  open-graph:
+    title: "Simon Yan | Portfolio"
+    description: "Data Science & AI Assurance | Cornell University MPS"
+
+  # ── 回到顶部 & 深色模式（全站注入）──────────────────
+  body-footer: |
+    <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"
+      aria-label="Back to top" title="Back to top">↑</button>
+
+    <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('back-to-top').classList
+        .toggle('visible', window.scrollY > 400);
+    });
+
+    function toggleDarkMode() {
+      const html = document.documentElement;
+      const isDark = html.getAttribute('data-bs-theme') === 'dark';
+      html.setAttribute('data-bs-theme', isDark ? 'light' : 'dark');
+      localStorage.setItem('theme', isDark ? 'light' : 'dark');
+    }
+
+    (function() {
+      const saved = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', saved);
+    })();
+    </script>
+
+# ── 全局 HTML 格式 ──────────────────────────────────
 format:
   html:
-    theme: cosmo     # 推荐使用 cosmo 或 lux，看起来更商务专业
+    theme:
+      light: cosmo
+      dark: darkly
     css: styles.css
-    toc: true        # 开启右侧目录
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    page-layout: full

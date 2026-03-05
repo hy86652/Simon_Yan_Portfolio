@@ -201,3 +201,113 @@ tr:hover td {
     margin-top: 1rem;
   }
 }
+
+
+/* ============================================
+   BACK TO TOP BUTTON
+   ============================================ */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #1a365d;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.35);
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.18s ease;
+  pointer-events: none;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+#back-to-top:hover {
+  background: #f6ad55;
+  color: #1a365d;
+}
+
+/* ============================================
+   DARK MODE OVERRIDES
+   (Quarto darkly theme handles most of it;
+    these override custom classes only)
+   ============================================ */
+[data-bs-theme="dark"] .gradient-banner {
+  background: linear-gradient(135deg, #0d1f36 0%, #1a365d 60%, #b7791f 100%);
+}
+
+[data-bs-theme="dark"] .glass-card {
+  background: rgba(30, 40, 60, 0.75);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-bs-theme="dark"] .tech-card,
+[data-bs-theme="dark"] .experience-card,
+[data-bs-theme="dark"] .about-card,
+[data-bs-theme="dark"] .contact-card,
+[data-bs-theme="dark"] .proj-card {
+  background: #1e2a3a;
+  border-color: #2d3f55;
+  color: #cbd5e0;
+}
+
+[data-bs-theme="dark"] .proj-card-header {
+  background: #162130;
+  border-color: #2d3f55;
+}
+
+[data-bs-theme="dark"] .proj-title,
+[data-bs-theme="dark"] .about-card h3,
+[data-bs-theme="dark"] .contact-card h4 {
+  color: #90cdf4;
+}
+
+[data-bs-theme="dark"] .tech-pill {
+  background: #2b6cb0;
+}
+
+[data-bs-theme="dark"] .tag-badge {
+  background: #1a3a5c;
+  color: #90cdf4;
+}
+
+[data-bs-theme="dark"] .filter-btn {
+  border-color: #4a90d9;
+  color: #90cdf4;
+  background: transparent;
+}
+
+[data-bs-theme="dark"] .filter-btn.active {
+  background: #2b6cb0;
+  color: #fff;
+}
+
+[data-bs-theme="dark"] .form-group input,
+[data-bs-theme="dark"] .form-group textarea {
+  background: #1e2a3a;
+  border-color: #2d3f55;
+  color: #e2e8f0;
+}
+
+[data-bs-theme="dark"] h2 {
+  color: #90cdf4;
+}
+
+[data-bs-theme="dark"] .resume-btn--primary {
+  background: #2b6cb0;
+  border-color: #2b6cb0;
+}
+
+[data-bs-theme="dark"] .resume-embed-wrapper {
+  border-color: #2d3f55;
+}

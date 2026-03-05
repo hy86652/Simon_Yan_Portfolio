@@ -1,0 +1,108 @@
+---
+title: "Resume"
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.column-screen .gradient-banner}
+::: {.container .header-container}
+
+# Resume
+### Han (Simon) Yan — Data Science & AI Assurance
+
+:::
+:::
+
+<!-- ── 下载按钮区 ───────────────────────────── -->
+::: {.resume-actions}
+<a href="assets/pdf/Simon Yan.pdf" download class="resume-btn resume-btn--primary">
+  ⬇ Download PDF
+</a>
+<a href="assets/pdf/Simon Yan.pdf" target="_blank" class="resume-btn resume-btn--secondary">
+  ↗ Open in New Tab
+</a>
+:::
+
+<!-- ── PDF 嵌入预览 ───────────────────────────── -->
+::: {.resume-embed-wrapper}
+<iframe
+  src="assets/pdf/Simon Yan.pdf"
+  class="resume-iframe"
+  title="Simon Yan Resume"
+  loading="lazy">
+  <p>Your browser does not support PDF preview.
+  <a href="assets/pdf/Simon Yan.pdf">Click here to download.</a></p>
+</iframe>
+:::
+
+```{=html}
+<style>
+.resume-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem 0 1rem;
+  flex-wrap: wrap;
+}
+
+.resume-btn {
+  padding: 0.55rem 1.4rem;
+  border-radius: 6px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.18s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.resume-btn--primary {
+  background: #1a365d;
+  color: #ffffff;
+  border: 2px solid #1a365d;
+}
+
+.resume-btn--primary:hover {
+  background: #f6ad55;
+  border-color: #f6ad55;
+  color: #1a365d;
+}
+
+.resume-btn--secondary {
+  background: transparent;
+  color: #1a365d;
+  border: 2px solid #1a365d;
+}
+
+.resume-btn--secondary:hover {
+  background: #ebf4ff;
+}
+
+.resume-embed-wrapper {
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+  box-shadow: 0 8px 32px rgba(26, 54, 93, 0.12);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+.resume-iframe {
+  width: 100%;
+  height: 85vh;
+  min-height: 600px;
+  border: none;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .resume-iframe {
+    height: 70vh;
+  }
+}
+</style>
+```

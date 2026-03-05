@@ -1,0 +1,67 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, description, categories, reading-time]
+  feed: true
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+::: {.column-screen .gradient-banner}
+::: {.container .header-container}
+
+# Blog
+### Notes on data science, AI assurance, quantitative modeling, and the craft of building reliable systems.
+
+:::
+:::
+
+```{=html}
+<style>
+/* ── Quarto listing card overrides ─── */
+.quarto-grid-item {
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  overflow: hidden;
+}
+
+.quarto-grid-item:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 10px 28px rgba(26,54,93,0.12) !important;
+  border-color: #bee3f8 !important;
+}
+
+.quarto-grid-item .card-title a {
+  color: #1a365d !important;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.quarto-grid-item .card-title a:hover {
+  color: #f6ad55 !important;
+}
+
+.listing-category {
+  background: #ebf8ff !important;
+  color: #2b6cb0 !important;
+  border: none !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+}
+
+.quarto-listing-filter input {
+  border: 1.5px solid #1a365d !important;
+  border-radius: 6px !important;
+}
+</style>
+```
