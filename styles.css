@@ -308,7 +308,7 @@ main.content.column-body {
 
 /* 只给正文内容区加宽度限制和内边距 */
 main.content.column-body > *:not(.column-screen) {
-  max-width: 1400px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 8rem;
