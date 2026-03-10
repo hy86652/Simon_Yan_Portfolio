@@ -314,3 +314,13 @@ main.content.column-body > *:not(.column-screen) {
   padding-left: 8rem;
   padding-right: 8rem;
 }
+
+/* ── 修复 title block 文字左对齐 ─────────────────────── */
+.quarto-title-block,
+.quarto-title-block .quarto-title,
+.quarto-title-block h1.title,
+header#title-block-header {
+  text-align: left !important;
+  margin-left: 50px !important;
+  padding-left: 0 !important;
+}
