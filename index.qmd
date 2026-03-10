@@ -1,164 +1,190 @@
 ---
-title: "Han (Simon) Yan"
-format:
-  html:
-    page-layout: full
-    css: styles.css
+pagetitle: "Simon Yan — Data Scientist & Software Engineer"
+toc: false
+page-layout: custom
 ---
 
-::: {.column-screen .gradient-banner}
-::: {.container .header-container}
+<!-- ========== HERO ========== -->
+::: {.hero-section}
+::: {.hero-inner}
 
-# Han (Simon) Yan
-### Bridging Quantitative Modeling with Business-Critical AI Assurance
-Master of Professional Studies in Information Science @ Cornell University
+[Open to Opportunities]{.hero-label}
 
+# [Your Name]{.hero-name}
+
+[Data Scientist & Software Engineer crafting data-driven solutions that turn complex problems into clear, actionable insights.]{.hero-title}
+
+::: {.hero-cta}
+[<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
+[<i class="bi bi-grid"></i> See My Work](projects.qmd){.btn-outline-custom}
 :::
-:::
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-8 .profile-text}
-I am a Data Science specialist at **Cornell University** focusing on **Assurance AI Technology**. My mission is to ensure that AI systems are not only intelligent but also robust, transparent, and reliable.
-
-By leveraging my academic foundation in **Stochastic Processes**, **Markov Chains**, and **Monte Carlo Simulations**, I architect scalable data solutions that bridge the gap between complex mathematical theory and actionable business integrity.
-:::
-
-::: {.g-col-12 .g-col-md-4}
-::: {.glass-card}
-### ✉️ Connect
-
-- [**LinkedIn**](https://www.linkedin.com/in/sy31)
-- [**GitHub**](https://github.com/hy86652)
-- [**Email**](mailto:hyan86652@gmail.com)
-- **Location**: Ithaca, NY
 
 :::
 :::
 
+<!-- ========== STATS ========== -->
+::: {.stats-strip}
+::: {.stats-grid}
+
+::: {.stat-item}
+### 5+
+Years of Experience
 :::
 
----
-
-## 🛠️ Technical Ecosystem
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-4}
-::: {.card .tech-card .h-100}
-::: {.card-body}
-#### **AI & Modeling**
-- Machine Learning (Scikit-learn)
-- Monte Carlo Simulation
-- Markov Chains & Stochastic Processes
-- Probability & Statistics
-:::
-:::
+::: {.stat-item}
+### 20+
+Projects Delivered
 :::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .tech-card .h-100}
-::: {.card-body}
-#### **Data Engineering**
-- Python (Pandas, NumPy)
-- R (Tidyverse, ggplot2)
-- SQL & ETL Pipelines
-- Docker & Git
-:::
-:::
+::: {.stat-item}
+### 10+
+Publications & Talks
 :::
 
-::: {.g-col-12 .g-col-md-4}
-::: {.card .tech-card .h-100}
-::: {.card-body}
-#### **Visualization & GIS**
-- Mapbox & Leaflet APIs
-- Tableau
-- Matplotlib / Seaborn
-- Interactive Dashboards
-:::
-:::
+::: {.stat-item}
+### 3
+Industries Served
 :::
 
 :::
-
----
-
-## 📊 Core Expertise: Assurance & Quant Research
-
-### **High-Stakes Data Reliability**
-
-During my tenure at **Central China Securities**, I architected an automated ETL pipeline processing **100K+ daily entries**. I implemented rigorous cleaning logic and outlier handling — the bedrock of **Assurance AI** — to ensure the stability of 10+ multi-factor alpha signals.
-
-```{mermaid}
-%%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#ebf4ff',
-  'primaryBorderColor': '#1a365d',
-  'primaryTextColor': '#1a365d',
-  'lineColor': '#f6ad55',
-  'edgeLabelBackground': '#ffffff'
-}}}%%
-graph LR
-    A([100K+ Daily Data]) -->|Pandas Core| B[[Cleaning Logic]]
-    B --> C{Outlier Handling}
-    C -->|Validation| D([Standardized Factors])
-    D --> E[[Alpha Signal Optimization]]
-
-    style C fill:#fffaf0,stroke:#f6ad55,stroke-width:2px
-    style E fill:#1a365d,stroke:#1a365d,stroke-width:2px,color:#ffffff
-```
-
-### **Stochastic Modeling for Risk**
-
-Applying **Markov Chains** and **Monte Carlo Simulations** to quantify uncertainty and model regime-switching behavior in financial time series — translating probabilistic outputs into interpretable risk metrics for business stakeholders.
-
----
-
-## 💼 Experience
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-::: {.card .experience-card}
-::: {.card-body}
-### Cornell University
-**MPS in Information Science** · 2024–Present
-
-- 
-- Coursework: Stochastic Processes, Machine Learning, Data Engineering
-- Focused on the intersection of quantitative finance and trustworthy AI
 :::
+
+<!-- ========== FEATURED PROJECTS ========== -->
+::: {.section .bg-white}
+::: {.section-wide}
+
+[Featured Work]{.section-label}
+
+## Selected Projects {.section-heading}
+
+A curated selection of projects showcasing my expertise in data science, machine learning, and software engineering.
+{.section-desc}
+
+::: {.card-grid}
+
+::: {.project-card}
+::: {.card-icon .blue}
+<i class="bi bi-graph-up-arrow"></i>
+:::
+
+### Predictive Analytics Platform
+
+Built an end-to-end ML pipeline for customer churn prediction, reducing churn rate by 18% and saving $2M annually through proactive intervention strategies.
+
+::: {.tag-row}
+[Python]{.tag} [Scikit-learn]{.tag} [AWS]{.tag} [Docker]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://example.com){target="_blank"}
 :::
 :::
 
-::: {.g-col-12 .g-col-md-6}
-::: {.card .experience-card}
-::: {.card-body}
-### Central China Securities
-**Data Science Intern** · 2023
-
-- Built ETL pipeline handling 100K+ daily records with automated outlier detection
-- Engineered 10+ multi-factor alpha signals with rigorous validation logic
-- Reduced data processing errors by standardizing cleaning workflows in Python
+::: {.project-card}
+::: {.card-icon .green}
+<i class="bi bi-cpu"></i>
 :::
+
+### NLP Document Classifier
+
+Developed a transformer-based document classification system processing 50K+ documents daily with 95% accuracy, deployed on Kubernetes.
+
+::: {.tag-row}
+[PyTorch]{.tag} [Transformers]{.tag} [FastAPI]{.tag} [K8s]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+[<i class="bi bi-file-earmark-pdf"></i> Paper](https://example.com){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+::: {.card-icon .orange}
+<i class="bi bi-bar-chart-line"></i>
+:::
+
+### Real-time Dashboard System
+
+Designed interactive dashboards visualizing KPIs across 5 business units, enabling data-driven decisions for 200+ stakeholders.
+
+::: {.tag-row}
+[R Shiny]{.tag} [D3.js]{.tag} [PostgreSQL]{.tag} [REST API]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://example.com){target="_blank"}
 :::
 :::
 
 :::
 
----
+<div class="text-center mt-3">
+[View All Projects <i class="bi bi-arrow-right"></i>](projects.qmd){.btn-outline-custom}
+</div>
 
-## 🎓 Education
-
-| Degree | Institution | Year |
-|--------|-------------|------|
-| MPS, Information Science | Cornell University | 2025–Present |
-| BA, Geography: Data Science | University of Washington | 2021–2025 |
+:::
+:::
 
 
+<!-- ========== SKILLS SNAPSHOT ========== -->
+::: {.section}
+::: {.section-wide}
 
----
+[Expertise]{.section-label}
 
-::: {.footer-note}
-*Built with [Quarto](https://quarto.org) · Last updated 2025*
+## Skills & Technologies {.section-heading}
+
+::: {.skills-grid}
+
+::: {.skill-category}
+#### Programming Languages
+::: {.skill-tags}
+[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [C++]{.skill-tag} [Bash]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Machine Learning & AI
+::: {.skill-tags}
+[PyTorch]{.skill-tag} [TensorFlow]{.skill-tag} [Scikit-learn]{.skill-tag} [Hugging Face]{.skill-tag} [XGBoost]{.skill-tag} [LLMs]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Data Engineering
+::: {.skill-tags}
+[Spark]{.skill-tag} [Airflow]{.skill-tag} [PostgreSQL]{.skill-tag} [MongoDB]{.skill-tag} [Redis]{.skill-tag} [Kafka]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Cloud & DevOps
+::: {.skill-tags}
+[AWS]{.skill-tag} [Docker]{.skill-tag} [Kubernetes]{.skill-tag} [CI/CD]{.skill-tag} [Terraform]{.skill-tag} [Git]{.skill-tag}
+:::
+:::
+
+:::
+:::
+:::
+
+
+<!-- ========== CTA ========== -->
+::: {.section .bg-white .text-center}
+::: {.section-narrow}
+
+## Let's Work Together {.section-heading}
+
+I'm currently seeking new opportunities in data science and machine learning engineering. If you're looking for someone passionate about turning data into impact, I'd love to connect.
+{.section-desc style="margin-left:auto;margin-right:auto;"}
+
+::: {.hero-cta}
+[<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}
+[<i class="bi bi-linkedin"></i> LinkedIn](https://linkedin.com){.btn-outline-custom target="_blank"}
+:::
+
+:::
 :::

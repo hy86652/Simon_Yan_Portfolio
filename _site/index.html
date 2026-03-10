@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Simon Yan | Portfolio</title>
+<title>Your Name — Data Scientist &amp; Software Engineer – Your Name</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,14 +24,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./assets/img/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -39,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-58e7cb164a30d0964bc3a4cf0cb5a652.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-397253b185eedd499289cbf7465a6247.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-32c71ff8d2dcf8cdd5c3d9a1951e7494.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,74 +68,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>html{ scroll-behavior: smooth; }</style>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Simon Yan | Portfolio">
-<meta property="og:description" content="Data Science &amp; AI Assurance | Cornell University MPS">
-<meta property="og:site_name" content="Simon Yan | Portfolio">
+<link rel="stylesheet" href="custom.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -145,7 +85,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Simon Yan | Portfolio</span>
+    <span class="navbar-title">Your Name</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -155,7 +95,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -165,10 +105,6 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
-<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./resume.html"> 
@@ -181,12 +117,17 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/hy86652"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/yourusername"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sy31"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+    <a class="nav-link" href="https://linkedin.com/in/yourusername"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:your.email@example.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -198,140 +139,157 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QUklMjBBc3N1cmFuY2U=">AI Assurance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMEVuZ2luZWVyaW5n">Data Engineering <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3Bpbmlvbg==">Opinion <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
+
+
+
+<!-- ========== HERO ========== -->
+<div class="hero-section">
+<div class="hero-inner">
+<p><span class="hero-label">Open to Opportunities</span></p>
+<section id="your-name" class="level1">
+<h1><span class="hero-name">Your Name</span></h1>
+<p><span class="hero-title">Data Scientist &amp; Software Engineer crafting data-driven solutions that turn complex problems into clear, actionable insights.</span></p>
+<div class="hero-cta">
+<p><a href="./resume.html" class="btn-primary-custom"><i class="bi bi-file-earmark-text"></i> View Resume</a> <a href="./projects.html" class="btn-outline-custom"><i class="bi bi-grid"></i> See My Work</a></p>
 </div>
-
-
-
-<div class="quarto-title-meta column-body">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="column-screen gradient-banner">
-<section id="blog" class="level1 container header-container">
-<h1>Blog</h1>
-<section id="notes-on-data-science-ai-assurance-quantitative-modeling-and-the-craft-of-building-reliable-systems." class="level3">
-<h3 class="anchored" data-anchor-id="notes-on-data-science-ai-assurance-quantitative-modeling-and-the-craft-of-building-reliable-systems.">Notes on data science, AI assurance, quantitative modeling, and the craft of building reliable systems.</h3>
-</section>
 </section>
 </div>
-<style>
-/* ── Quarto listing card overrides ─── */
-.quarto-grid-item {
-  border: 1px solid #e2e8f0 !important;
-  border-radius: 10px !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
-  overflow: hidden;
-}
-
-.quarto-grid-item:hover {
-  transform: translateY(-4px) !important;
-  box-shadow: 0 10px 28px rgba(26,54,93,0.12) !important;
-  border-color: #bee3f8 !important;
-}
-
-.quarto-grid-item .card-title a {
-  color: #1a365d !important;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.quarto-grid-item .card-title a:hover {
-  color: #f6ad55 !important;
-}
-
-.listing-category {
-  background: #ebf8ff !important;
-  color: #2b6cb0 !important;
-  border: none !important;
-  font-size: 0.72rem !important;
-  font-weight: 600 !important;
-}
-
-.quarto-listing-filter input {
-  border: 1.5px solid #1a365d !important;
-  border-radius: 6px !important;
-}
-</style>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Order By</option>
-      <option value="index" data-direction="asc">Default</option>
-      <option value="listing-title" data-direction="asc">
-        Title
-      </option>
-      <option value="listing-date-sort" data-direction="asc">
-        Date - Oldest
-      </option>
-      <option value="listing-date-sort" data-direction="desc">
-        Date - Newest
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QUklMjBBc3N1cmFuY2UlMkNEYXRhJTIwRW5naW5lZXJpbmclMkNPcGluaW9u" data-listing-date-sort="1740805200000" data-listing-file-modified-sort="1772730212495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="382">
-<a href="./posts/2025-03-01-data-assurance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why Data Assurance Is the Unglamorous Core of AI
-</h5>
-<div class="listing-reading-time card-text text-muted">2 min</div>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('QUklMjBBc3N1cmFuY2U='); return false;">AI Assurance</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEVuZ2luZWVyaW5n'); return false;">Data Engineering</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T3Bpbmlvbg=='); return false;">Opinion</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>The gap between a model that works in a notebook and one that works in production is almost always a data problem — not a modeling problem.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 1, 2025
+<!-- ========== STATS ========== -->
+<div class="stats-strip">
+<div class="stats-grid">
+<section id="section" class="level3 stat-item">
+<h3 data-anchor-id="section">5+</h3>
+<p>Years of Experience</p>
+</section>
+<section id="section-1" class="level3 stat-item">
+<h3 data-anchor-id="section-1">20+</h3>
+<p>Projects Delivered</p>
+</section>
+<section id="section-2" class="level3 stat-item">
+<h3 data-anchor-id="section-2">10+</h3>
+<p>Publications &amp; Talks</p>
+</section>
+<section id="section-3" class="level3 stat-item">
+<h3 data-anchor-id="section-3">3</h3>
+<p>Industries Served</p>
+</section>
 </div>
 </div>
+<!-- ========== FEATURED PROJECTS ========== -->
+<section class="bg-white">
+<div class="section-wide">
+<p><span class="section-label">Featured Work</span></p>
+<section id="selected-projects" class="level2 section-heading">
+<h2 class="section-heading" data-anchor-id="selected-projects">Selected Projects</h2>
+<p>A curated selection of projects showcasing my expertise in data science, machine learning, and software engineering. {.section-desc}</p>
+<div class="card-grid">
+<div class="project-card">
+<div class="card-icon blue">
+<p><i class="bi bi-graph-up-arrow"></i></p>
 </div>
-</div></a>
+<section id="predictive-analytics-platform" class="level3">
+<h3 data-anchor-id="predictive-analytics-platform">Predictive Analytics Platform</h3>
+<p>Built an end-to-end ML pipeline for customer churn prediction, reducing churn rate by 18% and saving $2M annually through proactive intervention strategies.</p>
+<div class="tag-row">
+<p><span class="tag">Python</span> <span class="tag">Scikit-learn</span> <span class="tag">AWS</span> <span class="tag">Docker</span></p>
+</div>
+<div class="card-links">
+<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
+</div>
+</section>
+</div>
+<div class="project-card">
+<div class="card-icon green">
+<p><i class="bi bi-cpu"></i></p>
+</div>
+<section id="nlp-document-classifier" class="level3">
+<h3 data-anchor-id="nlp-document-classifier">NLP Document Classifier</h3>
+<p>Developed a transformer-based document classification system processing 50K+ documents daily with 95% accuracy, deployed on Kubernetes.</p>
+<div class="tag-row">
+<p><span class="tag">PyTorch</span> <span class="tag">Transformers</span> <span class="tag">FastAPI</span> <span class="tag">K8s</span></p>
+</div>
+<div class="card-links">
+<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-file-earmark-pdf"></i> Paper</a></p>
+</div>
+</section>
+</div>
+<div class="project-card">
+<div class="card-icon orange">
+<p><i class="bi bi-bar-chart-line"></i></p>
+</div>
+<section id="real-time-dashboard-system" class="level3">
+<h3 data-anchor-id="real-time-dashboard-system">Real-time Dashboard System</h3>
+<p>Designed interactive dashboards visualizing KPIs across 5 business units, enabling data-driven decisions for 200+ stakeholders.</p>
+<div class="tag-row">
+<p><span class="tag">R Shiny</span> <span class="tag">D3.js</span> <span class="tag">PostgreSQL</span> <span class="tag">REST API</span></p>
+</div>
+<div class="card-links">
+<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
+</div>
+</section>
 </div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div><button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Back to top">
-↑
-</button></main> <!-- /main -->
+<div class="text-center mt-3">
+<p><a href="./projects.html" class="btn-outline-custom">View All Projects <i class="bi bi-arrow-right"></i></a></p>
+</div>
+</section>
+</div>
+</section>
+<!-- ========== SKILLS SNAPSHOT ========== -->
+<section>
+<div class="section-wide">
+<p><span class="section-label">Expertise</span></p>
+<section id="skills-technologies" class="level2 section-heading">
+<h2 class="section-heading" data-anchor-id="skills-technologies">Skills &amp; Technologies</h2>
+<div class="skills-grid">
+<section id="programming-languages" class="level4 skill-category">
+<h4 data-anchor-id="programming-languages">Programming Languages</h4>
+<div class="skill-tags">
+<p><span class="skill-tag">Python</span> <span class="skill-tag">R</span> <span class="skill-tag">SQL</span> <span class="skill-tag">JavaScript</span> <span class="skill-tag">C++</span> <span class="skill-tag">Bash</span></p>
+</div>
+</section>
+<section id="machine-learning-ai" class="level4 skill-category">
+<h4 data-anchor-id="machine-learning-ai">Machine Learning &amp; AI</h4>
+<div class="skill-tags">
+<p><span class="skill-tag">PyTorch</span> <span class="skill-tag">TensorFlow</span> <span class="skill-tag">Scikit-learn</span> <span class="skill-tag">Hugging Face</span> <span class="skill-tag">XGBoost</span> <span class="skill-tag">LLMs</span></p>
+</div>
+</section>
+<section id="data-engineering" class="level4 skill-category">
+<h4 data-anchor-id="data-engineering">Data Engineering</h4>
+<div class="skill-tags">
+<p><span class="skill-tag">Spark</span> <span class="skill-tag">Airflow</span> <span class="skill-tag">PostgreSQL</span> <span class="skill-tag">MongoDB</span> <span class="skill-tag">Redis</span> <span class="skill-tag">Kafka</span></p>
+</div>
+</section>
+<section id="cloud-devops" class="level4 skill-category">
+<h4 data-anchor-id="cloud-devops">Cloud &amp; DevOps</h4>
+<div class="skill-tags">
+<p><span class="skill-tag">AWS</span> <span class="skill-tag">Docker</span> <span class="skill-tag">Kubernetes</span> <span class="skill-tag">CI/CD</span> <span class="skill-tag">Terraform</span> <span class="skill-tag">Git</span></p>
+</div>
+</section>
+</div>
+</section>
+</div>
+</section>
+<!-- ========== CTA ========== -->
+<section class="bg-white text-center">
+<section id="lets-work-together" class="level2 section-heading section-narrow">
+<h2 class="section-heading" data-anchor-id="lets-work-together">Let’s Work Together</h2>
+<p>I’m currently seeking new opportunities in data science and machine learning engineering. If you’re looking for someone passionate about turning data into impact, I’d love to connect. {.section-desc style=“margin-left:auto;margin-right:auto;”}</p>
+<div class="hero-cta">
+<p><a href="./contact.html" class="btn-primary-custom"><i class="bi bi-envelope"></i> Get in Touch</a> <a href="https://linkedin.com" class="btn-outline-custom" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></p>
+</div>
+</section>
+</section>
+
+
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -405,7 +363,7 @@ Mar 1, 2025
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/yourname\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -419,11 +377,6 @@ Mar 1, 2025
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -741,32 +694,13 @@ Mar 1, 2025
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 Han (Simon) Yan</p>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
-<p>Built with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2025 Your Name · Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/hy86652">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sy31">
-      <i class="bi bi-linkedin" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="mailto:hyan86652@gmail.com">
-      <i class="bi bi-envelope" role="img">
-</i> 
-    </a>
-  </li>  
-</ul>
+      &nbsp;
     </div>
   </div>
 </footer>
@@ -774,5 +708,4 @@ Mar 1, 2025
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

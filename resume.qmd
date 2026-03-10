@@ -1,31 +1,139 @@
 ---
-title: "Resume"
-format:
-  html:
-    page-layout: full
+pagetitle: "Resume — Your Name"
+toc: false
+page-layout: custom
 ---
 
-::: {.column-screen .gradient-banner}
-# Resume
-### Han (Simon) Yan — Data Science & AI Assurance
+::: {.section style="padding-top: 6rem;"}
+::: {.section-narrow}
+
+::: {.text-center}
+[Resume]{.section-label}
+
+## Your Name {.section-heading}
+
+Data Scientist & Machine Learning Engineer
+{.section-desc style="margin-left:auto;margin-right:auto;text-align:center;margin-bottom:1rem;"}
+
+<div style="display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;font-size:0.88rem;color:var(--color-text-muted);margin-bottom:2rem;">
+<span><i class="bi bi-geo-alt"></i> San Francisco, CA</span>
+<span><i class="bi bi-envelope"></i> your.email@example.com</span>
+<span><i class="bi bi-linkedin"></i> linkedin.com/in/yourname</span>
+<span><i class="bi bi-github"></i> github.com/yourname</span>
+</div>
+
+<a href="#" class="btn-primary-custom" style="margin-bottom:3rem;"><i class="bi bi-download"></i> Download PDF</a>
 :::
 
-::: {.resume-actions}
-<a href="assets/pdf/Simon Yan.pdf" download class="resume-btn resume-btn--primary">
-  ⬇ Download PDF
-</a>
-<a href="assets/pdf/Simon Yan.pdf" target="_blank" class="resume-btn resume-btn--secondary">
-  ↗ Open in New Tab
-</a>
+<hr class="section-divider">
+
+[Summary]{.section-label}
+
+Data Scientist with 5+ years of experience building and deploying machine learning solutions at scale. Expertise in predictive modeling, NLP, and data engineering. Proven track record of translating complex data into business value across finance, healthcare, and technology sectors.
+
+<br>
+
+[Experience]{.section-label}
+
+::: {.timeline}
+
+::: {.timeline-item}
+[2022 — Present]{.period}
+
+### Senior Data Scientist {.mb-0}
+[Company Name · San Francisco, CA]{.org}
+
+::: {.desc}
+• Led cross-functional team of 4 data scientists on customer analytics initiatives  
+• Designed recommendation engine increasing user engagement by 25%  
+• Built automated ML pipelines processing 10M+ records daily on AWS SageMaker  
+• Mentored junior team members and established best practices for model development
+:::
 :::
 
-::: {.resume-embed-wrapper}
-<iframe
-  src="assets/pdf/Simon Yan.pdf"
-  class="resume-iframe"
-  title="Simon Yan Resume"
-  loading="lazy">
-  <p>Your browser does not support PDF preview.
-  <a href="assets/pdf/Simon Yan.pdf">Click here to download.</a></p>
-</iframe>
+::: {.timeline-item}
+[2020 — 2022]{.period}
+
+### Data Scientist {.mb-0}
+[Company Name · New York, NY]{.org}
+
+::: {.desc}
+• Developed fraud detection models reducing false positives by 35%  
+• Created executive dashboards in R Shiny, cutting reporting time by 60%  
+• Collaborated with engineering to deploy models to production via REST APIs
+:::
+:::
+
+::: {.timeline-item}
+[2019 — 2020]{.period}
+
+### Machine Learning Intern {.mb-0}
+[Company Name · Boston, MA]{.org}
+
+::: {.desc}
+• Implemented NLP pipelines for medical text classification (95% F1-score)  
+• Co-authored paper accepted at top-tier ML conference  
+• Built data labeling tools to accelerate annotation by 3×
+:::
+:::
+
+:::
+
+<br>
+
+[Education]{.section-label}
+
+::: {.timeline}
+
+::: {.timeline-item}
+[2017 — 2019]{.period}
+
+### M.S. Computer Science {.mb-0}
+[Your University · City, State | GPA: 3.9/4.0]{.org}
+:::
+
+::: {.timeline-item}
+[2013 — 2017]{.period}
+
+### B.S. Mathematics & Statistics {.mb-0}
+[Your University · City, State | Minor: Computer Science]{.org}
+:::
+
+:::
+
+<br>
+
+[Technical Skills]{.section-label}
+
+::: {.skills-grid}
+
+::: {.skill-category}
+#### Languages & Frameworks
+::: {.skill-tags}
+[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [PyTorch]{.skill-tag} [TensorFlow]{.skill-tag} [Scikit-learn]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Data & Cloud
+::: {.skill-tags}
+[AWS]{.skill-tag} [Spark]{.skill-tag} [Airflow]{.skill-tag} [Docker]{.skill-tag} [Kubernetes]{.skill-tag} [PostgreSQL]{.skill-tag} [MongoDB]{.skill-tag}
+:::
+:::
+
+:::
+
+<br>
+
+[Publications]{.section-label}
+
+<div style="font-size:0.92rem;color:var(--color-text-muted);line-height:1.8;">
+
+**Your Name**, Co-author. "Efficient Fine-tuning Methods for Large Language Models." *International Conference on Machine Learning*, 2022.
+
+**Your Name**, Co-author. "Scalable Text Classification in Clinical NLP." *Conference on NLP*, 2020.
+
+</div>
+
+:::
 :::

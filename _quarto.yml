@@ -1,75 +1,62 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
-  title: "Simon Yan | Portfolio"
-  description: "Data Science & AI Assurance | Cornell University MPS"
-  favicon: assets/img/favicon.ico   # 没有 favicon 可删此行
-
-  # ── 导航栏 ──────────────────────────────────────────
+  title: "Your Name"
+  description: "Data Scientist & Software Engineer"
+  favicon: ""
+  site-url: "https://yourname.github.io"
+  
   navbar:
-    background: "#1a365d"
-    foreground: "#ffffff"
-    pinned: true
+    background: transparent
+    foreground: "#1a1a2e"
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: projects.qmd
-        text: Projects
-      # - href: blog.qmd
-      #   text: Blog
-      #- href: resume.qmd
-      #  text: Resume
-      # - href: contact.qmd
-      #   text: Contact
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Resume"
+        href: resume.qmd
+      - text: "Contact"
+        href: contact.qmd
     right:
       - icon: github
-        href: https://github.com/hy86652
+        href: https://github.com/yourusername
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/sy31
+        href: https://linkedin.com/in/yourusername
         aria-label: LinkedIn
-
-  # ── 页脚 ────────────────────────────────────────────
-  page-footer:
-    background: "#1a365d"
-    foreground: "#a0aec0"
-    left: "© 2025 Han (Simon) Yan"
-    center: "Built with [Quarto](https://quarto.org)"
-    right:
-      - icon: github
-        href: https://github.com/hy86652
-      - icon: linkedin
-        href: https://www.linkedin.com/in/sy31
       - icon: envelope
-        href: mailto:hyan86652@gmail.com
+        href: mailto:your.email@example.com
+        aria-label: Email
 
-  # ── Open Graph ──────────────────────────────────────
-  open-graph:
-    title: "Simon Yan | Portfolio"
-    description: "Data Science & AI Assurance | Cornell University MPS"
+  page-footer:
+    center: |
+      © 2025 Your Name · Built with [Quarto](https://quarto.org)
+    background: "#1a1a2e"
+    foreground: "#a0a0b8"
 
-  # ── 回到顶部按钮（全站注入）────────────────────────
-  body-footer: |
-    <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"
-      aria-label="Back to top" title="Back to top">↑</button>
-    <script>
-    window.addEventListener('scroll', () => {
-      document.getElementById('back-to-top').classList
-        .toggle('visible', window.scrollY > 400);
-    });
-    </script>
+  page-navigation: true
 
-# ── 全局 HTML 格式 ──────────────────────────────────
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: false        # 不渲染目录
-    toc-depth: 0      # 不扫描标题
-    smooth-scroll: true
-    link-external-newwindow: true
+    theme:
+      light: [flatly, styles.scss]
+    css: custom.css
+    toc: false
     page-layout: full
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px
+    fontsize: "1.05rem"
+    mainfont: "'DM Sans', sans-serif"
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
