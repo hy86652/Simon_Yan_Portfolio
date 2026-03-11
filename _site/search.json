@@ -2,70 +2,70 @@
   {
     "objectID": "index.html#selected-projects",
     "href": "index.html#selected-projects",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Selected Projects",
-    "text": "Selected Projects\nA curated selection of projects showcasing my expertise in data science, machine learning, and software engineering. {.section-desc}\n\n\n\n\n\n\nPredictive Analytics Platform\nBuilt an end-to-end ML pipeline for customer churn prediction, reducing churn rate by 18% and saving $2M annually through proactive intervention strategies.\n\nPython Scikit-learn AWS Docker\n\n\n Code  Live Demo\n\n\n\n\n\n\n\n\nNLP Document Classifier\nDeveloped a transformer-based document classification system processing 50K+ documents daily with 95% accuracy, deployed on Kubernetes.\n\nPyTorch Transformers FastAPI K8s\n\n\n Code  Paper\n\n\n\n\n\n\n\n\nReal-time Dashboard System\nDesigned interactive dashboards visualizing KPIs across 5 business units, enabling data-driven decisions for 200+ stakeholders.\n\nR Shiny D3.js PostgreSQL REST API\n\n\n Code  Live Demo\n\n\n\n\n\nView All Projects"
+    "text": "Selected Projects\nA curated selection of projects showcasing my expertise in data science, machine learning, and software engineering.\n\n\n\n\n\n\nPrivate Equity Forecast Analysis & Evaluation\nLed quantitative analysis team (7 analysts) to evaluate accuracy of PE underwriting models. Independently quantified correlation between initial financial projections (EBITDA/Sales) and final investment success/failure. Translated complex quantitative findings into actionable business insights for non-technical stakeholders.\n\nPython Statistical Analysis Data Visualization Business Intelligence\n\n\n Code  Live Demo\n\n\n\n\n\n\n\n\nAutomated ETL Pipeline & Strategy Backtesting\nEngineered an automated ETL pipeline using Python/Pandas to process 100K+ daily market data entries. Implemented rigorous data cleaning logic (outlier detection, handling missing values) to standardize data for real-time factor tracking and strategy backtesting.\n\nPython Pandas ETL SQL Data Engineering\n\n\n Code  Paper\n\n\n\n\n\n\n\n\nRoomExchange - University Housing Platform\nCo-founded and led full-stack development of a university housing swap platform enabling students to list, search, and exchange dorm rooms. Integrated Leaflet & Mapbox APIs for interactive geolocation visualization showing property proximity to campus landmarks.\nRecognition: 2nd Place, UC Davis Big Bang! Business Competition (validated market viability among 50+ startups).\n\nReact Mapbox API Full-Stack Product Design\n\n\n Code  Live Demo\n\n\n\n\n\nView All Projects"
   },
   {
     "objectID": "index.html#skills-technologies",
     "href": "index.html#skills-technologies",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Skills & Technologies",
-    "text": "Skills & Technologies\n\n\nProgramming Languages\n\nPython R SQL JavaScript C++ Bash\n\n\n\nMachine Learning & AI\n\nPyTorch TensorFlow Scikit-learn Hugging Face XGBoost LLMs\n\n\n\nData Engineering\n\nSpark Airflow PostgreSQL MongoDB Redis Kafka\n\n\n\nCloud & DevOps\n\nAWS Docker Kubernetes CI/CD Terraform Git"
+    "text": "Skills & Technologies\n\n\nProgramming Languages\n\nPython R SQL JavaScript C++ Bash\n\n\n\nMachine Learning & AI\n\nPyTorch TensorFlow Scikit-learn Hugging Face XGBoost LLMs\n\n\n\nData Engineering\n\nSpark Airflow PostgreSQL MongoDB Redis Kafka"
   },
   {
     "objectID": "index.html#lets-work-together",
     "href": "index.html#lets-work-together",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Let’s Work Together",
-    "text": "Let’s Work Together\nI’m currently seeking new opportunities in data science and machine learning engineering. If you’re looking for someone passionate about turning data into impact, I’d love to connect. {.section-desc style=“margin-left:auto;margin-right:auto;”}\n\n Get in Touch  LinkedIn"
+    "text": "Let’s Work Together\nI’m currently seeking new opportunities in data science business analyst, and machine learning engineering and any other positions where I can give full play with my talents and skills . If you’re looking for someone passionate about turning data into impact, I’d love to connect.\n\n Get in Touch  LinkedIn"
   },
   {
     "objectID": "projects.html#projects",
     "href": "projects.html#projects",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Projects",
     "text": "Projects\nEach project represents a real challenge I tackled — from data collection and exploration through model development to production deployment. Click through to explore the code and live demos. {.section-desc}"
   },
   {
     "objectID": "projects.html#interested-in-collaborating",
     "href": "projects.html#interested-in-collaborating",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Interested in Collaborating?",
     "text": "Interested in Collaborating?\nI’m always open to discussing new projects, research collaborations, or job opportunities. {.section-desc style=“margin-left:auto;margin-right:auto;text-align:center;”}\n\n Get in Touch  GitHub"
   },
   {
     "objectID": "about.html#professional-experience",
     "href": "about.html#professional-experience",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\n\n\n2022 — Present\n\nSenior Data Scientist\nCompany Name · San Francisco, CA\n\nLead a team of 4 data scientists building ML models for customer analytics. Designed and deployed a recommendation engine that increased user engagement by 25%. Partnered with product and engineering to integrate ML pipelines into production systems.\n\n\n\n\n2020 — 2022\n\nData Scientist\nCompany Name · New York, NY\n\nDeveloped predictive models for risk assessment and fraud detection in financial services. Built automated reporting dashboards using R Shiny and Tableau, reducing manual reporting time by 60%.\n\n\n\n\n2019 — 2020\n\nMachine Learning Intern\nCompany Name · Boston, MA\n\nImplemented NLP pipelines for medical text classification. Contributed to research published in a top-tier ML conference. Collaborated with clinical teams to validate model outputs.\n\n\n\n\n:::\n:::\n\n\n\nEducation\n\nAcademic Background\n\n\n\n2017 — 2019\n\nM.S. Computer Science\nYour University · City, State\n\nThesis: “Scalable Approaches to Contextual Text Classification.” Coursework in deep learning, statistical inference, distributed systems, and information retrieval. GPA: 3.9/4.0.\n\n\n\n\n2013 — 2017\n\nB.S. Mathematics & Statistics\nYour University · City, State\n\nMinor in Computer Science. Dean’s List all semesters. Led the undergraduate data science club and organized campus-wide hackathons.\n\n\n\n\n:::\n:::\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nAWS Certified ML — Specialty\nAmazon Web Services · 2023\nDemonstrated expertise in building, training, tuning, and deploying ML models on AWS.\n\n\n\n\n\n\n\nBest Paper Award\nInternational Conference on ML · 2022\nAwarded for research on efficient fine-tuning methods for large language models.\n\n\n\n\n\n\n\nGoogle Professional Data Engineer\nGoogle Cloud · 2021\nCertified in designing and building data processing systems on Google Cloud Platform.\n\n\n\n:::\n:::\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations. {.section-desc style=“margin-left:auto;margin-right:auto;text-align:center;”}\n\n Download Resume  Contact Me"
+    "text": "Professional Experience\n\n\n\n2024/6 — 2024/8\n\nQuantitative Investment Research Intern\nCentral China Securities · Shanghai, China\n\nOptimized 10+ multi-factor alpha signals using market regime classification to enhance stability. Engineered a modular Python backtesting framework for 20+ equity strategies and architected an automated ETL pipeline processing 100K+ daily entries to support data-driven asset allocation decisions.\n\n\n\n\n2020 — 2022\n\nFinancial Product Researcher Intern\nCentral China Securities · Zhengzhou, China\n\nSpearheaded sector research for Semiconductor and Autonomous Driving industries, producing investment memos that guided product roadmaps. Evaluated fund performance through risk metric benchmarking (Alpha, Beta, Std Dev), resulting in the selection of 2 target funds for the firm’s FOF portfolio.:::\n\n\n\n\n\n\nEducation\n\nAcademic Background\n\n\n\n2025 — Present\n\nM.P.S Information Science\nCornell University · Ithaca, New York\n\nConcentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.\n\n\n\n\n2021 - 2025\n\nB.A. Geography: Data Science\nUniversity of Washington · Seattle, Washington\n\nCumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.\n\n\n\n\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.\n\n\n\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
   },
   {
     "objectID": "about.html#academic-background",
     "href": "about.html#academic-background",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Academic Background",
-    "text": "Academic Background\n\n\n\n2017 — 2019\n\nM.S. Computer Science\nYour University · City, State\n\nThesis: “Scalable Approaches to Contextual Text Classification.” Coursework in deep learning, statistical inference, distributed systems, and information retrieval. GPA: 3.9/4.0.\n\n\n\n\n2013 — 2017\n\nB.S. Mathematics & Statistics\nYour University · City, State\n\nMinor in Computer Science. Dean’s List all semesters. Led the undergraduate data science club and organized campus-wide hackathons.\n\n\n\n\n:::\n:::\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nAWS Certified ML — Specialty\nAmazon Web Services · 2023\nDemonstrated expertise in building, training, tuning, and deploying ML models on AWS.\n\n\n\n\n\n\n\nBest Paper Award\nInternational Conference on ML · 2022\nAwarded for research on efficient fine-tuning methods for large language models.\n\n\n\n\n\n\n\nGoogle Professional Data Engineer\nGoogle Cloud · 2021\nCertified in designing and building data processing systems on Google Cloud Platform.\n\n\n\n:::\n:::\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations. {.section-desc style=“margin-left:auto;margin-right:auto;text-align:center;”}\n\n Download Resume  Contact Me"
+    "text": "Academic Background\n\n\n\n2025 — Present\n\nM.P.S Information Science\nCornell University · Ithaca, New York\n\nConcentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.\n\n\n\n\n2021 - 2025\n\nB.A. Geography: Data Science\nUniversity of Washington · Seattle, Washington\n\nCumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.\n\n\n\n\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.\n\n\n\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
   },
   {
     "objectID": "about.html#certifications-awards",
     "href": "about.html#certifications-awards",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Certifications & Awards",
-    "text": "Certifications & Awards\n\n\n\n\n\n\n\nAWS Certified ML — Specialty\nAmazon Web Services · 2023\nDemonstrated expertise in building, training, tuning, and deploying ML models on AWS.\n\n\n\n\n\n\n\nBest Paper Award\nInternational Conference on ML · 2022\nAwarded for research on efficient fine-tuning methods for large language models.\n\n\n\n\n\n\n\nGoogle Professional Data Engineer\nGoogle Cloud · 2021\nCertified in designing and building data processing systems on Google Cloud Platform.\n\n\n\n:::\n:::"
+    "text": "Certifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations."
   },
   {
     "objectID": "about.html#beyond-work",
     "href": "about.html#beyond-work",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Beyond Work",
-    "text": "Beyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations. {.section-desc style=“margin-left:auto;margin-right:auto;text-align:center;”}\n\n Download Resume  Contact Me"
+    "text": "Beyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
   },
   {
     "objectID": "resume.html#your-name",
     "href": "resume.html#your-name",
-    "title": "Your Name",
+    "title": "Simon Yan",
     "section": "Your Name",
     "text": "Your Name\nData Scientist & Machine Learning Engineer {.section-desc style=“margin-left:auto;margin-right:auto;text-align:center;margin-bottom:1rem;”}\n\n San Francisco, CA  your.email@example.com  linkedin.com/in/yourname  github.com/yourname\n\n Download PDF"
   },

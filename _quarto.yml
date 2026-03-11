@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "Your Name"
+  title: "Simon Yan"
   description: "Data Scientist & Software Engineer"
   favicon: ""
   site-url: "https://yourname.github.io"
@@ -27,7 +27,7 @@ website:
         href: https://github.com/yourusername
         aria-label: GitHub
       - icon: linkedin
-        href: https://linkedin.com/in/yourusername
+        href: www.linkedin.com/in/sy31
         aria-label: LinkedIn
       - icon: envelope
         href: mailto:your.email@example.com
@@ -35,7 +35,7 @@ website:
 
   page-footer:
     center: |
-      © 2025 Your Name · Built with [Quarto](https://quarto.org)
+      © 2026 Simon Yan · Built with [Quarto](https://quarto.org)
     background: "#1a1a2e"
     foreground: "#a0a0b8"
 

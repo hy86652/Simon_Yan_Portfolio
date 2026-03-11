@@ -1,5 +1,5 @@
 ---
-pagetitle: "About — Your Name"
+pagetitle: "About — Simon Yan"
 toc: false
 page-layout: custom
 ---
@@ -14,16 +14,16 @@ page-layout: custom
 
 ::: {.about-intro}
 
-# Your Name
+# Simon Yan
 
-[Data Scientist & ML Engineer]{.subtitle}
+[Data Scientist, Quantitative Analyst & Full-Stack Engineer]{.subtitle}
 
 ::: {.bio}
-I am a **data scientist** and **software engineer** with over 5 years of experience transforming complex data into actionable business insights. My work spans **machine learning**, **statistical modeling**, and **full-stack data applications**.
+I'm a **data scientist** and **quantitative analyst** with 2 periods of hands-on experience in quantitative finance and data systems. My work bridges rigorous statistical analysis with scalable engineering—from designing multi-factor trading models to building production-grade data pipelines.
 
-I hold a Master's degree in Computer Science from **[Your University]**, where I specialized in applied machine learning. Prior to my current role, I worked across the **finance**, **healthcare**, and **technology** sectors, building scalable data solutions that drive real-world impact.
+I hold a Master's degree in **Information Science** (Data Science concentration) from **Cornell University**, with expertise in machine learning, statistical modeling, and financial data analysis. My background spans quantitative investment research at Central China Securities and full-stack development of consumer applications.
 
-When I'm not building models, you'll find me contributing to open-source projects, writing technical blog posts, or exploring the latest research in AI and NLP.
+Beyond the terminal, I'm passionate about film photography, playing bass guitar, and exploring the intersection of data science and market microstructure. I'm currently exploring opportunities in **data science**, quantitative finance and fintech where I can drive real business impact.
 :::
 
 :::
@@ -44,40 +44,26 @@ When I'm not building models, you'll find me contributing to open-source project
 ::: {.timeline}
 
 ::: {.timeline-item}
-[2022 — Present]{.period}
+[2024/6 — 2024/8]{.period}
 
-### Senior Data Scientist {.mb-0}
-[Company Name · San Francisco, CA]{.org}
+### Quantitative Investment Research Intern {.mb-0}
+[Central China Securities · Shanghai, China]{.org}
 
 ::: {.desc}
-Lead a team of 4 data scientists building ML models for customer analytics. Designed and deployed a recommendation engine that increased user engagement by 25%. Partnered with product and engineering to integrate ML pipelines into production systems.
+Optimized 10+ multi-factor alpha signals using market regime classification to enhance stability. Engineered a modular Python backtesting framework for 20+ equity strategies and architected an automated ETL pipeline processing 100K+ daily entries to support data-driven asset allocation decisions.
 :::
 :::
 
 ::: {.timeline-item}
 [2020 — 2022]{.period}
 
-### Data Scientist {.mb-0}
-[Company Name · New York, NY]{.org}
+### Financial Product Researcher Intern {.mb-0}
+[Central China Securities · Zhengzhou, China]{.org}
 
 ::: {.desc}
-Developed predictive models for risk assessment and fraud detection in financial services. Built automated reporting dashboards using R Shiny and Tableau, reducing manual reporting time by 60%.
-:::
-:::
-
-::: {.timeline-item}
-[2019 — 2020]{.period}
-
-### Machine Learning Intern {.mb-0}
-[Company Name · Boston, MA]{.org}
-
-::: {.desc}
-Implemented NLP pipelines for medical text classification. Contributed to research published in a top-tier ML conference. Collaborated with clinical teams to validate model outputs.
-:::
+Spearheaded sector research for Semiconductor and Autonomous Driving industries, producing investment memos that guided product roadmaps. Evaluated fund performance through risk metric benchmarking (Alpha, Beta, Std Dev), resulting in the selection of 2 target funds for the firm’s FOF portfolio.:::
 :::
 
-:::
-:::
 :::
 
 
@@ -94,30 +80,29 @@ Implemented NLP pipelines for medical text classification. Contributed to resear
 ::: {.timeline}
 
 ::: {.timeline-item}
-[2017 — 2019]{.period}
+[2025 — Present]{.period}
 
-### M.S. Computer Science {.mb-0}
-[Your University · City, State]{.org}
+### M.P.S Information Science {.mb-0}
+[Cornell University · Ithaca, New York]{.org}
 
 ::: {.desc}
-Thesis: "Scalable Approaches to Contextual Text Classification." Coursework in deep learning, statistical inference, distributed systems, and information retrieval. GPA: 3.9/4.0.
+Concentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.
 :::
 :::
 
 ::: {.timeline-item}
-[2013 — 2017]{.period}
+[2021 - 2025]{.period}
 
-### B.S. Mathematics & Statistics {.mb-0}
-[Your University · City, State]{.org}
+### B.A. Geography: Data Science {.mb-0}
+[University of Washington · Seattle, Washington]{.org}
 
 ::: {.desc}
-Minor in Computer Science. Dean's List all semesters. Led the undergraduate data science club and organized campus-wide hackathons.
+Cumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.
 :::
 :::
 
 :::
-:::
-:::
+
 
 
 <!-- ========== CERTIFICATIONS ========== -->
@@ -133,27 +118,15 @@ Minor in Computer Science. Dean's List all semesters. Led the undergraduate data
 ::: {.card-grid}
 
 ::: {.project-card}
-::: {.card-icon .blue}
-<i class="bi bi-award"></i>
-:::
-
-### AWS Certified ML — Specialty
-
-Amazon Web Services · 2023
-
-Demonstrated expertise in building, training, tuning, and deploying ML models on AWS.
-:::
-
-::: {.project-card}
 ::: {.card-icon .green}
 <i class="bi bi-trophy"></i>
 :::
 
-### Best Paper Award
+### Coursera Certificate
 
-International Conference on ML · 2022
+Professional Certificates in Python & SQL· 2022
 
-Awarded for research on efficient fine-tuning methods for large language models.
+Earned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.
 :::
 
 ::: {.project-card}
@@ -161,16 +134,15 @@ Awarded for research on efficient fine-tuning methods for large language models.
 <i class="bi bi-patch-check"></i>
 :::
 
-### Google Professional Data Engineer
+### BCG Data Science Job Simulation
 
-Google Cloud · 2021
+BCG · 2024
 
-Certified in designing and building data processing systems on Google Cloud Platform.
+Completed a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.
 :::
 
 :::
-:::
-:::
+
 
 
 <!-- ========== PERSONAL ========== -->
@@ -180,7 +152,6 @@ Certified in designing and building data processing systems on Google Cloud Plat
 ## Beyond Work {.section-heading}
 
 I believe great data science is driven by curiosity. Outside of work, I'm an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.
-{.section-desc style="margin-left:auto;margin-right:auto;text-align:center;"}
 
 ::: {.hero-cta}
 [<i class="bi bi-download"></i> Download Resume](resume.qmd){.btn-primary-custom}

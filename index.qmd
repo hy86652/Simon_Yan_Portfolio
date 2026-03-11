@@ -1,5 +1,5 @@
 ---
-pagetitle: "Simon Yan — Data Scientist & Software Engineer"
+pagetitle: "Simon Yan — Data Scientist, Quantitative Analyst & Full-Stack Engineer"
 toc: false
 page-layout: custom
 ---
@@ -10,9 +10,20 @@ page-layout: custom
 
 [Open to Opportunities]{.hero-label}
 
-# [Your Name]{.hero-name}
+# [Simon Yan]{.hero-name}
 
-[Data Scientist & Software Engineer crafting data-driven solutions that turn complex problems into clear, actionable insights.]{.hero-title}
+[Building data systems and investment strategies that turn market complexity into competitive advantage.]{.hero-title}
+
+:::: {.hero-credentials}
+::: {.credential-item}
+[<i class="bi bi-mortarboard-fill"></i> M.P.S. Information Science · **Cornell University**]{.credential-text}
+:::
+::: {.credential-item}
+[<i class="bi bi-mortarboard"></i> B.A. Geography Data Science · **University of Washington**]{.credential-text}
+:::
+::::
+
+
 
 ::: {.hero-cta}
 [<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
@@ -27,23 +38,23 @@ page-layout: custom
 ::: {.stats-grid}
 
 ::: {.stat-item}
-### 5+
-Years of Experience
-:::
-
-::: {.stat-item}
-### 20+
-Projects Delivered
+### 2
+Internships in Quantitative Finance
 :::
 
 ::: {.stat-item}
 ### 10+
-Publications & Talks
+Projects Delivered
 :::
 
 ::: {.stat-item}
-### 3
-Industries Served
+### 100K+
+Market Data Processed
+:::
+
+::: {.stat-item}
+### 2026
+Cornell Graduate
 :::
 
 :::
@@ -58,7 +69,6 @@ Industries Served
 ## Selected Projects {.section-heading}
 
 A curated selection of projects showcasing my expertise in data science, machine learning, and software engineering.
-{.section-desc}
 
 ::: {.card-grid}
 
@@ -67,12 +77,13 @@ A curated selection of projects showcasing my expertise in data science, machine
 <i class="bi bi-graph-up-arrow"></i>
 :::
 
-### Predictive Analytics Platform
+### Private Equity Forecast Analysis & Evaluation
 
-Built an end-to-end ML pipeline for customer churn prediction, reducing churn rate by 18% and saving $2M annually through proactive intervention strategies.
+Led quantitative analysis team (7 analysts) to evaluate accuracy of PE underwriting models. Independently quantified correlation between initial financial projections (EBITDA/Sales) and final investment success/failure. Translated complex quantitative findings into actionable business insights for non-technical stakeholders.
+
 
 ::: {.tag-row}
-[Python]{.tag} [Scikit-learn]{.tag} [AWS]{.tag} [Docker]{.tag}
+[Python]{.tag} [Statistical Analysis]{.tag} [Data Visualization]{.tag} [Business Intelligence]{.tag}
 :::
 
 ::: {.card-links}
@@ -86,12 +97,13 @@ Built an end-to-end ML pipeline for customer churn prediction, reducing churn ra
 <i class="bi bi-cpu"></i>
 :::
 
-### NLP Document Classifier
+### Automated ETL Pipeline & Strategy Backtesting
 
-Developed a transformer-based document classification system processing 50K+ documents daily with 95% accuracy, deployed on Kubernetes.
+Engineered an automated ETL pipeline using Python/Pandas to process 100K+ daily market data entries. Implemented rigorous data cleaning logic (outlier detection, handling missing values) to standardize data for real-time factor tracking and strategy backtesting.
+
 
 ::: {.tag-row}
-[PyTorch]{.tag} [Transformers]{.tag} [FastAPI]{.tag} [K8s]{.tag}
+[Python]{.tag} [Pandas]{.tag} [ETL]{.tag} [SQL]{.tag} [Data Engineering]{.tag}
 :::
 
 ::: {.card-links}
@@ -105,12 +117,16 @@ Developed a transformer-based document classification system processing 50K+ doc
 <i class="bi bi-bar-chart-line"></i>
 :::
 
-### Real-time Dashboard System
+### RoomExchange - University Housing Platform
 
-Designed interactive dashboards visualizing KPIs across 5 business units, enabling data-driven decisions for 200+ stakeholders.
+Co-founded and led full-stack development of a university housing swap platform enabling students to list, search, and exchange dorm rooms. Integrated Leaflet & Mapbox APIs for interactive geolocation visualization showing property proximity to campus landmarks.
+
+**Recognition:** 2nd Place, UC Davis Big Bang! Business Competition (validated market viability among 50+ startups).
+
+
 
 ::: {.tag-row}
-[R Shiny]{.tag} [D3.js]{.tag} [PostgreSQL]{.tag} [REST API]{.tag}
+[React]{.tag} [Mapbox API]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
 :::
 
 ::: {.card-links}
@@ -160,12 +176,6 @@ Designed interactive dashboards visualizing KPIs across 5 business units, enabli
 :::
 :::
 
-::: {.skill-category}
-#### Cloud & DevOps
-::: {.skill-tags}
-[AWS]{.skill-tag} [Docker]{.skill-tag} [Kubernetes]{.skill-tag} [CI/CD]{.skill-tag} [Terraform]{.skill-tag} [Git]{.skill-tag}
-:::
-:::
 
 :::
 :::
@@ -178,12 +188,11 @@ Designed interactive dashboards visualizing KPIs across 5 business units, enabli
 
 ## Let's Work Together {.section-heading}
 
-I'm currently seeking new opportunities in data science and machine learning engineering. If you're looking for someone passionate about turning data into impact, I'd love to connect.
-{.section-desc style="margin-left:auto;margin-right:auto;"}
+I'm currently seeking new opportunities in data sciencist, business analyst, and machine learning engineering and any other positions where I can give full play with my talents and skills . If you're looking for someone passionate about turning data into impact, I'd love to connect.
 
 ::: {.hero-cta}
 [<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}
-[<i class="bi bi-linkedin"></i> LinkedIn](https://linkedin.com){.btn-outline-custom target="_blank"}
+[<i class="bi bi-linkedin"></i> LinkedIn](www.linkedin.com/in/sy31){.btn-outline-custom target="_blank"}
 :::
 
 :::
