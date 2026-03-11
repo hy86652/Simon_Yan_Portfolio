@@ -1,5 +1,5 @@
 ---
-pagetitle: "Projects — Your Name"
+pagetitle: "Projects — Simon"
 toc: false
 page-layout: custom
 ---
@@ -13,7 +13,7 @@ page-layout: custom
 ## Projects {.section-heading}
 
 Each project represents a real challenge I tackled — from data collection and exploration through model development to production deployment. Click through to explore the code and live demos.
-{.section-desc}
+
 
 :::
 :::
@@ -34,12 +34,12 @@ Each project represents a real challenge I tackled — from data collection and 
 <i class="bi bi-graph-up-arrow"></i>
 :::
 
-### Predictive Analytics Platform
+### Private Equity Forecast Analysis
 
-Built an end-to-end ML pipeline for customer churn prediction, integrating data from 5 sources. The model reduced churn rate by 18% and saved $2M annually through proactive intervention strategies.
+Spearheaded a quantitative strategy to evaluate private equity underwriting accuracy by leading a team of 7 to analyze historical performance versus projected forecasts. Designed core analysis quantifying the correlation between initial EBITDA/Sales projections and final investment success while translating complex metrics into actionable insights for stakeholders.
 
 ::: {.tag-row}
-[Python]{.tag} [Scikit-learn]{.tag} [AWS SageMaker]{.tag} [Docker]{.tag} [Airflow]{.tag}
+[Python]{.tag} [Quantitative Modeling]{.tag} [Predictive Analytics]{.tag} [Data Visualization]{.tag} [Leadership]{.tag}
 :::
 
 ::: {.card-links}
@@ -53,9 +53,9 @@ Built an end-to-end ML pipeline for customer churn prediction, integrating data 
 <i class="bi bi-cpu"></i>
 :::
 
-### NLP Document Classifier
+### RoomExchange: University Housing Platform
 
-Developed a transformer-based document classification system processing 50K+ documents daily with 95% accuracy. Fine-tuned BERT on domain-specific corpora and deployed via Kubernetes.
+Architected a full-stack housing swap platform that enables students to list and locate properties to address campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization, earning 2nd Place in the UC Davis Big Bang! Business Competition.
 
 ::: {.tag-row}
 [PyTorch]{.tag} [Transformers]{.tag} [FastAPI]{.tag} [K8s]{.tag} [MLflow]{.tag}
@@ -72,12 +72,12 @@ Developed a transformer-based document classification system processing 50K+ doc
 <i class="bi bi-bar-chart-line"></i>
 :::
 
-### Real-time KPI Dashboard
+### Wikipedia Retrieval-Augmented Generation (RAG) Q&A System
 
-Designed interactive dashboards visualizing KPIs across 5 business units, enabling data-driven decisions for 200+ stakeholders. Integrated with live data feeds and automated alerting.
+Built an interactive R-based Shiny web application allowing users to pose natural language questions and receive grounded, citation-rich answers synthesized from relevant Wikipedia pages. The system automatically reformulates queries using an LLM to improve search accuracy, retrieves wikitext, and synthesizes a unified response while handling MediaWiki and OpenAI API interactions.
 
 ::: {.tag-row}
-[R Shiny]{.tag} [D3.js]{.tag} [PostgreSQL]{.tag} [REST API]{.tag}
+[R]{.tag} [Shiny]{.tag} [LLM]{.tag} [API Integration]{.tag}
 :::
 
 ::: {.card-links}
@@ -106,12 +106,12 @@ Designed interactive dashboards visualizing KPIs across 5 business units, enabli
 <i class="bi bi-image"></i>
 :::
 
-### Computer Vision Quality Inspector
+### Mapping California Education Disparities
 
-Built a CNN-based defect detection system for manufacturing, achieving 99.2% accuracy in identifying product defects on the assembly line, replacing manual inspection.
+Performed spatial analysis on the correlation between socioeconomic status and educational outcomes across California school districts. Developed a series of bivariate choropleth maps and conducted Hot Spot Analysis (Getis-Ord Gi*) to identify statistically significant clusters of underperformance and resource gaps.
 
 ::: {.tag-row}
-[Python]{.tag} [TensorFlow]{.tag} [OpenCV]{.tag} [Edge AI]{.tag}
+[ArcGIS Pro]{.tag} [Spatial Statistics]{.tag} [Data Visualization]{.tag} [Public Policy]{.tag}
 :::
 
 ::: {.card-links}
@@ -124,12 +124,12 @@ Built a CNN-based defect detection system for manufacturing, achieving 99.2% acc
 <i class="bi bi-shield-check"></i>
 :::
 
-### Fraud Detection Engine
+### Geospatial Market Accessibility Modeling
 
-Designed an ensemble model (XGBoost + Neural Network) for real-time fraud detection on financial transactions, processing 10K+ transactions per second with <50ms latency.
+Developed a gravity-based accessibility model to evaluate the relationship between transportation infrastructure and commercial growth in urban areas. Used network analysis to calculate travel-time cost surfaces, enabling data-driven site selection recommendations for retail expansion.
 
 ::: {.tag-row}
-[XGBoost]{.tag} [Kafka]{.tag} [Spark Streaming]{.tag} [Redis]{.tag}
+[GIS]{.tag} [Network Analysis]{.tag} [Market Research]{.tag} [Urban Planning]{.tag}
 :::
 
 ::: {.card-links}
@@ -143,12 +143,13 @@ Designed an ensemble model (XGBoost + Neural Network) for real-time fraud detect
 <i class="bi bi-chat-dots"></i>
 :::
 
-### Conversational AI Chatbot
 
-Created a retrieval-augmented generation (RAG) chatbot for internal knowledge management. The system indexes 100K+ company documents and provides context-aware answers.
+### Data Driven Crime Analysis for New York City
+
+Collected and integrated data from three sources, consolidating a dataset of over 100,000 rows for comprehensive analysis. Performed data cleaning, feature engineering, and exploratory analysis using Python, uncovering key correlations between crime patterns and external factors. Built regression models with an $R^{2}$ of 0.85, enabling accurate crime trend forecasts. Designed and presented interactive dashboards in Tableau, visualizing high-risk areas.
 
 ::: {.tag-row}
-[LangChain]{.tag} [OpenAI]{.tag} [Pinecone]{.tag} [FastAPI]{.tag}
+[Python]{.tag} [Tableau]{.tag} [Regression Models]{.tag} [EDA]{.tag}
 :::
 
 ::: {.card-links}
@@ -162,12 +163,12 @@ Created a retrieval-augmented generation (RAG) chatbot for internal knowledge ma
 <i class="bi bi-geo-alt"></i>
 :::
 
-### Geospatial Analysis Toolkit
+### Manufacturing Industry PMI Data Analysis
 
-Open-source Python library for geospatial data analysis, including spatial clustering, interpolation, and visualization. 500+ GitHub stars and used by researchers worldwide.
+Conducted a comprehensive analysis of China's Manufacturing PMI data, focusing on relationships among raw material inventory, production, and employment indicators. Performed exploratory data analysis (EDA) to build a heat map to show and identify correlations between production levels, inventory turnover rates, and employment metrics. Utilized machine learning models for IC prediction, providing data support for future manufacturing decisions.
 
 ::: {.tag-row}
-[Python]{.tag} [GeoPandas]{.tag} [Folium]{.tag} [PyPI]{.tag}
+[Python]{.tag} [Machine Learning]{.tag} [Pandas]{.tag} [Matplotlib]{.tag}
 :::
 
 ::: {.card-links}
@@ -181,12 +182,12 @@ Open-source Python library for geospatial data analysis, including spatial clust
 <i class="bi bi-activity"></i>
 :::
 
-### Time Series Forecasting Engine
+### Wildfire Risk Mapping
 
-Built a forecasting system combining ARIMA, Prophet, and LSTM models for demand planning. Achieved 12% improvement over baseline and automated model selection.
+Conducted research on the distribution and influencing factors of high-frequency wildfire zones in Washington State and designed buffer zone models. Utilized ArcGIS to create spatial models and analyze spatial correlations between wildfire zones and surrounding environments. Used JavaScript to develop a web-based geographic dashboard, achieving multi-layered dynamic data interaction and optimizing the user experience.
 
 ::: {.tag-row}
-[Prophet]{.tag} [LSTM]{.tag} [Optuna]{.tag} [MLflow]{.tag}
+[ArcGIS]{.tag} [JavaScript]{.tag} [Spatial Modeling]{.tag} [Data Analysis]{.tag}
 :::
 
 ::: {.card-links}
@@ -199,12 +200,66 @@ Built a forecasting system combining ARIMA, Prophet, and LSTM models for demand 
 <i class="bi bi-people"></i>
 :::
 
-### A/B Testing Framework
+### LLM Serving System Scheduling Simulation
 
-Developed a reusable Bayesian A/B testing framework with automatic sample size calculation, early stopping rules, and interactive result visualization for product teams.
+Developed a discrete-event simulation tool to model large language model (LLM) inference systems, specifically capturing prompt processing (prefill) and token generation (decode) constraints on a single GPU. Evaluated complete-to-end and prefill-first scheduling strategies under varying user demand to measure throughput, time-to-first-token (TTFT), and time-between-tokens (TBT). Identified capacity-driven phase transitions and latency trade-offs to guide system design.
 
 ::: {.tag-row}
-[R]{.tag} [Stan]{.tag} [Shiny]{.tag} [Bayesian Stats]{.tag}
+[Simulation]{.tag} [System Design]{.tag} [LLM]{.tag} [Performance Analysis]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+::: {.card-icon .orange}
+<i class="bi bi-people"></i>
+:::
+
+### NYC Air Quality Analysis
+
+Created an interactive Shiny dashboard to analyze New York City air quality trends (PM2.5, NO2, O3) and their correlation with socioeconomic indicators and public health outcomes like asthma emergency visits. Integrated multi-source datasets and designed interactive maps with sf-polygons and dynamic reference lines to highlight environmental disparities and assist policymakers and researchers.
+
+::: {.tag-row}
+[R]{.tag} [Shiny]{.tag} [Data Visualization]{.tag} [Spatial Analysis]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+::: {.card-icon .orange}
+<i class="bi bi-people"></i>
+:::
+
+### Wildfire Risk Mapping
+
+Conducted research on the distribution and influencing factors of high-frequency wildfire zones in Washington State and designed buffer zone models. Utilized ArcGIS to create spatial models and analyze spatial correlations between wildfire zones and surrounding environments. Used JavaScript to develop a web-based geographic dashboard, achieving multi-layered dynamic data interaction and optimizing the user experience.
+
+::: {.tag-row}
+[ArcGIS]{.tag} [JavaScript]{.tag} [Spatial Modeling]{.tag} [Data Analysis]{.tag}
+:::
+
+::: {.card-links}
+[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+:::
+:::
+
+::: {.project-card}
+::: {.card-icon .orange}
+<i class="bi bi-people"></i>
+:::
+
+### Predicting National Flood Insurance Program Claims
+
+Developed regression-based models using FEMA's National Flood Insurance Program dataset (500,000+ records) to predict and explain flood insurance claim amounts. Applied XGBoost, Random Forest, and Lasso regression, with XGBoost achieving the best performance ($R^2 = 0.956$). Utilized SHAP values and Partial Dependence Plots to translate model findings into interpretable insights for disaster risk management and insurance pricing strategies.
+
+::: {.tag-row}
+[XGBoost]{.tag} [Machine Learning]{.tag} [Data Modeling]{.tag} [SHAP]{.tag}
 :::
 
 ::: {.card-links}

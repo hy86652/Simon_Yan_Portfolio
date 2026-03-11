@@ -1,5 +1,5 @@
 ---
-pagetitle: "Contact — Your Name"
+pagetitle: "Contact — Simon Yan"
 toc: false
 page-layout: custom
 ---
@@ -11,56 +11,22 @@ page-layout: custom
 
 ## Let's Connect {.section-heading}
 
-I'm currently open to new opportunities and always happy to discuss data science, machine learning, or potential collaborations. Feel free to reach out through any of the channels below.
-{.section-desc style="margin-left:auto;margin-right:auto;text-align:center;"}
+I'm currently open to any new opportunities and always happy to discuss data science, machine learning, or potential collaborations. Feel free to reach out through any of the channels below.
 
 :::
 :::
-
-
-::: {.section .bg-white}
-::: {.section-wide}
-
-::: {.contact-grid}
-
-<a href="mailto:your.email@example.com" class="contact-card">
-<div class="icon"><i class="bi bi-envelope-fill"></i></div>
-
-### Email
-your.email@example.com
-</a>
-
-<a href="https://linkedin.com/in/yourusername" class="contact-card" target="_blank">
-<div class="icon"><i class="bi bi-linkedin"></i></div>
-
-### LinkedIn
-linkedin.com/in/yourusername
-</a>
-
-<a href="https://github.com/yourusername" class="contact-card" target="_blank">
-<div class="icon"><i class="bi bi-github"></i></div>
-
-### GitHub
-github.com/yourusername
-</a>
-
-<a href="https://twitter.com/yourusername" class="contact-card" target="_blank">
-<div class="icon"><i class="bi bi-twitter-x"></i></div>
-
-### Twitter / X
-@yourusername
-</a>
-
-:::
-:::
-:::
+<section class="section bg-white">
+<div class="section-wide">
+<div class="contact-grid"><a href="mailto:hy86652@gmail.com" class="contact-card"><div class="icon"><i class="bi bi-envelope-fill"></i></div><h3>Email</h3><p>hy86652@gmail.com</p></a><a href="https://linkedin.com/in/sy31" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-linkedin"></i></div><h3>LinkedIn</h3><p>linkedin.com/in/sy31</p></a><a href="https://github.com/hy86652" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-github"></i></div><h3>GitHub</h3><p>github.com/hy86652</p></a></div>
+</div>
+</section>
 
 ::: {.section .text-center}
 ::: {.section-narrow}
 
 <div style="font-size:1rem;color:var(--color-text-muted);line-height:1.8;">
 
-**Based in:** San Francisco, CA (open to remote & relocation)
+**Based in:** Ithaca, NY (open to remote & relocation)
 
 **Response time:** I typically respond within 24 hours.
 
