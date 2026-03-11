@@ -244,10 +244,12 @@ header#title-block-header {
   color: var(--color-primary);
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .section-desc {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   color: var(--color-text-muted);
   line-height: 1.7;
   max-width: 620px;
@@ -429,7 +431,7 @@ header#title-block-header {
   gap: 4rem;
   max-width: 950px;
   margin: 0 auto;
-  align-items: start;
+  align-items: center;
 }
 
 .profile-photo-placeholder {
