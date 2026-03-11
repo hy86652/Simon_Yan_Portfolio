@@ -429,7 +429,7 @@ header#title-block-header {
   gap: 4rem;
   max-width: 950px;
   margin: 0 auto;
-  align-items: center;
+  align-items: start;
 }
 
 .profile-photo-placeholder {
