@@ -280,7 +280,7 @@ Developed regression-based models using FEMA's National Flood Insurance Program 
 ## Interested in Collaborating? {.section-heading}
 
 I'm always open to discussing new projects, research collaborations, or job opportunities.
-{.section-desc style="margin-left:auto;margin-right:auto;text-align:center;"}
+
 
 ::: {.hero-cta}
 [<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}

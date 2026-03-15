@@ -1,5 +1,5 @@
 ---
-pagetitle: "Resume — Your Name"
+pagetitle: "Resume — Simon Yan"
 toc: false
 page-layout: custom
 ---
@@ -10,26 +10,26 @@ page-layout: custom
 ::: {.text-center}
 [Resume]{.section-label}
 
-## Your Name {.section-heading}
+## Simon Yan {.section-heading}
 
-Data Scientist & Machine Learning Engineer
-{.section-desc style="margin-left:auto;margin-right:auto;text-align:center;margin-bottom:1rem;"}
+Data Scientist, Quantitative Analyst & Full-Stack Software Engineer
+
 
 <div style="display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;font-size:0.88rem;color:var(--color-text-muted);margin-bottom:2rem;">
-<span><i class="bi bi-geo-alt"></i> San Francisco, CA</span>
-<span><i class="bi bi-envelope"></i> your.email@example.com</span>
-<span><i class="bi bi-linkedin"></i> linkedin.com/in/yourname</span>
-<span><i class="bi bi-github"></i> github.com/yourname</span>
+<span><i class="bi bi-geo-alt"></i> Ithaca, NY</span>
+<span><i class="bi bi-envelope"></i> hyan86652@gmail.com</span>
+<span><i class="bi bi-phone"></i> (206) 519-9388</span>
+<span><i class="bi bi-linkedin"></i> linkedin.com/in/sy31</span>
 </div>
 
-<a href="#" class="btn-primary-custom" style="margin-bottom:3rem;"><i class="bi bi-download"></i> Download PDF</a>
+<a href="Simon_Yan_Resume.pdf" class="btn-primary-custom" style="margin-bottom:3rem;" download><i class="bi bi-download"></i> Download PDF</a>
 :::
 
 <hr class="section-divider">
 
 [Summary]{.section-label}
 
-Data Scientist with 5+ years of experience building and deploying machine learning solutions at scale. Expertise in predictive modeling, NLP, and data engineering. Proven track record of translating complex data into business value across finance, healthcare, and technology sectors.
+Quantitative analyst and full-stack engineer with 2 years of hands-on experience in quantitative finance and data systems. Proven expertise in multi-factor trading signal optimization, financial data engineering, and production-grade systems development. Currently pursuing Master's in Data Science at Cornell University (graduating May 2026) with focus on machine learning and quantitative methods.
 
 <br>
 
@@ -38,42 +38,57 @@ Data Scientist with 5+ years of experience building and deploying machine learni
 ::: {.timeline}
 
 ::: {.timeline-item}
-[2022 — Present]{.period}
+[Sept 2025 — Dec 2025]{.period}
 
-### Senior Data Scientist {.mb-0}
-[Company Name · San Francisco, CA]{.org}
+### Quantitative Analyst Lead {.mb-0}
+[The Riverside Company · Capstone]{.org}
 
 ::: {.desc}
-• Led cross-functional team of 4 data scientists on customer analytics initiatives  
-• Designed recommendation engine increasing user engagement by 25%  
-• Built automated ML pipelines processing 10M+ records daily on AWS SageMaker  
-• Mentored junior team members and established best practices for model development
+• Led quantitative analysis team of 7 analysts to evaluate accuracy of private equity underwriting models  
+• Independently designed core analysis framework, quantifying correlation between initial financial projections (EBITDA/Sales) and final investment success/failure  
+• Translated complex quantitative metrics into actionable insights for non-technical stakeholders, bridging technical and business strategy  
+• Developed MVP dashboard and technical documentation ensuring reproducibility and scalability for client decision-making
 :::
 :::
 
 ::: {.timeline-item}
-[2020 — 2022]{.period}
+[June 2024 — Aug 2024]{.period}
 
-### Data Scientist {.mb-0}
-[Company Name · New York, NY]{.org}
+### Quantitative Investment Researcher {.mb-0}
+[Central China Securities · Shanghai, China · Intern]{.org}
 
 ::: {.desc}
-• Developed fraud detection models reducing false positives by 35%  
-• Created executive dashboards in R Shiny, cutting reporting time by 60%  
-• Collaborated with engineering to deploy models to production via REST APIs
+• Optimized 10+ multi-factor alpha signals (Momentum, Volatility, Mean Reversion) by incorporating market regime classification to enhance signal stability and reduce drawdown by 20% during volatile periods  
+• Engineered modular backtesting framework in Python, enabling automated simulation of 20+ equity strategies to support hypothesis validation and parameter tuning  
+• Architected automated ETL pipeline using Pandas to process 100K+ daily market data entries, implementing rigorous cleaning logic (outlier detection, missing value handling) to standardize data for factor tracking  
+• Synthesized quantitative performance metrics into tactical investment briefs providing data-driven recommendations that informed Investment Committee asset allocation decisions for $100M+ portfolio
 :::
 :::
 
 ::: {.timeline-item}
-[2019 — 2020]{.period}
+[Jan 2025 — June 2025]{.period}
 
-### Machine Learning Intern {.mb-0}
-[Company Name · Boston, MA]{.org}
+### Founder & Lead Developer {.mb-0}
+[RoomExchange (University Housing Platform) · Remote]{.org}
 
 ::: {.desc}
-• Implemented NLP pipelines for medical text classification (95% F1-score)  
-• Co-authored paper accepted at top-tier ML conference  
-• Built data labeling tools to accelerate annotation by 3×
+• Architected full-stack application enabling students to list, search, and exchange university housing across campus  
+• Engineered modular frontend architecture (React) ensuring scalability across listing management and search workflows  
+• Integrated Leaflet and Mapbox APIs to build interactive geolocation system allowing users to visualize property proximity to campus landmarks dynamically  
+• Awarded 2nd Place in UC Davis Big Bang! Business Competition, validating platform's technical feasibility and market viability among peer startups
+:::
+:::
+
+::: {.timeline-item}
+[June 2023 — Aug 2023]{.period}
+
+### Financial Product Researcher {.mb-0}
+[Central China Securities · Zhengzhou, China · Intern]{.org}
+
+::: {.desc}
+• Spearheaded comprehensive sector research across Semiconductor and Autonomous Driving industries, producing 3 deep-dive investment memos that directly informed firm's product development roadmap  
+• Evaluated performance of 4 target funds by benchmarking against market indices and analyzing key risk metrics (Beta, Alpha, Standard Deviation), resulting in selection of 2 funds for FOF (Fund of Funds) portfolio  
+• Conducted rigorous due diligence on 12+ potential investments, classifying operational and liquidity risks to refine firm's investment evaluation scope and distribution strategies
 :::
 :::
 
@@ -86,17 +101,27 @@ Data Scientist with 5+ years of experience building and deploying machine learni
 ::: {.timeline}
 
 ::: {.timeline-item}
-[2017 — 2019]{.period}
+[Expected May 2026]{.period}
 
-### M.S. Computer Science {.mb-0}
-[Your University · City, State | GPA: 3.9/4.0]{.org}
+### M.P.S. Information Science {.mb-0}
+[Cornell University · Ithaca, NY | Data Science Concentration]{.org}
+
+::: {.desc}
+Relevant Coursework: Machine Learning, Monte Carlo Simulation, Markov Chains, Stochastic Processes
+:::
 :::
 
 ::: {.timeline-item}
-[2013 — 2017]{.period}
+[Graduated June 2025]{.period}
 
-### B.S. Mathematics & Statistics {.mb-0}
-[Your University · City, State | Minor: Computer Science]{.org}
+### B.A. Geography: Data Science {.mb-0}
+[University of Washington · Seattle, WA | GPA: 3.55/4.0, Major GPA: 3.89/4.0]{.org}
+
+::: {.desc}
+Annual Dean's List (2023-2024, 2024-2025)
+
+Relevant Coursework: Data Structures & Algorithms, Linear Algebra, Multivariable Calculus, Probability & Statistics, Machine Learning (CSE 416), GIS and Geospatial Analysis
+:::
 :::
 
 :::
@@ -108,16 +133,30 @@ Data Scientist with 5+ years of experience building and deploying machine learni
 ::: {.skills-grid}
 
 ::: {.skill-category}
-#### Languages & Frameworks
+#### Programming Languages & Frameworks
 ::: {.skill-tags}
-[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [PyTorch]{.skill-tag} [TensorFlow]{.skill-tag} [Scikit-learn]{.skill-tag}
+[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [Java]{.skill-tag} [Pandas]{.skill-tag} [NumPy]{.skill-tag} [Scikit-learn]{.skill-tag}
 :::
 :::
 
 ::: {.skill-category}
-#### Data & Cloud
+#### Quantitative Finance & Data
 ::: {.skill-tags}
-[AWS]{.skill-tag} [Spark]{.skill-tag} [Airflow]{.skill-tag} [Docker]{.skill-tag} [Kubernetes]{.skill-tag} [PostgreSQL]{.skill-tag} [MongoDB]{.skill-tag}
+[Multi-Factor Models]{.skill-tag} [Strategy Backtesting]{.skill-tag} [Risk Metrics (Beta, Alpha)]{.skill-tag} [Market Microstructure]{.skill-tag} [ETL Pipelines]{.skill-tag} [SQL]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Engineering & Deployment
+::: {.skill-tags}
+[Full-Stack Development]{.skill-tag} [React]{.skill-tag} [Docker]{.skill-tag} [Git]{.skill-tag} [REST APIs]{.skill-tag} [Database Design]{.skill-tag}
+:::
+:::
+
+::: {.skill-category}
+#### Data Visualization & Analysis
+::: {.skill-tags}
+[Tableau]{.skill-tag} [Matplotlib]{.skill-tag} [Seaborn]{.skill-tag} [GIS Tools]{.skill-tag} [Mapbox API]{.skill-tag}
 :::
 :::
 
@@ -125,13 +164,15 @@ Data Scientist with 5+ years of experience building and deploying machine learni
 
 <br>
 
-[Publications]{.section-label}
+[Awards & Recognition]{.section-label}
 
 <div style="font-size:0.92rem;color:var(--color-text-muted);line-height:1.8;">
 
-**Your Name**, Co-author. "Efficient Fine-tuning Methods for Large Language Models." *International Conference on Machine Learning*, 2022.
+**UC Davis Big Bang! Business Competition** — 2nd Place, RoomExchange (2025)
 
-**Your Name**, Co-author. "Scalable Text Classification in Clinical NLP." *Conference on NLP*, 2020.
+**Annual Dean's List** — University of Washington, 2023-2024 and 2024-2025
+
+**Major GPA: 3.89/4.0** — University of Washington Geography: Data Science (2025)
 
 </div>
 

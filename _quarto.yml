@@ -24,13 +24,13 @@ website:
         href: contact.qmd
     right:
       - icon: github
-        href: https://github.com/yourusername
+        href: https://github.com/hy86652
         aria-label: GitHub
       - icon: linkedin
-        href: www.linkedin.com/in/sy31
+        href: https://linkedin.com/in/sy31
         aria-label: LinkedIn
       - icon: envelope
-        href: mailto:your.email@example.com
+        href: mailto:hyan86652@gmail.com
         aria-label: Email
 
   page-footer:
