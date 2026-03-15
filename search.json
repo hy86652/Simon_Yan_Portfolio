@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "Simon Yan",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n\n\n2024/6 — 2024/8\n\nQuantitative Investment Research Intern\nCentral China Securities · Shanghai, China\n\nOptimized 10+ multi-factor alpha signals using market regime classification to enhance stability. Engineered a modular Python backtesting framework for 20+ equity strategies and architected an automated ETL pipeline processing 100K+ daily entries to support data-driven asset allocation decisions.\n\n\n\n\n2020 — 2022\n\nFinancial Product Researcher Intern\nCentral China Securities · Zhengzhou, China\n\nSpearheaded sector research for Semiconductor and Autonomous Driving industries, producing investment memos that guided product roadmaps. Evaluated fund performance through risk metric benchmarking (Alpha, Beta, Std Dev), resulting in the selection of 2 target funds for the firm’s FOF portfolio.:::\n\n\n\n\n\n\nEducation\n\nAcademic Background\n\n\n\n2025 — Present\n\nM.P.S Information Science\nCornell University · Ithaca, New York\n\nConcentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.\n\n\n\n\n2021 - 2025\n\nB.A. Geography: Data Science\nUniversity of Washington · Seattle, Washington\n\nCumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.\n\n\n\n\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.\n\n\n\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
+  },
+  {
+    "objectID": "about.html#academic-background",
+    "href": "about.html#academic-background",
+    "title": "Simon Yan",
+    "section": "Academic Background",
+    "text": "Academic Background\n\n\n\n2025 — Present\n\nM.P.S Information Science\nCornell University · Ithaca, New York\n\nConcentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.\n\n\n\n\n2021 - 2025\n\nB.A. Geography: Data Science\nUniversity of Washington · Seattle, Washington\n\nCumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.\n\n\n\n\n\n\n\nCredentials\n\nCertifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.\n\n\n\n\n\n\n\nBeyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
+  },
+  {
+    "objectID": "about.html#certifications-awards",
+    "href": "about.html#certifications-awards",
+    "title": "Simon Yan",
+    "section": "Certifications & Awards",
+    "text": "Certifications & Awards\n\n\n\n\n\n\n\nCoursera Certificate\nProfessional Certificates in Python & SQL· 2022\nEarned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.\n\n\n\n\n\n\n\nBCG Data Science Job Simulation\nBCG · 2024\nCompleted a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations."
+  },
+  {
+    "objectID": "about.html#beyond-work",
+    "href": "about.html#beyond-work",
+    "title": "Simon Yan",
+    "section": "Beyond Work",
+    "text": "Beyond Work\nI believe great data science is driven by curiosity. Outside of work, I’m an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.\n\n Download Resume  Contact Me"
+  },
+  {
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "Simon Yan",
+    "section": "Projects",
+    "text": "Projects\nEach project represents a real challenge I tackled — from data collection and exploration through model development to production deployment. Click through to explore the code and live demos."
+  },
+  {
+    "objectID": "projects.html#interested-in-collaborating",
+    "href": "projects.html#interested-in-collaborating",
+    "title": "Simon Yan",
+    "section": "Interested in Collaborating?",
+    "text": "Interested in Collaborating?\nI’m always open to discussing new projects, research collaborations, or job opportunities.\n\n Get in Touch  GitHub"
+  },
+  {
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Simon Yan",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI’m currently open to any new opportunities and always happy to discuss data science, machine learning, or potential collaborations. Feel free to reach out through any of the channels below."
+  },
+  {
+    "objectID": "resume.html#simon-yan",
+    "href": "resume.html#simon-yan",
+    "title": "Simon Yan",
+    "section": "Simon Yan",
+    "text": "Simon Yan\nData Scientist, Quantitative Analyst & Full-Stack Software Engineer\n\n Ithaca, NY  hyan86652@gmail.com  (206) 519-9388  linkedin.com/in/sy31\n\n Download PDF"
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Simon Yan",
+    "section": "Selected Projects",
+    "text": "Selected Projects\nA curated selection of projects showcasing my expertise in data science, machine learning, and software engineering.\n\n\n\n\n\n\nPrivate Equity Forecast Analysis & Evaluation\nLed quantitative analysis team (7 analysts) to evaluate accuracy of PE underwriting models. Independently quantified correlation between initial financial projections (EBITDA/Sales) and final investment success/failure. Translated complex quantitative findings into actionable business insights for non-technical stakeholders.\n\nPython Statistical Analysis Data Visualization Business Intelligence\n\n\n Code  Live Demo\n\n\n\n\n\n\n\n\nAutomated ETL Pipeline & Strategy Backtesting\nEngineered an automated ETL pipeline using Python/Pandas to process 100K+ daily market data entries. Implemented rigorous data cleaning logic (outlier detection, handling missing values) to standardize data for real-time factor tracking and strategy backtesting.\n\nPython Pandas ETL SQL Data Engineering\n\n\n Code  Paper\n\n\n\n\n\n\n\n\nRoomExchange - University Housing Platform\nCo-founded and led full-stack development of a university housing swap platform enabling students to list, search, and exchange dorm rooms. Integrated Leaflet & Mapbox APIs for interactive geolocation visualization showing property proximity to campus landmarks.\nRecognition: 2nd Place, UC Davis Big Bang! Business Competition (validated market viability among 50+ startups).\n\nReact Mapbox API Full-Stack Product Design\n\n\n Code  Live Demo\n\n\n\n\n\nView All Projects"
+  },
+  {
+    "objectID": "index.html#skills-technologies",
+    "href": "index.html#skills-technologies",
+    "title": "Simon Yan",
+    "section": "Skills & Technologies",
+    "text": "Skills & Technologies\n\n\nProgramming Languages\n\nPython R SQL JavaScript C++ Bash\n\n\n\nMachine Learning & AI\n\nPyTorch TensorFlow Scikit-learn Hugging Face XGBoost LLMs\n\n\n\nData Engineering\n\nSpark Airflow PostgreSQL MongoDB Redis Kafka"
+  },
+  {
+    "objectID": "index.html#lets-work-together",
+    "href": "index.html#lets-work-together",
+    "title": "Simon Yan",
+    "section": "Let’s Work Together",
+    "text": "Let’s Work Together\nI’m currently seeking new opportunities in data sciencist, business analyst, and machine learning engineering and any other positions where I can give full play with my talents and skills . If you’re looking for someone passionate about turning data into impact, I’d love to connect.\n\n Get in Touch  LinkedIn"
+  }
+]
