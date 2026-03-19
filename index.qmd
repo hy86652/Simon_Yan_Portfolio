@@ -77,18 +77,16 @@ A curated selection of projects showcasing my expertise in data science, machine
 <i class="bi bi-graph-up-arrow"></i>
 :::
 
-### Private Equity Forecast Analysis & Evaluation
+### Private Equity Forecast Analysis
 
-Led quantitative analysis team (7 analysts) to evaluate accuracy of PE underwriting models. Independently quantified correlation between initial financial projections (EBITDA/Sales) and final investment success/failure. Translated complex quantitative findings into actionable business insights for non-technical stakeholders.
-
+Spearheaded a quantitative strategy to evaluate private equity underwriting accuracy by leading a team of 7 to analyze historical performance versus projected forecasts. Designed core analysis quantifying the correlation between initial EBITDA/Sales projections and final investment success while translating complex metrics into actionable insights for stakeholders.
 
 ::: {.tag-row}
-[Python]{.tag} [Statistical Analysis]{.tag} [Data Visualization]{.tag} [Business Intelligence]{.tag}
+[Python]{.tag} [Quantitative Modeling]{.tag} [Predictive Analytics]{.tag} [Data Visualization]{.tag} [Leadership]{.tag}
 :::
 
 ::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://example.com){target="_blank"}
+[<i class="bi bi-github"></i> Code](https://github.com/hy86652/Private-Equity-Forecast-Quantitative-Analysis){target="_blank"}
 :::
 :::
 
@@ -106,9 +104,6 @@ Engineered an automated ETL pipeline using Python/Pandas to process 100K+ daily 
 [Python]{.tag} [Pandas]{.tag} [ETL]{.tag} [SQL]{.tag} [Data Engineering]{.tag}
 :::
 
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-file-earmark-pdf"></i> Paper](https://example.com){target="_blank"}
 :::
 :::
 
@@ -117,21 +112,17 @@ Engineered an automated ETL pipeline using Python/Pandas to process 100K+ daily 
 <i class="bi bi-bar-chart-line"></i>
 :::
 
-### RoomExchange - University Housing Platform
+### RoomExchange: University Housing Platform
 
-Co-founded and led full-stack development of a university housing swap platform enabling students to list, search, and exchange dorm rooms. Integrated Leaflet & Mapbox APIs for interactive geolocation visualization showing property proximity to campus landmarks.
-
-**Recognition:** 2nd Place, UC Davis Big Bang! Business Competition (validated market viability among 50+ startups).
-
-
+Architected a full-stack housing swap platform that enables students to list and locate properties to address campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization, earning 2nd Place in the UC Davis Big Bang! Business Competition.
 
 ::: {.tag-row}
-[React]{.tag} [Mapbox API]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
+[React]{.tag} [Mapbox API]{.tag} [Leaflet]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
 :::
 
 ::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://example.com){target="_blank"}
+[<i class="bi bi-github"></i> Code](https://github.com/hy86652/RoomExchange){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://roomexchange.netlify.app/){target="_blank"}
 :::
 :::
 
