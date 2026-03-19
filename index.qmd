@@ -23,8 +23,6 @@ page-layout: custom
 :::
 ::::
 
-
-
 ::: {.hero-cta}
 [<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
 [<i class="bi bi-grid"></i> See My Work](projects.qmd){.btn-outline-custom}
@@ -68,7 +66,7 @@ Cornell Graduate
 
 ## Selected Projects {.section-heading}
 
-A curated selection of projects showcasing my expertise in data science, machine learning, and software engineering.
+A curated selection of projects showcasing my expertise in data science, quantitative finance, and software engineering.
 
 ::: {.card-grid}
 
@@ -92,24 +90,22 @@ Spearheaded a quantitative strategy to evaluate private equity underwriting accu
 
 ::: {.project-card}
 ::: {.card-icon .green}
-<i class="bi bi-cpu"></i>
+<i class="bi bi-database-gear"></i>
 :::
 
 ### Automated ETL Pipeline & Strategy Backtesting
 
 Engineered an automated ETL pipeline using Python/Pandas to process 100K+ daily market data entries. Implemented rigorous data cleaning logic (outlier detection, handling missing values) to standardize data for real-time factor tracking and strategy backtesting.
 
-
 ::: {.tag-row}
 [Python]{.tag} [Pandas]{.tag} [ETL]{.tag} [SQL]{.tag} [Data Engineering]{.tag}
 :::
 
 :::
-:::
 
 ::: {.project-card}
 ::: {.card-icon .orange}
-<i class="bi bi-bar-chart-line"></i>
+<i class="bi bi-house-door"></i>
 :::
 
 ### RoomExchange: University Housing Platform
@@ -149,24 +145,23 @@ Architected a full-stack housing swap platform that enables students to list and
 ::: {.skill-category}
 #### Programming Languages
 ::: {.skill-tags}
-[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [C++]{.skill-tag} [Bash]{.skill-tag}
+[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [Java]{.skill-tag} [Bash]{.skill-tag}
 :::
 :::
 
 ::: {.skill-category}
 #### Machine Learning & AI
 ::: {.skill-tags}
-[PyTorch]{.skill-tag} [TensorFlow]{.skill-tag} [Scikit-learn]{.skill-tag} [Hugging Face]{.skill-tag} [XGBoost]{.skill-tag} [LLMs]{.skill-tag}
+[Scikit-learn]{.skill-tag} [XGBoost]{.skill-tag} [LLMs]{.skill-tag} [NLP]{.skill-tag} [Regression]{.skill-tag} [SHAP]{.skill-tag}
 :::
 :::
 
 ::: {.skill-category}
-#### Data Engineering
+#### Data & Quantitative Finance
 ::: {.skill-tags}
-[Spark]{.skill-tag} [Airflow]{.skill-tag} [PostgreSQL]{.skill-tag} [MongoDB]{.skill-tag} [Redis]{.skill-tag} [Kafka]{.skill-tag}
+[Pandas]{.skill-tag} [NumPy]{.skill-tag} [ETL Pipelines]{.skill-tag} [SQL]{.skill-tag} [Multi-Factor Models]{.skill-tag} [Backtesting]{.skill-tag}
 :::
 :::
-
 
 :::
 :::
@@ -179,11 +174,11 @@ Architected a full-stack housing swap platform that enables students to list and
 
 ## Let's Work Together {.section-heading}
 
-I'm currently seeking new opportunities in data sciencist, business analyst, and machine learning engineering and any other positions where I can give full play with my talents and skills . If you're looking for someone passionate about turning data into impact, I'd love to connect.
+I'm currently seeking opportunities in data science, quantitative analysis, and business intelligence — roles where I can apply my analytical skills and engineering experience to drive real business impact. I'd love to connect.
 
 ::: {.hero-cta}
 [<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}
-[<i class="bi bi-linkedin"></i> LinkedIn](www.linkedin.com/in/sy31){.btn-outline-custom target="_blank"}
+[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/sy31){.btn-outline-custom target="_blank"}
 :::
 
 :::
