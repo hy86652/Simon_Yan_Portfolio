@@ -1,0 +1,111 @@
+<noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- Scroll reveal ---------- */
+  function initReveal() {
+    var els = document.querySelectorAll(".reveal");
+    if (!("IntersectionObserver" in window) || !els.length) {
+      els.forEach(function (el) { el.classList.add("in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add("in");
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+    els.forEach(function (el) { io.observe(el); });
+    /* safety fallback: reveal everything after 3s no matter what */
+    setTimeout(function () { els.forEach(function (el) { el.classList.add("in"); }); }, 3000);
+  }
+
+  /* ---------- Animated stat counters ---------- */
+  function animateStat(h3) {
+    var raw = h3.getAttribute("data-raw") || h3.textContent.trim();
+    h3.setAttribute("data-raw", raw);
+    var m = raw.match(/^(\D*)([\d,]+)(.*)$/);
+    if (!m) { return; }
+    var pre = m[1], numStr = m[2].replace(/,/g, ""), suf = m[3];
+    var target = parseInt(numStr, 10);
+    var hasComma = m[2].indexOf(",") !== -1;
+    var dur = 1400, start = null;
+    function fmt(n) { return hasComma ? n.toLocaleString("en-US") : String(n); }
+    function frame(ts) {
+      if (start === null) { start = ts; }
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(target * eased);
+      h3.innerHTML = pre + '<span class="stat-num">' + fmt(val) + "</span>" + suf;
+      if (p < 1) { requestAnimationFrame(frame); }
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function initStats() {
+    var strip = document.querySelector(".stats-strip");
+    if (!strip) { return; }
+    var heads = strip.querySelectorAll(".stat-item h3");
+    if (!("IntersectionObserver" in window)) {
+      heads.forEach(animateStat);
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          heads.forEach(animateStat);
+          io.disconnect();
+        }
+      });
+    }, { threshold: 0.4 });
+    io.observe(strip);
+  }
+
+  /* ---------- Project filtering ---------- */
+  function initFilter() {
+    var bar = document.querySelector(".filter-bar");
+    if (!bar) { return; }
+    var btns = bar.querySelectorAll(".filter-btn");
+    var cards = document.querySelectorAll(".project-card[data-track]");
+    btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var f = btn.getAttribute("data-filter");
+        btns.forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+        cards.forEach(function (card) {
+          var tracks = (card.getAttribute("data-track") || "").split(/\s+/);
+          var show = f === "all" || tracks.indexOf(f) !== -1;
+          card.classList.toggle("is-hidden", !show);
+        });
+      });
+    });
+  }
+
+  /* ---------- Navbar scroll shadow ---------- */
+  function initNavbar() {
+    var nav = document.querySelector(".navbar");
+    if (!nav) { return; }
+    function onScroll() {
+      nav.classList.toggle("scrolled", window.scrollY > 24);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  function boot() {
+    initReveal();
+    initStats();
+    initFilter();
+    initNavbar();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+})();
+</script>

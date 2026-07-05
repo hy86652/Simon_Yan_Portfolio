@@ -4,13 +4,12 @@ project:
 
 website:
   title: "Simon Yan"
-  description: "Data Scientist & Software Engineer"
-  favicon: ""
+  description: "Data Scientist · Quantitative Analyst · AI/ML Engineer"
   site-url: "https://hy86652.github.io/Simon_Yan_Portfolio"
-  
+
   navbar:
     background: transparent
-    foreground: "#1a1a2e"
+    foreground: "#14162a"
     left:
       - text: "Home"
         href: index.qmd
@@ -34,12 +33,21 @@ website:
         aria-label: Email
 
   page-footer:
+    left: |
+      **Simon Yan** · Data Scientist & Quantitative Analyst
     center: |
-      © 2026 Simon Yan · Built with [Quarto](https://quarto.org)
-    background: "#1a1a2e"
-    foreground: "#a0a0b8"
+      © 2026 · Built with [Quarto](https://quarto.org)
+    right:
+      - icon: github
+        href: https://github.com/hy86652
+      - icon: linkedin
+        href: https://linkedin.com/in/sy31
+      - icon: envelope
+        href: mailto:hyan86652@gmail.com
+    background: "#14162a"
+    foreground: "#a3a6bf"
 
-  page-navigation: true
+  page-navigation: false
 
 format:
   html:
@@ -47,6 +55,7 @@ format:
       light: [flatly, styles.scss]
     css: custom.css
     toc: false
+    section-divs: false
     page-layout: full
     grid:
       sidebar-width: 0px
@@ -54,9 +63,12 @@ format:
       margin-width: 0px
     fontsize: "1.05rem"
     mainfont: "'DM Sans', sans-serif"
+    smooth-scroll: true
     include-in-header:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-          <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    include-after-body:
+      - site-scripts.html

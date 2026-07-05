@@ -4,35 +4,43 @@ toc: false
 page-layout: custom
 ---
 
-::: {.section style="padding-top:6rem;"}
-::: {.section-narrow .text-center}
+::: {.section .bg-white style="padding-top:8rem;"}
+::: {.section-narrow .text-center .reveal}
 
 [Get in Touch]{.section-label}
 
 ## Let's Connect {.section-heading}
 
-I'm currently open to any new opportunities and always happy to discuss data science, machine learning, or potential collaborations. Feel free to reach out through any of the channels below.
+I'm open to 2026 opportunities in quantitative finance, AI/ML & forward-deployed engineering, and data analytics — and always happy to talk shop. Reach out through any of the channels below.
 
 :::
 :::
-<section class="section bg-white">
-<div class="section-wide">
-<div class="contact-grid"><a href="mailto:hyan86652@gmail.com" class="contact-card"><div class="icon"><i class="bi bi-envelope-fill"></i></div><h3>Email</h3><p>hy86652@gmail.com</p></a><a href="https://linkedin.com/in/sy31" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-linkedin"></i></div><h3>LinkedIn</h3><p>linkedin.com/in/sy31</p></a><a href="https://github.com/hy86652" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-github"></i></div><h3>GitHub</h3><p>github.com/hy86652</p></a></div>
+
+<section class="section bg-alt">
+<div class="section-wide reveal">
+<div class="contact-grid">
+<a href="mailto:hyan86652@gmail.com" class="contact-card"><div class="icon"><i class="bi bi-envelope-fill"></i></div><h3>Email</h3><p>hyan86652@gmail.com</p></a>
+<a href="https://linkedin.com/in/sy31" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-linkedin"></i></div><h3>LinkedIn</h3><p>linkedin.com/in/sy31</p></a>
+<a href="https://github.com/hy86652" class="contact-card" target="_blank"><div class="icon"><i class="bi bi-github"></i></div><h3>GitHub</h3><p>github.com/hy86652</p></a>
+</div>
 </div>
 </section>
 
-::: {.section .text-center}
-::: {.section-narrow}
+::: {.section .bg-white .text-center}
+::: {.section-narrow .reveal}
 
-<div style="font-size:1rem;color:var(--color-text-muted);line-height:1.8;">
-
-**Based in:** Ithaca, NY (open to remote & relocation)
+::: {.info-list}
+**Based in:** Ithaca, NY — open to remote & relocation anywhere
 
 **Response time:** I typically respond within 24 hours.
 
-**Preferred contact:** Email for professional inquiries; LinkedIn for networking.
+**Preferred contact:** Email for professional inquiries · LinkedIn for networking.
+:::
 
-</div>
+::: {.hero-cta style="justify-content:center;margin-top:2rem;"}
+[<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
+[<i class="bi bi-grid-1x2"></i> See My Work](projects.qmd){.btn-outline-custom}
+:::
 
 :::
 :::

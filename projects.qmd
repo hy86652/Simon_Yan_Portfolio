@@ -1,44 +1,49 @@
 ---
-pagetitle: "Projects — Simon"
+pagetitle: "Projects — Simon Yan"
 toc: false
 page-layout: custom
 ---
 
 <!-- ========== PROJECTS HERO ========== -->
-::: {.section .bg-white style="padding-top: 6rem;"}
+::: {.section .bg-white style="padding-top: 8rem;"}
 ::: {.section-wide}
 
+::: {.reveal}
 [Portfolio]{.section-label}
 
 ## Projects {.section-heading}
 
-Each project represents a real challenge I tackled — from data collection and exploration through model development to production deployment. Click through to explore the code and live demos.
+Real problems, real data, real stakeholders — from quantitative research and applied machine learning to AI systems and data engineering. Filter by track to explore the work most relevant to you.
 
+<div class="filter-bar">
+<button class="filter-btn active" data-filter="all">All Work <span class="count">9</span></button>
+<button class="filter-btn" data-filter="quant">Quant Finance <span class="count">3</span></button>
+<button class="filter-btn" data-filter="ai">AI / FDE <span class="count">9</span></button>
+<button class="filter-btn" data-filter="data">Data &amp; Analytics <span class="count">6</span></button>
+</div>
 :::
-:::
-
-
-<!-- ========== FEATURED PROJECTS ========== -->
-::: {.section}
-::: {.section-wide}
-
-[Highlights]{.section-label}
-
-### Featured Projects
 
 ::: {.card-grid}
 
-::: {.project-card}
+<!-- 1. Private Equity -->
+::: {.project-card .reveal data-track="quant ai data"}
+::: {.card-top}
 ::: {.card-icon .blue}
 <i class="bi bi-graph-up-arrow"></i>
+:::
+::: {.track-badges}
+[Quant]{.track-badge .quant} [AI]{.track-badge .ai} [Data]{.track-badge .data}
+:::
 :::
 
 ### Private Equity Forecast Analysis
 
-Spearheaded a quantitative strategy to evaluate private equity underwriting accuracy by leading a team of 7 to analyze historical performance versus projected forecasts. Designed core analysis quantifying the correlation between initial EBITDA/Sales projections and final investment success while translating complex metrics into actionable insights for stakeholders.
+[The Riverside Company · Quantitative Analyst Lead (team of 7)]{.role-line}
+
+Led a 7-person team through a multi-question analysis of Riverside's portfolio, combining statistical testing (chi-square, logistic regression) and time-series regression on IRR / GCoC to evaluate projection accuracy, surface sector-level patterns, and flag early outperformance / underperformance signals. Quantified the relationship between EBITDA/Sales projection accuracy and exit success and found *no* statistically significant link — a counterintuitive result that reframed the client's underwriting assumptions. Delivered an MVP dashboard and technical documentation for internal handoff.
 
 ::: {.tag-row}
-[Python]{.tag} [Quantitative Modeling]{.tag} [Predictive Analytics]{.tag} [Data Visualization]{.tag} [Leadership]{.tag}
+[Python]{.tag} [Logistic Regression]{.tag} [Time-Series]{.tag} [Chi-Square]{.tag} [Dashboard]{.tag} [Leadership]{.tag}
 :::
 
 ::: {.card-links}
@@ -46,36 +51,25 @@ Spearheaded a quantitative strategy to evaluate private equity underwriting accu
 :::
 :::
 
-::: {.project-card}
-::: {.card-icon .green}
-<i class="bi bi-house-door"></i>
-:::
-
-### RoomExchange: University Housing Platform
-
-Architected a full-stack housing swap platform that enables students to list and locate properties to address campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization, earning 2nd Place in the UC Davis Big Bang! Business Competition.
-
-::: {.tag-row}
-[React]{.tag} [Mapbox API]{.tag} [Leaflet]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com/hy86652/RoomExchange){target="_blank"}
-[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://roomexchange.netlify.app/){target="_blank"}
-:::
-:::
-
-::: {.project-card}
-::: {.card-icon .orange}
+<!-- 2. Wikipedia RAG -->
+::: {.project-card .reveal .d1 data-track="ai"}
+::: {.card-top}
+::: {.card-icon .purple}
 <i class="bi bi-robot"></i>
 :::
+::: {.track-badges}
+[AI / FDE]{.track-badge .ai}
+:::
+:::
 
-### Wikipedia RAG Q&A System
+### Wikipedia RAG ChatBot
 
-Built an interactive R-based Shiny web application allowing users to pose natural language questions and receive grounded, citation-rich answers synthesized from relevant Wikipedia pages. The system automatically reformulates queries using an LLM to improve search accuracy, retrieves wikitext, and synthesizes a unified response while handling MediaWiki and OpenAI API interactions.
+[Team Leader · R · Shiny · OpenAI + MediaWiki APIs · Posit Cloud]{.role-line}
+
+Architected and deployed a Retrieval-Augmented Generation web application with an automated query-optimization pipeline and source-grounded prompt design that reduces LLM hallucination in generated answers. Built a reactive UI with session-based history and exportable citations, enabling end-to-end use from query to verifiable, cited answer.
 
 ::: {.tag-row}
-[R]{.tag} [Shiny]{.tag} [LLM]{.tag} [API Integration]{.tag}
+[R]{.tag} [Shiny]{.tag} [RAG]{.tag} [OpenAI API]{.tag} [MediaWiki API]{.tag}
 :::
 
 ::: {.card-links}
@@ -84,182 +78,184 @@ Built an interactive R-based Shiny web application allowing users to pose natura
 :::
 :::
 
+<!-- 3. NFIP Flood -->
+::: {.project-card .reveal .d2 data-track="quant data ai"}
+::: {.card-top}
+::: {.card-icon .green}
+<i class="bi bi-water"></i>
+:::
+::: {.track-badges}
+[Quant]{.track-badge .quant} [Data]{.track-badge .data} [AI]{.track-badge .ai}
 :::
 :::
-:::
 
+### Predicting NFIP Flood Claims
 
-<!-- ========== MORE PROJECTS ========== -->
-::: {.section .bg-white}
-::: {.section-wide}
+[FEMA National Flood Insurance Program · ~500K claims, 54 features]{.role-line}
 
-[More Work]{.section-label}
-
-### Additional Projects
-
-::: {.card-grid}
-
-::: {.project-card}
-::: {.card-icon .purple}
-<i class="bi bi-mortarboard"></i>
-:::
-
-### Mapping California Education Disparities
-
-Performed spatial analysis on the correlation between socioeconomic status and educational outcomes across California school districts. Developed a series of bivariate choropleth maps and conducted Hot Spot Analysis (Getis-Ord Gi*) to identify statistically significant clusters of underperformance and resource gaps.
+Built and benchmarked regression models (Lasso, Random Forest, XGBoost) on ~500K cleaned FEMA claims to predict flood-insurance payout amounts, with XGBoost achieving **R² = 0.956** and an 80% RMSE reduction over baseline. Applied SHAP values and Partial Dependence Plots to translate model outputs into interpretable risk drivers, supporting insurance-pricing and disaster-risk-management use cases.
 
 ::: {.tag-row}
-[ArcGIS Pro]{.tag} [Spatial Statistics]{.tag} [Data Visualization]{.tag} [Public Policy]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
+[Python]{.tag} [XGBoost]{.tag} [Random Forest]{.tag} [Lasso]{.tag} [SHAP]{.tag} [PDP]{.tag}
 :::
 :::
 
-::: {.project-card}
-::: {.card-icon .teal}
-<i class="bi bi-shop"></i>
-:::
-
-### Geospatial Market Accessibility Modeling
-
-Developed a gravity-based accessibility model to evaluate the relationship between transportation infrastructure and commercial growth in urban areas. Used network analysis to calculate travel-time cost surfaces, enabling data-driven site selection recommendations for retail expansion.
-
-::: {.tag-row}
-[GIS]{.tag} [Network Analysis]{.tag} [Market Research]{.tag} [Urban Planning]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-file-earmark-slides"></i> Slides](https://example.com){target="_blank"}
-:::
-:::
-
-::: {.project-card}
-::: {.card-icon .red}
-<i class="bi bi-shield-check"></i>
-:::
-
-### Data Driven Crime Analysis for New York City
-
-Collected and integrated data from three sources, consolidating a dataset of over 100,000 rows for comprehensive analysis. Performed data cleaning, feature engineering, and exploratory analysis using Python, uncovering key correlations between crime patterns and external factors. Built regression models with an $R^{2}$ of 0.85, enabling accurate crime trend forecasts. Designed and presented interactive dashboards in Tableau, visualizing high-risk areas.
-
-::: {.tag-row}
-[Python]{.tag} [Tableau]{.tag} [Regression Models]{.tag} [EDA]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-box-arrow-up-right"></i> Demo](https://example.com){target="_blank"}
-:::
-:::
-
-::: {.project-card}
-::: {.card-icon .blue}
-<i class="bi bi-factory"></i>
-:::
-
-### Manufacturing Industry PMI Data Analysis
-
-Conducted a comprehensive analysis of China's Manufacturing PMI data, focusing on relationships among raw material inventory, production, and employment indicators. Performed exploratory data analysis (EDA) to build a heat map to show and identify correlations between production levels, inventory turnover rates, and employment metrics. Utilized machine learning models for IC prediction, providing data support for future manufacturing decisions.
-
-::: {.tag-row}
-[Python]{.tag} [Machine Learning]{.tag} [Pandas]{.tag} [Matplotlib]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-book"></i> Docs](https://example.com){target="_blank"}
-:::
-:::
-
-::: {.project-card}
-::: {.card-icon .orange}
-<i class="bi bi-fire"></i>
-:::
-
-### Wildfire Risk Mapping
-
-Conducted research on the distribution and influencing factors of high-frequency wildfire zones in Washington State and designed buffer zone models. Utilized ArcGIS to create spatial models and analyze spatial correlations between wildfire zones and surrounding environments. Used JavaScript to develop a web-based geographic dashboard, achieving multi-layered dynamic data interaction and optimizing the user experience.
-
-::: {.tag-row}
-[ArcGIS]{.tag} [JavaScript]{.tag} [Spatial Modeling]{.tag} [Data Analysis]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-:::
-:::
-
-::: {.project-card}
-::: {.card-icon .purple}
-<i class="bi bi-gpu-card"></i>
-:::
-
-### LLM Serving System Scheduling Simulation
-
-Developed a discrete-event simulation tool to model large language model (LLM) inference systems, specifically capturing prompt processing (prefill) and token generation (decode) constraints on a single GPU. Evaluated complete-to-end and prefill-first scheduling strategies under varying user demand to measure throughput, time-to-first-token (TTFT), and time-between-tokens (TBT). Identified capacity-driven phase transitions and latency trade-offs to guide system design.
-
-::: {.tag-row}
-[Simulation]{.tag} [System Design]{.tag} [LLM]{.tag} [Performance Analysis]{.tag}
-:::
-
-::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-:::
-:::
-
-::: {.project-card}
+<!-- 4. NYC Air Quality -->
+::: {.project-card .reveal data-track="data ai"}
+::: {.card-top}
 ::: {.card-icon .teal}
 <i class="bi bi-wind"></i>
+:::
+::: {.track-badges}
+[Data]{.track-badge .data} [AI]{.track-badge .ai}
+:::
 :::
 
 ### NYC Air Quality Analysis
 
-Created an interactive Shiny dashboard to analyze New York City air quality trends (PM2.5, NO2, O3) and their correlation with socioeconomic indicators and public health outcomes like asthma emergency visits. Integrated multi-source datasets and designed interactive maps with sf-polygons and dynamic reference lines to highlight environmental disparities and assist policymakers and researchers.
+[Interactive Data Dashboard · R · Shiny · Posit Cloud]{.role-line}
+
+Built an interactive Shiny dashboard analyzing a decade of NYC air quality — integrating the NYC DOHMH dataset (~18.9K records) with four socioeconomic datasets to examine temporal trends, spatial disparities, and pollution–socioeconomic relationships. Performed heavy cleaning in R (normalized names, engineered indicator categories, parsed messy time-period strings into start/end dates) and shipped a 5-tab app with interactive `sf`-polygon maps, NAAQS reference lines, and a custom-themed UI.
 
 ::: {.tag-row}
-[R]{.tag} [Shiny]{.tag} [Data Visualization]{.tag} [Spatial Analysis]{.tag}
+[R]{.tag} [Shiny]{.tag} [tidyverse]{.tag} [sf]{.tag} [Spatial Analysis]{.tag}
 :::
 
 ::: {.card-links}
 [<i class="bi bi-github"></i> Code](https://github.com/hy86652/NYC-Air-Quality-Analysis){target="_blank"}
-[<i class="bi bi-book"></i> Docs](https://019ab6aa-10ac-ce1f-12dc-2205acb314fd.share.connect.posit.cloud/){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://019ab6aa-10ac-ce1f-12dc-2205acb314fd.share.connect.posit.cloud/){target="_blank"}
 :::
 :::
 
-::: {.project-card}
-::: {.card-icon .green}
-<i class="bi bi-water"></i>
+<!-- 5. Climate Change Data Story -->
+::: {.project-card .reveal .d1 data-track="data ai"}
+::: {.card-top}
+::: {.card-icon .orange}
+<i class="bi bi-thermometer-sun"></i>
+:::
+::: {.track-badges}
+[Data]{.track-badge .data} [AI]{.track-badge .ai}
+:::
 :::
 
-### Predicting National Flood Insurance Program Claims
+### Who Is Responsible for Climate Change?
 
-Developed regression-based models using FEMA's National Flood Insurance Program dataset (500,000+ records) to predict and explain flood insurance claim amounts. Applied XGBoost, Random Forest, and Lasso regression, with XGBoost achieving the best performance ($R^2 = 0.956$). Utilized SHAP values and Partial Dependence Plots to translate model findings into interpretable insights for disaster risk management and insurance pricing strategies.
+[A Four-Lens Data Story · R · Quarto · Closeread]{.role-line}
+
+A data-storytelling piece examining climate responsibility through four empirically valid but conflicting metrics — total annual, per-capita, cumulative historical, and consumption-based emissions — across seven major emitters, showing how the same data yields four different verdicts depending on the fairness standard applied. Cleaned and reshaped the Our World in Data country-year panel (records back to 1750) and delivered it as a Closeread scrollytelling narrative with a sticky visualization panel and editorial typography.
 
 ::: {.tag-row}
-[XGBoost]{.tag} [Machine Learning]{.tag} [Data Modeling]{.tag} [SHAP]{.tag}
+[R]{.tag} [Quarto]{.tag} [Closeread]{.tag} [Data Storytelling]{.tag} [OWID]{.tag}
+:::
+:::
+
+<!-- 6. LLM Serving Simulation -->
+::: {.project-card .reveal .d2 data-track="ai data"}
+::: {.card-top}
+::: {.card-icon .purple}
+<i class="bi bi-gpu-card"></i>
+:::
+::: {.track-badges}
+[AI / FDE]{.track-badge .ai} [Data]{.track-badge .data}
+:::
+:::
+
+### LLM Serving System — Scheduling Simulation
+
+[Discrete-Event Simulation · Python · Matplotlib]{.role-line}
+
+Built a discrete-event simulation of a single-GPU LLM-serving system modeling both phases of autoregressive inference — prefill and decode — with Poisson arrivals and batching constraints, to study how scheduling policy affects throughput and latency. Compared Complete-to-End vs. Prefill-first schedulers on throughput, TTFT, TBT, and total latency; validated with an M/M/1 reduction against closed-form queueing formulas. Identified a capacity-driven phase transition where decode is the fundamental bottleneck.
+
+::: {.tag-row}
+[Python]{.tag} [Discrete-Event Sim]{.tag} [Queueing Theory]{.tag} [Performance Analysis]{.tag}
+:::
+:::
+
+<!-- 7. AI Job Search Assistant -->
+::: {.project-card .reveal data-track="ai data"}
+::: {.card-top}
+::: {.card-icon .blue}
+<i class="bi bi-briefcase"></i>
+:::
+::: {.track-badges}
+[AI / FDE]{.track-badge .ai} [Data]{.track-badge .data}
+:::
+:::
+
+### AI Job Search Assistant
+
+[Cornell INFO 5125 · Team of 7 · Project Planning & Documentation]{.role-line}
+
+A 7-person team built an AI-powered job-search platform for international students, integrating a visa-transparency dashboard (automated bi-weekly updates + conflict detection), semantic resume-to-job matching (FAISS + BERT), and a RAG-based Q&A assistant (ChromaDB) — a Streamlit prototype reaching ~85% matching accuracy. I owned core project-management deliverables: the team contract, the Work Breakdown Structure and Gantt chart coordinating the multi-track team, risk assessment, weekly tracking, and the final report.
+
+::: {.tag-row}
+[Streamlit]{.tag} [FAISS]{.tag} [BERT]{.tag} [ChromaDB]{.tag} [RAG]{.tag} [Project Management]{.tag}
+:::
+:::
+
+<!-- 8. RoomExchange -->
+::: {.project-card .reveal .d1 data-track="ai"}
+::: {.card-top}
+::: {.card-icon .orange}
+<i class="bi bi-house-door"></i>
+:::
+::: {.track-badges}
+[AI / FDE]{.track-badge .ai}
+:::
+:::
+
+### RoomExchange — University Housing Platform
+
+[Full-Stack · React · Leaflet + Mapbox APIs · 🏆 2nd Place, UC Davis Big Bang!]{.role-line}
+
+Architected a full-stack housing-swap platform enabling students to list and locate properties, addressing campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization — earning 2nd Place at the UC Davis Big Bang! Business Competition.
+
+::: {.tag-row}
+[React]{.tag} [Leaflet API]{.tag} [Mapbox API]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
 :::
 
 ::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com){target="_blank"}
-[<i class="bi bi-file-earmark-pdf"></i> Write-up](https://example.com){target="_blank"}
+[<i class="bi bi-github"></i> Code](https://github.com/hy86652/RoomExchange){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://roomexchange.netlify.app/){target="_blank"}
+:::
+:::
+
+<!-- 9. Algo Trading (Personal) -->
+::: {.project-card .reveal .d2 data-track="quant ai"}
+::: {.card-top}
+::: {.card-icon .blue}
+<i class="bi bi-currency-exchange"></i>
+:::
+::: {.track-badges}
+[Quant]{.track-badge .quant} [AI]{.track-badge .ai}
+:::
+:::
+
+### Personal Algorithmic Trading System
+
+[Personal Project · Python · Built with Claude Code]{.role-line}
+
+Built a personal algorithmic trading system, using Claude Code to rapidly prototype and iterate on quantitative strategy logic — analyzing market data, identifying signal patterns, and stress-testing model assumptions. Continuously validated AI-generated code against real market behavior, overriding model output where financial-data edge cases required human judgment before committing any logic.
+
+::: {.tag-row}
+[Python]{.tag} [Algorithmic Trading]{.tag} [Signal Research]{.tag} [Claude Code]{.tag}
 :::
 :::
 
 :::
-:::
-:::
 
+:::
+:::
 
 <!-- ========== CTA ========== -->
-::: {.section .text-center}
-::: {.section-narrow}
+::: {.section .bg-alt .text-center}
+::: {.section-narrow .reveal}
+
+[Let's Talk]{.section-label}
 
 ## Interested in Collaborating? {.section-heading}
 
-I'm always open to discussing new projects, research collaborations, or job opportunities.
+I'm always open to discussing new projects, research collaborations, or roles across quant finance, AI/ML, and data.
 
 ::: {.hero-cta}
 [<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}

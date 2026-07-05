@@ -4,18 +4,17 @@ toc: false
 page-layout: custom
 ---
 
-::: {.section style="padding-top: 6rem;"}
+::: {.section .bg-white style="padding-top: 8rem;"}
 ::: {.section-narrow}
 
-::: {.text-center}
+::: {.text-center .reveal}
 [Resume]{.section-label}
 
-## Simon Yan {.section-heading}
+<h2 class="section-heading">Han (Simon) Yan</h2>
 
-Data Scientist, Quantitative Analyst & Full-Stack Software Engineer
+Data Scientist · Quantitative Analyst · AI/ML Engineer
 
-
-<div style="display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;font-size:0.88rem;color:var(--color-text-muted);margin-bottom:2rem;">
+<div style="display:flex;justify-content:center;gap:1.4rem;flex-wrap:wrap;font-size:0.88rem;color:var(--text-muted);margin:1.4rem 0 2rem;">
 <span><i class="bi bi-geo-alt"></i> Ithaca, NY</span>
 <span><i class="bi bi-envelope"></i> hyan86652@gmail.com</span>
 <span><i class="bi bi-phone"></i> (206) 519-9388</span>
@@ -25,102 +24,36 @@ Data Scientist, Quantitative Analyst & Full-Stack Software Engineer
 <a href="Simon_Yan_Resume.pdf" class="btn-primary-custom" style="margin-bottom:3rem;" download><i class="bi bi-download"></i> Download PDF</a>
 :::
 
-<hr class="section-divider">
-
-[Summary]{.section-label}
-
-Quantitative analyst and full-stack engineer with 2 years of hands-on experience in quantitative finance and data systems. Proven expertise in multi-factor trading signal optimization, financial data engineering, and production-grade systems development. Currently pursuing Master's in Data Science at Cornell University (graduating May 2026) with focus on machine learning and quantitative methods.
-
-<br>
-
-[Experience]{.section-label}
-
-::: {.timeline}
-
-::: {.timeline-item}
-[Sept 2025 — Dec 2025]{.period}
-
-### Quantitative Analyst Lead {.mb-0}
-[The Riverside Company · Capstone]{.org}
-
-::: {.desc}
-• Led quantitative analysis team of 7 analysts to evaluate accuracy of private equity underwriting models  
-• Independently designed core analysis framework, quantifying correlation between initial financial projections (EBITDA/Sales) and final investment success/failure  
-• Translated complex quantitative metrics into actionable insights for non-technical stakeholders, bridging technical and business strategy  
-• Developed MVP dashboard and technical documentation ensuring reproducibility and scalability for client decision-making
-:::
-:::
-
-::: {.timeline-item}
-[June 2024 — Aug 2024]{.period}
-
-### Quantitative Investment Researcher {.mb-0}
-[Central China Securities · Shanghai, China · Intern]{.org}
-
-::: {.desc}
-• Optimized 10+ multi-factor alpha signals (Momentum, Volatility, Mean Reversion) by incorporating market regime classification to enhance signal stability and reduce drawdown by 20% during volatile periods  
-• Engineered modular backtesting framework in Python, enabling automated simulation of 20+ equity strategies to support hypothesis validation and parameter tuning  
-• Architected automated ETL pipeline using Pandas to process 100K+ daily market data entries, implementing rigorous cleaning logic (outlier detection, missing value handling) to standardize data for factor tracking  
-• Synthesized quantitative performance metrics into tactical investment briefs providing data-driven recommendations that informed Investment Committee asset allocation decisions for $100M+ portfolio
-:::
-:::
-
-::: {.timeline-item}
-[Jan 2025 — June 2025]{.period}
-
-### Founder & Lead Developer {.mb-0}
-[RoomExchange (University Housing Platform) · Remote]{.org}
-
-::: {.desc}
-• Architected full-stack application enabling students to list, search, and exchange university housing across campus  
-• Engineered modular frontend architecture (React) ensuring scalability across listing management and search workflows  
-• Integrated Leaflet and Mapbox APIs to build interactive geolocation system allowing users to visualize property proximity to campus landmarks dynamically  
-• Awarded 2nd Place in UC Davis Big Bang! Business Competition, validating platform's technical feasibility and market viability among peer startups
-:::
-:::
-
-::: {.timeline-item}
-[June 2023 — Aug 2023]{.period}
-
-### Financial Product Researcher {.mb-0}
-[Central China Securities · Zhengzhou, China · Intern]{.org}
-
-::: {.desc}
-• Spearheaded comprehensive sector research across Semiconductor and Autonomous Driving industries, producing 3 deep-dive investment memos that directly informed firm's product development roadmap  
-• Evaluated performance of 4 target funds by benchmarking against market indices and analyzing key risk metrics (Beta, Alpha, Standard Deviation), resulting in selection of 2 funds for FOF (Fund of Funds) portfolio  
-• Conducted rigorous due diligence on 12+ potential investments, classifying operational and liquidity risks to refine firm's investment evaluation scope and distribution strategies
-:::
-:::
-
-:::
-
-<br>
-
+<!-- EDUCATION -->
+::: {.reveal}
 [Education]{.section-label}
+:::
 
 ::: {.timeline}
 
-::: {.timeline-item}
+::: {.timeline-item .reveal}
 [Expected May 2026]{.period}
 
-### M.P.S. Information Science {.mb-0}
-[Cornell University · Ithaca, NY | Data Science Concentration]{.org}
+### M.P.S. in Information Science {.mb-0}
+[Cornell University · Ithaca, NY · Concentration: Data Science]{.org}
 
 ::: {.desc}
-Relevant Coursework: Machine Learning, Monte Carlo Simulation, Markov Chains, Stochastic Processes
+Cumulative GPA: 3.45/4.0
+
+Coursework: Applied Machine Learning · Simulation Modeling & Analysis · Data Communication · Info Computing
 :::
 :::
 
-::: {.timeline-item}
+::: {.timeline-item .reveal}
 [Graduated June 2025]{.period}
 
-### B.A. Geography: Data Science {.mb-0}
-[University of Washington · Seattle, WA | GPA: 3.55/4.0, Major GPA: 3.89/4.0]{.org}
+### B.A. in Geography: Data Science {.mb-0}
+[University of Washington · Seattle, WA]{.org}
 
 ::: {.desc}
-Annual Dean's List (2023-2024, 2024-2025)
+Cumulative GPA: 3.55/4.0 · Major GPA: **3.89/4.0** · Annual Dean's List (2023–2024, 2024–2025)
 
-Relevant Coursework: Data Structures & Algorithms, Linear Algebra, Multivariable Calculus, Probability & Statistics, Machine Learning (CSE 416), GIS and Geospatial Analysis
+Coursework: Data Science · Machine Learning · GIS Database Programming · Elements of Statistical Methods
 :::
 :::
 
@@ -128,53 +61,130 @@ Relevant Coursework: Data Structures & Algorithms, Linear Algebra, Multivariable
 
 <br>
 
-[Technical Skills]{.section-label}
+<!-- EXPERIENCE -->
+::: {.reveal}
+[Work Experience]{.section-label}
+:::
+
+::: {.timeline}
+
+::: {.timeline-item .reveal}
+[June 2024 — Aug 2024]{.period}
+
+### Quantitative Investment Researcher Intern {.mb-0}
+[Central China Securities Co., Ltd. (HKEX: 1375) · Shanghai, China · Data Analytics & Reporting]{.org}
+
+::: {.desc}
+- Optimized 10+ multi-factor alpha signal strategies (e.g., Momentum, Volatility) by incorporating market-regime classification to enhance signal stability and reduce drawdown during volatile periods.
+- Engineered a modular backtesting framework in Python, enabling the automated simulation of 20+ equity strategies to support the team's hypothesis validation and parameter tuning.
+- Built an automated ETL pipeline (Python/Pandas) processing 100K+ daily records, implementing data validation and outlier-handling logic to ensure consistent, analysis-ready data for downstream reporting.
+- Translated complex performance metrics into clear, actionable briefs for non-technical stakeholders, directly informing committee-level resource-allocation decisions.
+
+:::
+:::
+
+::: {.timeline-item .reveal}
+[June 2023 — Aug 2023]{.period}
+
+### Financial Product Researcher Intern {.mb-0}
+[Central China Securities Co., Ltd. (HKEX: 1375) · Market & Business Analysis]{.org}
+
+::: {.desc}
+- Spearheaded comprehensive sector research across the Semiconductor and Autonomous Driving industries, producing 3 deep-dive investment memos that directly informed the team's product-development roadmap.
+- Assessed historical performance and risk-adjusted return profiles of 4 candidate funds against benchmark indices, informing selection of 2 funds for the firm's FOF allocation.
+
+:::
+:::
+
+:::
+
+<br>
+
+<!-- PROJECTS -->
+::: {.reveal}
+[Projects]{.section-label}
+:::
+
+::: {.timeline}
+
+::: {.timeline-item .reveal}
+[Sept 2025 — Dec 2025]{.period}
+
+### Private Equity Forecast Analysis — Quantitative Analyst Lead {.mb-0}
+[The Riverside Company]{.org}
+
+::: {.desc}
+- Led a team on a four-part investment-performance study for a private-equity client, evaluating projection accuracy, holding-period dynamics, and early-warning signals across the firm's portfolio.
+- Modeled investment outcomes via logistic regression, identifying a ~54% early-miss threshold beyond which negative-IRR probability surpasses 50%, and an optimal 2–4 year asset holding period.
+- Realigned project strategy based on client feedback, translating complex statistical methodologies into outcome-first reporting to drive non-technical stakeholder decision-making.
+- Delivered an MVP dashboard and technical documentation to ensure reproducible underwriting workflows.
+
+:::
+:::
+
+::: {.timeline-item .reveal}
+[Oct 2025 — Dec 2025]{.period}
+
+### Wikipedia RAG — ChatBot {.mb-0}
+[Cornell Course Project]{.org}
+
+::: {.desc}
+- Led a 3-member team to architect and deploy an interactive RAG web chatting application (R, Shiny), delivering an end-to-end verifiable knowledge-retrieval workflow to mitigate LLM hallucinations.
+- Engineered an automated query pipeline integrating OpenAI and MediaWiki APIs, utilizing a source-grounded prompt design to systematically reduce LLM hallucinations.
+- Developed a scalable, reactive UI featuring session history and exportable citations, prioritizing transparent source tracking and ease of use for non-technical users.
+
+:::
+:::
+
+::: {.timeline-item .reveal}
+[Aug 2025 — Oct 2025]{.period}
+
+### Predicting National Flood Insurance Program Claims {.mb-0}
+[Cornell Course Project]{.org}
+
+::: {.desc}
+- Built and benchmarked predictive regression models (XGBoost, Random Forest, Lasso) in R on a 500K+ FEMA claims dataset to forecast flood payouts, achieving an R² of 0.956 and reducing baseline RMSE by 80%.
+- Used SHAP and Partial Dependence Plots to identify and communicate key risk drivers in plain-language terms, providing actionable insights for insurance pricing and underwriting decisions.
+
+:::
+:::
+
+:::
+
+<br>
+
+<!-- ADDITIONAL INFORMATION -->
+::: {.reveal}
+[Additional Information]{.section-label}
+:::
 
 ::: {.skills-grid}
 
-::: {.skill-category}
-#### Programming Languages & Frameworks
+::: {.skill-category .reveal}
+<h4><i class="bi bi-code-slash"></i> Languages</h4>
+
 ::: {.skill-tags}
-[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [Java]{.skill-tag} [Pandas]{.skill-tag} [NumPy]{.skill-tag} [Scikit-learn]{.skill-tag}
+[Python]{.skill-tag} [R]{.skill-tag} [Java]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [HTML/CSS]{.skill-tag} [Shell Script]{.skill-tag}
 :::
 :::
 
-::: {.skill-category}
-#### Quantitative Finance & Data
+::: {.skill-category .reveal .d1}
+<h4><i class="bi bi-boxes"></i> Libraries & Tools</h4>
+
 ::: {.skill-tags}
-[Multi-Factor Models]{.skill-tag} [Strategy Backtesting]{.skill-tag} [Risk Metrics (Beta, Alpha)]{.skill-tag} [Market Microstructure]{.skill-tag} [ETL Pipelines]{.skill-tag} [SQL]{.skill-tag}
+[Pandas]{.skill-tag} [NumPy]{.skill-tag} [Scikit-learn]{.skill-tag} [Shiny]{.skill-tag} [Matplotlib]{.skill-tag} [Seaborn]{.skill-tag} [Git]{.skill-tag} [Tableau]{.skill-tag} [Docker]{.skill-tag} [A/B Test]{.skill-tag}
 :::
 :::
 
-::: {.skill-category}
-#### Engineering & Deployment
+::: {.skill-category .reveal .d2}
+<h4><i class="bi bi-clipboard-data"></i> Methods & Tools</h4>
+
 ::: {.skill-tags}
-[Full-Stack Development]{.skill-tag} [React]{.skill-tag} [Docker]{.skill-tag} [Git]{.skill-tag} [REST APIs]{.skill-tag} [Database Design]{.skill-tag}
-:::
-:::
-
-::: {.skill-category}
-#### Data Visualization & Analysis
-::: {.skill-tags}
-[Tableau]{.skill-tag} [Matplotlib]{.skill-tag} [Seaborn]{.skill-tag} [GIS Tools]{.skill-tag} [Mapbox API]{.skill-tag}
+[Excel (Pivot Tables, VLOOKUP)]{.skill-tag} [PowerPoint]{.skill-tag} [Regression Modeling]{.skill-tag} [Data Visualization]{.skill-tag}
 :::
 :::
 
 :::
-
-<br>
-
-[Awards & Recognition]{.section-label}
-
-<div style="font-size:0.92rem;color:var(--color-text-muted);line-height:1.8;">
-
-**UC Davis Big Bang! Business Competition** — 2nd Place, RoomExchange (2025)
-
-**Annual Dean's List** — University of Washington, 2023-2024 and 2024-2025
-
-**Major GPA: 3.89/4.0** — University of Washington Geography: Data Science (2025)
-
-</div>
 
 :::
 :::

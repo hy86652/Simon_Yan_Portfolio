@@ -16,20 +16,24 @@ page-layout: custom
 
 # Simon Yan
 
-[Data Scientist, Quantitative Analyst & Full-Stack Engineer]{.subtitle}
+[Data Scientist · Quantitative Analyst · AI/ML Engineer]{.subtitle}
 
 ::: {.bio}
-I'm a **data scientist** and **quantitative analyst** with 2 periods of hands-on experience in quantitative finance and data systems. My work bridges rigorous statistical analysis with scalable engineering—from designing multi-factor trading models to building production-grade data pipelines.
+I'm a **data scientist** and **quantitative analyst** finishing my Master's in **Information Science (Data Science)** at **Cornell University**. My work sits at the intersection of three tracks: **quantitative finance**, **AI/ML & forward-deployed engineering**, and **data analytics & engineering** — turning messy market and real-world data into signals, models, and decisions.
 
-I hold a Master's degree in **Information Science** (Data Science concentration) from **Cornell University**, with expertise in machine learning, statistical modeling, and financial data analysis. My background spans quantitative investment research at Central China Securities and full-stack development of consumer applications.
+Across two quantitative-finance internships at **Central China Securities** (HKEX: 1375), I optimized multi-factor alpha signals, built backtesting frameworks, and engineered ETL pipelines processing 100K+ daily records. More recently I **led a 7-person team** on a private-equity forecasting study, and I build hands-on AI systems — from RAG applications to a personal algorithmic trading system prototyped with Claude Code.
 
-Beyond the terminal, I'm passionate about film photography, playing bass guitar, and exploring the intersection of data science and market microstructure. I'm currently exploring opportunities in **data science**, quantitative finance and fintech where I can drive real business impact.
+Beyond the terminal, I'm into **film photography**, **playing bass guitar**, and the intersection of data science and **market microstructure**. I'm currently seeking 2026 opportunities where rigorous analysis meets real business impact.
+:::
+
+::: {.hero-cta style="margin-top:2rem;"}
+[<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
+[<i class="bi bi-grid-1x2"></i> See Projects](projects.qmd){.btn-outline-custom}
 :::
 
 :::
 :::
 :::
-
 
 <!-- ========== EXPERIENCE ========== -->
 ::: {.section .bg-white}
@@ -39,119 +43,138 @@ Beyond the terminal, I'm passionate about film photography, playing bass guitar,
 
 ## Professional Experience {.section-heading}
 
-<hr class="section-divider">
-
 ::: {.timeline}
 
-::: {.timeline-item}
-[2024/6 — 2024/8]{.period}
+::: {.timeline-item .reveal}
+[Sept 2025 — Dec 2025]{.period}
 
-### Quantitative Investment Research Intern {.mb-0}
-[Central China Securities · Shanghai, China]{.org}
-
-::: {.desc}
-Optimized 10+ multi-factor alpha signals using market regime classification to enhance stability. Engineered a modular Python backtesting framework for 20+ equity strategies and architected an automated ETL pipeline processing 100K+ daily entries to support data-driven asset allocation decisions.
-:::
-:::
-
-::: {.timeline-item}
-[2020 — 2022]{.period}
-
-### Financial Product Researcher Intern {.mb-0}
-[Central China Securities · Zhengzhou, China]{.org}
+### Quantitative Analyst Lead {.mb-0}
+[The Riverside Company · Capstone Engagement]{.org}
 
 ::: {.desc}
-Spearheaded sector research for Semiconductor and Autonomous Driving industries, producing investment memos that guided product roadmaps. Evaluated fund performance through risk metric benchmarking (Alpha, Beta, Std Dev), resulting in the selection of 2 target funds for the firm’s FOF portfolio.:::
+- Led a **team of 7** in a multi-question analysis of Riverside's portfolio, combining statistical testing (chi-square, logistic regression) and time-series regression on IRR / GCoC to evaluate projection accuracy and flag early outperformance / underperformance signals.
+- Quantified the relationship between projection accuracy (EBITDA/Sales) and exit success — finding **no statistically significant relationship**, a counterintuitive result that reframed the client's underwriting assumptions.
+- Realigned the analytical approach mid-project on client feedback, and delivered a final MVP dashboard plus technical documentation for reproducible internal handoff.
+
+:::
+:::
+
+::: {.timeline-item .reveal}
+[June 2024 — Aug 2024]{.period}
+
+### Quantitative Investment Researcher {.mb-0}
+[Central China Securities (HKEX: 1375) · Shanghai, China · Intern]{.org}
+
+::: {.desc}
+- Optimized **10+ multi-factor alpha signals** (e.g., Momentum, Volatility) by incorporating market-regime classification to enhance signal stability and reduce drawdown during volatile periods.
+- Developed a Python backtesting system enabling automated simulation of **20+ equity strategies** to support hypothesis validation and parameter tuning.
+- Architected an automated ETL pipeline in Pandas to process **100K+ daily entries** with rigorous cleaning logic, and synthesized performance metrics into tactical briefs supporting Investment Committee asset-allocation decisions.
+
+:::
+:::
+
+::: {.timeline-item .reveal}
+[June 2023 — Aug 2023]{.period}
+
+### Financial Product Researcher {.mb-0}
+[Central China Securities (HKEX: 1375) · Intern]{.org}
+
+::: {.desc}
+- Spearheaded sector research across the Semiconductor and Autonomous Driving industries, producing **3 deep-dive investment memos** that informed the product-development roadmap.
+- Assessed risk-adjusted return profiles of 4 candidate funds against benchmarks, informing selection of **2 funds** for the firm's Fund-of-Funds allocation.
+- Conducted due diligence on **12+ potential investments**, classifying operational and liquidity risks (Beta, Alpha, Standard Deviation) to refine the firm's evaluation scope.
+
+:::
 :::
 
 :::
 
+:::
+:::
 
 <!-- ========== EDUCATION ========== -->
-::: {.section}
+::: {.section .bg-alt}
 ::: {.section-narrow}
 
 [Education]{.section-label}
 
 ## Academic Background {.section-heading}
 
-<hr class="section-divider">
-
 ::: {.timeline}
 
-::: {.timeline-item}
-[2025 — Present]{.period}
+::: {.timeline-item .reveal}
+[Expected May 2026]{.period}
 
-### M.P.S Information Science {.mb-0}
-[Cornell University · Ithaca, New York]{.org}
+### M.P.S. Information Science {.mb-0}
+[Cornell University · Ithaca, NY · Data Science Concentration]{.org}
 
 ::: {.desc}
-Concentration: Data Science. Focuses on computational approaches to real-world problems in quantitative finance, with emphasis on factor modeling and stochastic simulation. Key coursework includes Machine Learning, Monte Carlo Simulation, and Markov Chains & Stochastic Processes.
+Cumulative GPA: 3.45/4.0. Relevant coursework: Applied Machine Learning · Simulation Modeling & Analysis · Data Communication · Info Computing.
 :::
 :::
 
-::: {.timeline-item}
-[2021 - 2025]{.period}
+::: {.timeline-item .reveal}
+[Graduated June 2025]{.period}
 
 ### B.A. Geography: Data Science {.mb-0}
-[University of Washington · Seattle, Washington]{.org}
+[University of Washington · Seattle, WA]{.org}
 
 ::: {.desc}
-Cumulative GPA: 3.55/4.0 | Major GPA: 3.89/4.0. Recipient of the Annual Dean’s List honors (2023-2025). Built a strong mathematical and technical foundation through coursework in Advanced Linear Algebra, Real Analysis, Data Structures & Algorithms, and Machine Learning. Specialized in applying quantitative methods to geospatial and statistical analysis.
+Cumulative GPA: 3.55/4.0 · Major GPA: **3.89/4.0** · Annual Dean's List (2023–2024, 2024–2025). Relevant coursework: Data Science · Machine Learning · GIS Database Programming · Elements of Statistical Methods.
 :::
 :::
 
 :::
 
+:::
+:::
 
-
-<!-- ========== CERTIFICATIONS ========== -->
+<!-- ========== AWARDS ========== -->
 ::: {.section .bg-white}
 ::: {.section-narrow}
 
-[Credentials]{.section-label}
+[Recognition]{.section-label}
 
-## Certifications & Awards {.section-heading}
-
-<hr class="section-divider">
+## Awards & Honors {.section-heading}
 
 ::: {.card-grid}
 
-::: {.project-card}
-::: {.card-icon .green}
+::: {.project-card .reveal}
+::: {.card-icon .orange}
 <i class="bi bi-trophy"></i>
 :::
 
-### Coursera Certificate
+### 2nd Place — UC Davis Big Bang!
 
-Professional Certificates in Python & SQL· 2022
+Business Competition · 2025
 
-Earned specialized certifications in Python for Data Science, AI & Development and Introduction to Structured Query Language (SQL), focusing on technical implementation and database management for data-driven applications.
+Awarded 2nd Place for **RoomExchange**, a full-stack university housing-swap platform — recognized among peer startups for technical feasibility and market viability.
 :::
 
-::: {.project-card}
-::: {.card-icon .purple}
-<i class="bi bi-patch-check"></i>
+::: {.project-card .reveal .d1}
+::: {.card-icon .blue}
+<i class="bi bi-award"></i>
 :::
 
-### BCG Data Science Job Simulation
+### Annual Dean's List
 
-BCG · 2024
+University of Washington · 2023–2025
 
-Completed a simulation of the full data science lifecycle, encompassing hypothesis framing, exploratory data analysis, feature engineering, and the translation of technical modeling results into actionable business recommendations.
+Named to the Dean's List in consecutive years while maintaining a **3.89/4.0 major GPA** in Geography: Data Science.
 :::
 
 :::
 
+:::
+:::
 
-
-<!-- ========== PERSONAL ========== -->
-::: {.section .text-center}
+<!-- ========== BEYOND WORK ========== -->
+::: {.section .bg-alt .text-center}
 ::: {.section-narrow}
 
 ## Beyond Work {.section-heading}
 
-I believe great data science is driven by curiosity. Outside of work, I'm an avid reader of science fiction, a weekend trail runner, and a contributor to open-source ML tools. I also volunteer as a mentor for aspiring data scientists through community organizations.
+Great analysis is driven by curiosity. Away from the terminal, I shoot **film photography**, play **bass guitar**, and follow the mechanics of **market microstructure** — the same attention to pattern and detail I bring to data.
 
 ::: {.hero-cta}
 [<i class="bi bi-download"></i> Download Resume](resume.qmd){.btn-primary-custom}

@@ -1,5 +1,5 @@
 ---
-pagetitle: "Simon Yan — Data Scientist, Quantitative Analyst & Full-Stack Engineer"
+pagetitle: "Simon Yan — Data Scientist, Quantitative Analyst & AI/ML Engineer"
 toc: false
 page-layout: custom
 ---
@@ -8,46 +8,49 @@ page-layout: custom
 ::: {.hero-section}
 ::: {.hero-inner}
 
-[Open to Opportunities]{.hero-label}
+[Open to 2026 Opportunities]{.hero-label}
 
 # [Simon Yan]{.hero-name}
 
-[Building data systems and investment strategies that turn market complexity into competitive advantage.]{.hero-title}
+[Turning market complexity into **quantitative signals**, **AI systems**, and **decisions people can act on** — across quant finance, machine learning, and data engineering.]{.hero-title}
 
 :::: {.hero-credentials}
 ::: {.credential-item}
 [<i class="bi bi-mortarboard-fill"></i> M.P.S. Information Science · **Cornell University**]{.credential-text}
 :::
 ::: {.credential-item}
-[<i class="bi bi-mortarboard"></i> B.A. Geography Data Science · **University of Washington**]{.credential-text}
+[<i class="bi bi-mortarboard"></i> B.A. Geography: Data Science · **University of Washington**]{.credential-text}
 :::
 ::::
 
 ::: {.hero-cta}
-[<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-primary-custom}
-[<i class="bi bi-grid"></i> See My Work](projects.qmd){.btn-outline-custom}
+[<i class="bi bi-grid-1x2"></i> Explore My Work](projects.qmd){.btn-primary-custom}
+[<i class="bi bi-file-earmark-text"></i> View Resume](resume.qmd){.btn-outline-custom}
 :::
 
 :::
+
+[<i class="bi bi-chevron-down"></i>](#stats){.hero-scroll aria-label="Scroll down"}
+
 :::
 
 <!-- ========== STATS ========== -->
-::: {.stats-strip}
+::: {#stats .stats-strip}
 ::: {.stats-grid}
 
 ::: {.stat-item}
 ### 2
-Internships in Quantitative Finance
+Quant-Finance Internships
 :::
 
 ::: {.stat-item}
 ### 10+
-Projects Delivered
+Projects Shipped
 :::
 
 ::: {.stat-item}
 ### 100K+
-Market Data Processed
+Daily Records Engineered
 :::
 
 ::: {.stat-item}
@@ -62,25 +65,34 @@ Cornell Graduate
 ::: {.section .bg-white}
 ::: {.section-wide}
 
+::: {.reveal}
 [Featured Work]{.section-label}
 
 ## Selected Projects {.section-heading}
 
-A curated selection of projects showcasing my expertise in data science, quantitative finance, and software engineering.
+A cross-section of my work spanning quantitative finance, applied machine learning, and AI systems — each grounded in real data and real stakeholders.
+:::
 
 ::: {.card-grid}
 
-::: {.project-card}
+::: {.project-card .reveal}
+::: {.card-top}
 ::: {.card-icon .blue}
 <i class="bi bi-graph-up-arrow"></i>
+:::
+::: {.track-badges}
+[Quant]{.track-badge .quant}
+:::
 :::
 
 ### Private Equity Forecast Analysis
 
-Spearheaded a quantitative strategy to evaluate private equity underwriting accuracy by leading a team of 7 to analyze historical performance versus projected forecasts. Designed core analysis quantifying the correlation between initial EBITDA/Sales projections and final investment success while translating complex metrics into actionable insights for stakeholders.
+[The Riverside Company · Quantitative Analyst Lead (team of 7)]{.role-line}
+
+Led a 7-person team analyzing a private-equity portfolio, combining statistical testing (chi-square, logistic regression) and time-series regression on IRR / GCoC to evaluate projection accuracy and surface sector-level outperformance signals. Found *no* statistically significant link between projection accuracy and exit success — a counterintuitive result that reframed the client's underwriting assumptions.
 
 ::: {.tag-row}
-[Python]{.tag} [Quantitative Modeling]{.tag} [Predictive Analytics]{.tag} [Data Visualization]{.tag} [Leadership]{.tag}
+[Python]{.tag} [Logistic Regression]{.tag} [Time-Series]{.tag} [Statistical Testing]{.tag} [Leadership]{.tag}
 :::
 
 ::: {.card-links}
@@ -88,93 +100,121 @@ Spearheaded a quantitative strategy to evaluate private equity underwriting accu
 :::
 :::
 
-::: {.project-card}
-::: {.card-icon .green}
-<i class="bi bi-database-gear"></i>
+::: {.project-card .reveal .d1}
+::: {.card-top}
+::: {.card-icon .purple}
+<i class="bi bi-robot"></i>
+:::
+::: {.track-badges}
+[AI / FDE]{.track-badge .ai}
+:::
 :::
 
-### Automated ETL Pipeline & Strategy Backtesting
+### Wikipedia RAG ChatBot
 
-Engineered an automated ETL pipeline using Python/Pandas to process 100K+ daily market data entries. Implemented rigorous data cleaning logic (outlier detection, handling missing values) to standardize data for real-time factor tracking and strategy backtesting.
+[Team Leader · R · Shiny · OpenAI + MediaWiki APIs]{.role-line}
+
+Architected and deployed a Retrieval-Augmented Generation web app with an automated query-optimization pipeline and source-grounded prompt design that measurably reduces LLM hallucination. Shipped a reactive UI with session history and exportable citations — end-to-end from question to verifiable, cited answer.
 
 ::: {.tag-row}
-[Python]{.tag} [Pandas]{.tag} [ETL]{.tag} [SQL]{.tag} [Data Engineering]{.tag}
-:::
-
-:::
-
-::: {.project-card}
-::: {.card-icon .orange}
-<i class="bi bi-house-door"></i>
-:::
-
-### RoomExchange: University Housing Platform
-
-Architected a full-stack housing swap platform that enables students to list and locate properties to address campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization, earning 2nd Place in the UC Davis Big Bang! Business Competition.
-
-::: {.tag-row}
-[React]{.tag} [Mapbox API]{.tag} [Leaflet]{.tag} [Full-Stack]{.tag} [Product Design]{.tag}
+[R]{.tag} [Shiny]{.tag} [RAG]{.tag} [OpenAI API]{.tag} [Posit Cloud]{.tag}
 :::
 
 ::: {.card-links}
-[<i class="bi bi-github"></i> Code](https://github.com/hy86652/RoomExchange){target="_blank"}
-[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://roomexchange.netlify.app/){target="_blank"}
+[<i class="bi bi-github"></i> Code](https://github.com/hy86652/Wiki-ChatBot-RAG-){target="_blank"}
+[<i class="bi bi-box-arrow-up-right"></i> Live Demo](https://019ae764-a793-59ee-0e7a-bba44f6653b4.share.connect.posit.cloud/){target="_blank"}
+:::
+:::
+
+::: {.project-card .reveal .d2}
+::: {.card-top}
+::: {.card-icon .green}
+<i class="bi bi-water"></i>
+:::
+::: {.track-badges}
+[Quant]{.track-badge .quant} [Data]{.track-badge .data}
+:::
+:::
+
+### Predicting NFIP Flood Claims
+
+[FEMA National Flood Insurance Program · ~500K claims]{.role-line}
+
+Built and benchmarked Lasso, Random Forest, and XGBoost models on ~500K cleaned FEMA claims (54 features) to predict flood-insurance payouts — XGBoost reached **R² = 0.956**, an 80% RMSE reduction over baseline. Used SHAP and Partial Dependence Plots to translate the model into interpretable risk drivers for insurance pricing.
+
+::: {.tag-row}
+[Python]{.tag} [XGBoost]{.tag} [SHAP]{.tag} [Interpretability]{.tag}
 :::
 :::
 
 :::
 
-<div class="text-center mt-3">
+::: {.text-center .mt-3 .reveal}
 [View All Projects <i class="bi bi-arrow-right"></i>](projects.qmd){.btn-outline-custom}
-</div>
+:::
 
 :::
 :::
-
 
 <!-- ========== SKILLS SNAPSHOT ========== -->
-::: {.section}
+::: {.section .bg-alt}
 ::: {.section-wide}
 
+::: {.reveal}
 [Expertise]{.section-label}
 
 ## Skills & Technologies {.section-heading}
 
+Three tracks, one toolkit — quantitative research, AI/ML engineering, and data analytics.
+:::
+
 ::: {.skills-grid}
 
-::: {.skill-category}
-#### Programming Languages
+::: {.skill-category .reveal}
+<h4><i class="bi bi-bar-chart-line"></i> Quantitative Finance</h4>
+
 ::: {.skill-tags}
-[Python]{.skill-tag} [R]{.skill-tag} [SQL]{.skill-tag} [JavaScript]{.skill-tag} [Java]{.skill-tag} [Bash]{.skill-tag}
+[Multi-Factor Models]{.skill-tag} [Backtesting]{.skill-tag} [Market Regime Classification]{.skill-tag} [Risk Metrics (α, β)]{.skill-tag} [IRR / GCoC]{.skill-tag} [Logistic Regression]{.skill-tag}
 :::
 :::
 
-::: {.skill-category}
-#### Machine Learning & AI
+::: {.skill-category .reveal .d1}
+<h4><i class="bi bi-cpu"></i> AI / ML Engineering</h4>
+
 ::: {.skill-tags}
-[Scikit-learn]{.skill-tag} [XGBoost]{.skill-tag} [LLMs]{.skill-tag} [NLP]{.skill-tag} [Regression]{.skill-tag} [SHAP]{.skill-tag}
+[XGBoost]{.skill-tag} [Random Forest]{.skill-tag} [Lasso]{.skill-tag} [SHAP / PDP]{.skill-tag} [RAG]{.skill-tag} [OpenAI API]{.skill-tag} [Claude Code]{.skill-tag} [FAISS]{.skill-tag}
 :::
 :::
 
-::: {.skill-category}
-#### Data & Quantitative Finance
+::: {.skill-category .reveal .d2}
+<h4><i class="bi bi-database"></i> Data & Engineering</h4>
+
 ::: {.skill-tags}
-[Pandas]{.skill-tag} [NumPy]{.skill-tag} [ETL Pipelines]{.skill-tag} [SQL]{.skill-tag} [Multi-Factor Models]{.skill-tag} [Backtesting]{.skill-tag}
+[Python]{.skill-tag} [SQL]{.skill-tag} [DuckDB]{.skill-tag} [R]{.skill-tag} [Pandas]{.skill-tag} [ETL / ELT]{.skill-tag} [Dimensional Modeling]{.skill-tag} [Tableau]{.skill-tag}
+:::
+:::
+
+::: {.skill-category .reveal .d3}
+<h4><i class="bi bi-tools"></i> Tools & Deployment</h4>
+
+::: {.skill-tags}
+[GitHub]{.skill-tag} [Shiny]{.skill-tag} [Streamlit]{.skill-tag} [Quarto]{.skill-tag} [Posit Cloud]{.skill-tag} [React]{.skill-tag} [Leaflet / Mapbox]{.skill-tag}
 :::
 :::
 
 :::
 :::
 :::
-
 
 <!-- ========== CTA ========== -->
 ::: {.section .bg-white .text-center}
-::: {.section-narrow}
+::: {.section-narrow .reveal}
+
+[Let's Connect]{.section-label}
 
 ## Let's Work Together {.section-heading}
 
-I'm currently seeking opportunities in data science, quantitative analysis, and business intelligence — roles where I can apply my analytical skills and engineering experience to drive real business impact. I'd love to connect.
+I'm seeking 2026 opportunities in **quantitative finance**, **AI/ML & forward-deployed engineering**, and **data analytics** — roles where rigorous analysis meets real business impact. I'd love to connect.
 
 ::: {.hero-cta}
 [<i class="bi bi-envelope"></i> Get in Touch](contact.qmd){.btn-primary-custom}
