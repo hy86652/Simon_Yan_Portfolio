@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects — Simon – Simon Yan</title>
+<title>Projects — Simon Yan – Simon Yan</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-58e7cb164a30d0964bc3a4cf0cb5a652.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-0db66c32e16a2551af7299a43e6f95a1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-32c71ff8d2dcf8cdd5c3d9a1951e7494.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8389db8e5229363c5bb46b6a737d5166.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,40 +70,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Playfair+Display:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Playfair+Display:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="custom.css">
 </head>
@@ -177,216 +151,322 @@ window.Quarto = {
 
 
 <!-- ========== PROJECTS HERO ========== -->
-<section class="bg-white" style="padding-top: 6rem;">
+<section class="bg-white" style="padding-top: 8rem;">
 <div class="section-wide">
+<div class="reveal">
 <p><span class="section-label">Portfolio</span></p>
-<section id="projects" class="level2 section-heading">
-<h2 class="section-heading" data-anchor-id="projects">Projects</h2>
-<p>Each project represents a real challenge I tackled — from data collection and exploration through model development to production deployment. Click through to explore the code and live demos.</p>
-</section>
+<h2 class="section-heading" id="projects">Projects</h2>
+<p>Real problems, real data, real stakeholders — from quantitative research and applied machine learning to AI systems and data engineering. Filter by track to explore the work most relevant to you.</p>
+<div class="filter-bar">
+<button class="filter-btn active" data-filter="all">
+All Work <span class="count">9</span>
+</button>
+<button class="filter-btn" data-filter="quant">
+Quant Finance <span class="count">3</span>
+</button>
+<button class="filter-btn" data-filter="ai">
+AI / FDE <span class="count">9</span>
+</button>
+<button class="filter-btn" data-filter="data">
+Data &amp; Analytics <span class="count">6</span>
+</button>
 </div>
-</section>
-<!-- ========== FEATURED PROJECTS ========== -->
-<section>
-<div class="section-wide">
-<p><span class="section-label">Highlights</span></p>
-<section id="featured-projects" class="level3">
-<h3 data-anchor-id="featured-projects">Featured Projects</h3>
+</div>
 <div class="card-grid">
-<div class="project-card">
+<!-- 1. Private Equity -->
+<div class="project-card reveal" data-track="quant ai data">
+<div class="card-top">
 <div class="card-icon blue">
 <p><i class="bi bi-graph-up-arrow"></i></p>
 </div>
-<section id="private-equity-forecast-analysis" class="level3">
-<h3 data-anchor-id="private-equity-forecast-analysis">Private Equity Forecast Analysis</h3>
-<p>Spearheaded a quantitative strategy to evaluate private equity underwriting accuracy by leading a team of 7 to analyze historical performance versus projected forecasts. Designed core analysis quantifying the correlation between initial EBITDA/Sales projections and final investment success while translating complex metrics into actionable insights for stakeholders.</p>
+<div class="track-badges">
+<p><span class="track-badge quant">Quant</span> <span class="track-badge ai">AI</span> <span class="track-badge data">Data</span></p>
+</div>
+</div>
+<h3 id="private-equity-forecast-analysis">Private Equity Forecast Analysis</h3>
+<p><span class="role-line">The Riverside Company · Quantitative Analyst Lead (team of 7)</span></p>
+<p>Led a 7-person team through a multi-question analysis of Riverside’s portfolio, combining statistical testing (chi-square, logistic regression) and time-series regression on IRR / GCoC to evaluate projection accuracy, surface sector-level patterns, and flag early outperformance / underperformance signals. Quantified the relationship between EBITDA/Sales projection accuracy and exit success and found <em>no</em> statistically significant link — a counterintuitive result that reframed the client’s underwriting assumptions. Delivered an MVP dashboard and technical documentation for internal handoff.</p>
 <div class="tag-row">
-<p><span class="tag">Python</span> <span class="tag">Quantitative Modeling</span> <span class="tag">Predictive Analytics</span> <span class="tag">Data Visualization</span> <span class="tag">Leadership</span></p>
+<p><span class="tag">Python</span> <span class="tag">Logistic Regression</span> <span class="tag">Time-Series</span> <span class="tag">Chi-Square</span> <span class="tag">Dashboard</span> <span class="tag">Leadership</span></p>
 </div>
 <div class="card-links">
 <p><a href="https://github.com/hy86652/Private-Equity-Forecast-Quantitative-Analysis" target="_blank"><i class="bi bi-github"></i> Code</a></p>
 </div>
-</section>
 </div>
-<div class="project-card">
-<div class="card-icon green">
-<p><i class="bi bi-house-door"></i></p>
-</div>
-<section id="roomexchange-university-housing-platform" class="level3">
-<h3 data-anchor-id="roomexchange-university-housing-platform">RoomExchange: University Housing Platform</h3>
-<p>Architected a full-stack housing swap platform that enables students to list and locate properties to address campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization, earning 2nd Place in the UC Davis Big Bang! Business Competition.</p>
-<div class="tag-row">
-<p><span class="tag">React</span> <span class="tag">Mapbox API</span> <span class="tag">Leaflet</span> <span class="tag">Full-Stack</span> <span class="tag">Product Design</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com/hy86652/RoomExchange" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://roomexchange.netlify.app/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon orange">
+<!-- 2. Wikipedia RAG -->
+<div class="project-card reveal d1" data-track="ai">
+<div class="card-top">
+<div class="card-icon purple">
 <p><i class="bi bi-robot"></i></p>
 </div>
-<section id="wikipedia-rag-qa-system" class="level3">
-<h3 data-anchor-id="wikipedia-rag-qa-system">Wikipedia RAG Q&amp;A System</h3>
-<p>Built an interactive R-based Shiny web application allowing users to pose natural language questions and receive grounded, citation-rich answers synthesized from relevant Wikipedia pages. The system automatically reformulates queries using an LLM to improve search accuracy, retrieves wikitext, and synthesizes a unified response while handling MediaWiki and OpenAI API interactions.</p>
+<div class="track-badges">
+<p><span class="track-badge ai">AI / FDE</span></p>
+</div>
+</div>
+<h3 id="wikipedia-rag-chatbot">Wikipedia RAG ChatBot</h3>
+<p><span class="role-line">Team Leader · R · Shiny · OpenAI + MediaWiki APIs · Posit Cloud</span></p>
+<p>Architected and deployed a Retrieval-Augmented Generation web application with an automated query-optimization pipeline and source-grounded prompt design that reduces LLM hallucination in generated answers. Built a reactive UI with session-based history and exportable citations, enabling end-to-end use from query to verifiable, cited answer.</p>
 <div class="tag-row">
-<p><span class="tag">R</span> <span class="tag">Shiny</span> <span class="tag">LLM</span> <span class="tag">API Integration</span></p>
+<p><span class="tag">R</span> <span class="tag">Shiny</span> <span class="tag">RAG</span> <span class="tag">OpenAI API</span> <span class="tag">MediaWiki API</span></p>
 </div>
 <div class="card-links">
 <p><a href="https://github.com/hy86652/Wiki-ChatBot-RAG-" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://019ae764-a793-59ee-0e7a-bba44f6653b4.share.connect.posit.cloud/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
 </div>
-</section>
 </div>
-</div>
-</section>
-</div>
-</section>
-<!-- ========== MORE PROJECTS ========== -->
-<section class="bg-white">
-<div class="section-wide">
-<p><span class="section-label">More Work</span></p>
-<section id="additional-projects" class="level3">
-<h3 data-anchor-id="additional-projects">Additional Projects</h3>
-<div class="card-grid">
-<div class="project-card">
-<div class="card-icon purple">
-<p><i class="bi bi-mortarboard"></i></p>
-</div>
-<section id="mapping-california-education-disparities" class="level3">
-<h3 data-anchor-id="mapping-california-education-disparities">Mapping California Education Disparities</h3>
-<p>Performed spatial analysis on the correlation between socioeconomic status and educational outcomes across California school districts. Developed a series of bivariate choropleth maps and conducted Hot Spot Analysis (Getis-Ord Gi*) to identify statistically significant clusters of underperformance and resource gaps.</p>
-<div class="tag-row">
-<p><span class="tag">ArcGIS Pro</span> <span class="tag">Spatial Statistics</span> <span class="tag">Data Visualization</span> <span class="tag">Public Policy</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon teal">
-<p><i class="bi bi-shop"></i></p>
-</div>
-<section id="geospatial-market-accessibility-modeling" class="level3">
-<h3 data-anchor-id="geospatial-market-accessibility-modeling">Geospatial Market Accessibility Modeling</h3>
-<p>Developed a gravity-based accessibility model to evaluate the relationship between transportation infrastructure and commercial growth in urban areas. Used network analysis to calculate travel-time cost surfaces, enabling data-driven site selection recommendations for retail expansion.</p>
-<div class="tag-row">
-<p><span class="tag">GIS</span> <span class="tag">Network Analysis</span> <span class="tag">Market Research</span> <span class="tag">Urban Planning</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-file-earmark-slides"></i> Slides</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon red">
-<p><i class="bi bi-shield-check"></i></p>
-</div>
-<section id="data-driven-crime-analysis-for-new-york-city" class="level3">
-<h3 data-anchor-id="data-driven-crime-analysis-for-new-york-city">Data Driven Crime Analysis for New York City</h3>
-<p>Collected and integrated data from three sources, consolidating a dataset of over 100,000 rows for comprehensive analysis. Performed data cleaning, feature engineering, and exploratory analysis using Python, uncovering key correlations between crime patterns and external factors. Built regression models with an <span class="math inline">\(R^{2}\)</span> of 0.85, enabling accurate crime trend forecasts. Designed and presented interactive dashboards in Tableau, visualizing high-risk areas.</p>
-<div class="tag-row">
-<p><span class="tag">Python</span> <span class="tag">Tableau</span> <span class="tag">Regression Models</span> <span class="tag">EDA</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Demo</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon blue">
-<p><i class="bi bi-factory"></i></p>
-</div>
-<section id="manufacturing-industry-pmi-data-analysis" class="level3">
-<h3 data-anchor-id="manufacturing-industry-pmi-data-analysis">Manufacturing Industry PMI Data Analysis</h3>
-<p>Conducted a comprehensive analysis of China’s Manufacturing PMI data, focusing on relationships among raw material inventory, production, and employment indicators. Performed exploratory data analysis (EDA) to build a heat map to show and identify correlations between production levels, inventory turnover rates, and employment metrics. Utilized machine learning models for IC prediction, providing data support for future manufacturing decisions.</p>
-<div class="tag-row">
-<p><span class="tag">Python</span> <span class="tag">Machine Learning</span> <span class="tag">Pandas</span> <span class="tag">Matplotlib</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-book"></i> Docs</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon orange">
-<p><i class="bi bi-fire"></i></p>
-</div>
-<section id="wildfire-risk-mapping" class="level3">
-<h3 data-anchor-id="wildfire-risk-mapping">Wildfire Risk Mapping</h3>
-<p>Conducted research on the distribution and influencing factors of high-frequency wildfire zones in Washington State and designed buffer zone models. Utilized ArcGIS to create spatial models and analyze spatial correlations between wildfire zones and surrounding environments. Used JavaScript to develop a web-based geographic dashboard, achieving multi-layered dynamic data interaction and optimizing the user experience.</p>
-<div class="tag-row">
-<p><span class="tag">ArcGIS</span> <span class="tag">JavaScript</span> <span class="tag">Spatial Modeling</span> <span class="tag">Data Analysis</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon purple">
-<p><i class="bi bi-gpu-card"></i></p>
-</div>
-<section id="llm-serving-system-scheduling-simulation" class="level3">
-<h3 data-anchor-id="llm-serving-system-scheduling-simulation">LLM Serving System Scheduling Simulation</h3>
-<p>Developed a discrete-event simulation tool to model large language model (LLM) inference systems, specifically capturing prompt processing (prefill) and token generation (decode) constraints on a single GPU. Evaluated complete-to-end and prefill-first scheduling strategies under varying user demand to measure throughput, time-to-first-token (TTFT), and time-between-tokens (TBT). Identified capacity-driven phase transitions and latency trade-offs to guide system design.</p>
-<div class="tag-row">
-<p><span class="tag">Simulation</span> <span class="tag">System Design</span> <span class="tag">LLM</span> <span class="tag">Performance Analysis</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
-<div class="card-icon teal">
-<p><i class="bi bi-wind"></i></p>
-</div>
-<section id="nyc-air-quality-analysis" class="level3">
-<h3 data-anchor-id="nyc-air-quality-analysis">NYC Air Quality Analysis</h3>
-<p>Created an interactive Shiny dashboard to analyze New York City air quality trends (PM2.5, NO2, O3) and their correlation with socioeconomic indicators and public health outcomes like asthma emergency visits. Integrated multi-source datasets and designed interactive maps with sf-polygons and dynamic reference lines to highlight environmental disparities and assist policymakers and researchers.</p>
-<div class="tag-row">
-<p><span class="tag">R</span> <span class="tag">Shiny</span> <span class="tag">Data Visualization</span> <span class="tag">Spatial Analysis</span></p>
-</div>
-<div class="card-links">
-<p><a href="https://github.com/hy86652/NYC-Air-Quality-Analysis" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://019ab6aa-10ac-ce1f-12dc-2205acb314fd.share.connect.posit.cloud/" target="_blank"><i class="bi bi-book"></i> Docs</a></p>
-</div>
-</section>
-</div>
-<div class="project-card">
+<!-- 3. NFIP Flood -->
+<div class="project-card reveal d2" data-track="quant data ai">
+<div class="card-top">
 <div class="card-icon green">
 <p><i class="bi bi-water"></i></p>
 </div>
-<section id="predicting-national-flood-insurance-program-claims" class="level3">
-<h3 data-anchor-id="predicting-national-flood-insurance-program-claims">Predicting National Flood Insurance Program Claims</h3>
-<p>Developed regression-based models using FEMA’s National Flood Insurance Program dataset (500,000+ records) to predict and explain flood insurance claim amounts. Applied XGBoost, Random Forest, and Lasso regression, with XGBoost achieving the best performance (<span class="math inline">\(R^2 = 0.956\)</span>). Utilized SHAP values and Partial Dependence Plots to translate model findings into interpretable insights for disaster risk management and insurance pricing strategies.</p>
+<div class="track-badges">
+<p><span class="track-badge quant">Quant</span> <span class="track-badge data">Data</span> <span class="track-badge ai">AI</span></p>
+</div>
+</div>
+<h3 id="predicting-nfip-flood-claims">Predicting NFIP Flood Claims</h3>
+<p><span class="role-line">FEMA National Flood Insurance Program · ~500K claims, 54 features</span></p>
+<p>Built and benchmarked regression models (Lasso, Random Forest, XGBoost) on ~500K cleaned FEMA claims to predict flood-insurance payout amounts, with XGBoost achieving <strong>R² = 0.956</strong> and an 80% RMSE reduction over baseline. Applied SHAP values and Partial Dependence Plots to translate model outputs into interpretable risk drivers, supporting insurance-pricing and disaster-risk-management use cases.</p>
 <div class="tag-row">
-<p><span class="tag">XGBoost</span> <span class="tag">Machine Learning</span> <span class="tag">Data Modeling</span> <span class="tag">SHAP</span></p>
+<p><span class="tag">Python</span> <span class="tag">XGBoost</span> <span class="tag">Random Forest</span> <span class="tag">Lasso</span> <span class="tag">SHAP</span> <span class="tag">PDP</span></p>
+</div>
+</div>
+<!-- 4. NYC Air Quality -->
+<div class="project-card reveal" data-track="data ai">
+<div class="card-top">
+<div class="card-icon teal">
+<p><i class="bi bi-wind"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge data">Data</span> <span class="track-badge ai">AI</span></p>
+</div>
+</div>
+<h3 id="nyc-air-quality-analysis">NYC Air Quality Analysis</h3>
+<p><span class="role-line">Interactive Data Dashboard · R · Shiny · Posit Cloud</span></p>
+<p>Built an interactive Shiny dashboard analyzing a decade of NYC air quality — integrating the NYC DOHMH dataset (~18.9K records) with four socioeconomic datasets to examine temporal trends, spatial disparities, and pollution–socioeconomic relationships. Performed heavy cleaning in R (normalized names, engineered indicator categories, parsed messy time-period strings into start/end dates) and shipped a 5-tab app with interactive <code>sf</code>-polygon maps, NAAQS reference lines, and a custom-themed UI.</p>
+<div class="tag-row">
+<p><span class="tag">R</span> <span class="tag">Shiny</span> <span class="tag">tidyverse</span> <span class="tag">sf</span> <span class="tag">Spatial Analysis</span></p>
 </div>
 <div class="card-links">
-<p><a href="https://github.com" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://example.com" target="_blank"><i class="bi bi-file-earmark-pdf"></i> Write-up</a></p>
-</div>
-</section>
+<p><a href="https://github.com/hy86652/NYC-Air-Quality-Analysis" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://019ab6aa-10ac-ce1f-12dc-2205acb314fd.share.connect.posit.cloud/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
 </div>
 </div>
-</section>
+<!-- 5. Climate Change Data Story -->
+<div class="project-card reveal d1" data-track="data ai">
+<div class="card-top">
+<div class="card-icon orange">
+<p><i class="bi bi-thermometer-sun"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge data">Data</span> <span class="track-badge ai">AI</span></p>
+</div>
+</div>
+<h3 id="who-is-responsible-for-climate-change">Who Is Responsible for Climate Change?</h3>
+<p><span class="role-line">A Four-Lens Data Story · R · Quarto · Closeread</span></p>
+<p>A data-storytelling piece examining climate responsibility through four empirically valid but conflicting metrics — total annual, per-capita, cumulative historical, and consumption-based emissions — across seven major emitters, showing how the same data yields four different verdicts depending on the fairness standard applied. Cleaned and reshaped the Our World in Data country-year panel (records back to 1750) and delivered it as a Closeread scrollytelling narrative with a sticky visualization panel and editorial typography.</p>
+<div class="tag-row">
+<p><span class="tag">R</span> <span class="tag">Quarto</span> <span class="tag">Closeread</span> <span class="tag">Data Storytelling</span> <span class="tag">OWID</span></p>
+</div>
+</div>
+<!-- 6. LLM Serving Simulation -->
+<div class="project-card reveal d2" data-track="ai data">
+<div class="card-top">
+<div class="card-icon purple">
+<p><i class="bi bi-gpu-card"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge ai">AI / FDE</span> <span class="track-badge data">Data</span></p>
+</div>
+</div>
+<h3 id="llm-serving-system-scheduling-simulation">LLM Serving System — Scheduling Simulation</h3>
+<p><span class="role-line">Discrete-Event Simulation · Python · Matplotlib</span></p>
+<p>Built a discrete-event simulation of a single-GPU LLM-serving system modeling both phases of autoregressive inference — prefill and decode — with Poisson arrivals and batching constraints, to study how scheduling policy affects throughput and latency. Compared Complete-to-End vs.&nbsp;Prefill-first schedulers on throughput, TTFT, TBT, and total latency; validated with an M/M/1 reduction against closed-form queueing formulas. Identified a capacity-driven phase transition where decode is the fundamental bottleneck.</p>
+<div class="tag-row">
+<p><span class="tag">Python</span> <span class="tag">Discrete-Event Sim</span> <span class="tag">Queueing Theory</span> <span class="tag">Performance Analysis</span></p>
+</div>
+</div>
+<!-- 7. AI Job Search Assistant -->
+<div class="project-card reveal" data-track="ai data">
+<div class="card-top">
+<div class="card-icon blue">
+<p><i class="bi bi-briefcase"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge ai">AI / FDE</span> <span class="track-badge data">Data</span></p>
+</div>
+</div>
+<h3 id="ai-job-search-assistant">AI Job Search Assistant</h3>
+<p><span class="role-line">Cornell INFO 5125 · Team of 7 · Project Planning &amp; Documentation</span></p>
+<p>A 7-person team built an AI-powered job-search platform for international students, integrating a visa-transparency dashboard (automated bi-weekly updates + conflict detection), semantic resume-to-job matching (FAISS + BERT), and a RAG-based Q&amp;A assistant (ChromaDB) — a Streamlit prototype reaching ~85% matching accuracy. I owned core project-management deliverables: the team contract, the Work Breakdown Structure and Gantt chart coordinating the multi-track team, risk assessment, weekly tracking, and the final report.</p>
+<div class="tag-row">
+<p><span class="tag">Streamlit</span> <span class="tag">FAISS</span> <span class="tag">BERT</span> <span class="tag">ChromaDB</span> <span class="tag">RAG</span> <span class="tag">Project Management</span></p>
+</div>
+</div>
+<!-- 8. RoomExchange -->
+<div class="project-card reveal d1" data-track="ai">
+<div class="card-top">
+<div class="card-icon orange">
+<p><i class="bi bi-house-door"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge ai">AI / FDE</span></p>
+</div>
+</div>
+<h3 id="roomexchange-university-housing-platform">RoomExchange — University Housing Platform</h3>
+<p><span class="role-line">Full-Stack · React · Leaflet + Mapbox APIs · 🏆 2nd Place, UC Davis Big Bang!</span></p>
+<p>Architected a full-stack housing-swap platform enabling students to list and locate properties, addressing campus accommodation shortages. Engineered modular frontend logic and integrated Leaflet and Mapbox APIs for dynamic geolocation visualization — earning 2nd Place at the UC Davis Big Bang! Business Competition.</p>
+<div class="tag-row">
+<p><span class="tag">React</span> <span class="tag">Leaflet API</span> <span class="tag">Mapbox API</span> <span class="tag">Full-Stack</span> <span class="tag">Product Design</span></p>
+</div>
+<div class="card-links">
+<p><a href="https://github.com/hy86652/RoomExchange" target="_blank"><i class="bi bi-github"></i> Code</a> <a href="https://roomexchange.netlify.app/" target="_blank"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a></p>
+</div>
+</div>
+<!-- 9. Algo Trading (Personal) -->
+<div class="project-card reveal d2" data-track="quant ai">
+<div class="card-top">
+<div class="card-icon blue">
+<p><i class="bi bi-currency-exchange"></i></p>
+</div>
+<div class="track-badges">
+<p><span class="track-badge quant">Quant</span> <span class="track-badge ai">AI</span></p>
+</div>
+</div>
+<h3 id="personal-algorithmic-trading-system">Personal Algorithmic Trading System</h3>
+<p><span class="role-line">Personal Project · Python · Built with Claude Code</span></p>
+<p>Built a personal algorithmic trading system, using Claude Code to rapidly prototype and iterate on quantitative strategy logic — analyzing market data, identifying signal patterns, and stress-testing model assumptions. Continuously validated AI-generated code against real market behavior, overriding model output where financial-data edge cases required human judgment before committing any logic.</p>
+<div class="tag-row">
+<p><span class="tag">Python</span> <span class="tag">Algorithmic Trading</span> <span class="tag">Signal Research</span> <span class="tag">Claude Code</span></p>
+</div>
+</div>
+</div>
 </div>
 </section>
 <!-- ========== CTA ========== -->
-<section class="text-center">
-<section id="interested-in-collaborating" class="level2 section-heading section-narrow">
-<h2 class="section-heading" data-anchor-id="interested-in-collaborating">Interested in Collaborating?</h2>
-<p>I’m always open to discussing new projects, research collaborations, or job opportunities.</p>
+<section class="bg-alt text-center">
+<div class="section-narrow reveal">
+<p><span class="section-label">Let’s Talk</span></p>
+<h2 class="section-heading" id="interested-in-collaborating">Interested in Collaborating?</h2>
+<p>I’m always open to discussing new projects, research collaborations, or roles across quant finance, AI/ML, and data.</p>
 <div class="hero-cta">
 <p><a href="./contact.html" class="btn-primary-custom"><i class="bi bi-envelope"></i> Get in Touch</a> <a href="https://github.com/hy86652" class="btn-outline-custom" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
 </div>
+</div>
 </section>
-</section>
 
 
 
 
+<noscript><style>.reveal{opacity:1 !important;transform:none !important;}</style></noscript>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------- Scroll reveal ---------- */
+  function initReveal() {
+    var els = document.querySelectorAll(".reveal");
+    if (!("IntersectionObserver" in window) || !els.length) {
+      els.forEach(function (el) { el.classList.add("in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          e.target.classList.add("in");
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
+    els.forEach(function (el) { io.observe(el); });
+    /* safety fallback: reveal everything after 3s no matter what */
+    setTimeout(function () { els.forEach(function (el) { el.classList.add("in"); }); }, 3000);
+  }
+
+  /* ---------- Animated stat counters ---------- */
+  function animateStat(h3) {
+    var raw = h3.getAttribute("data-raw") || h3.textContent.trim();
+    h3.setAttribute("data-raw", raw);
+    var m = raw.match(/^(\D*)([\d,]+)(.*)$/);
+    if (!m) { return; }
+    var pre = m[1], numStr = m[2].replace(/,/g, ""), suf = m[3];
+    var target = parseInt(numStr, 10);
+    var hasComma = m[2].indexOf(",") !== -1;
+    var dur = 1400, start = null;
+    function fmt(n) { return hasComma ? n.toLocaleString("en-US") : String(n); }
+    function frame(ts) {
+      if (start === null) { start = ts; }
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.round(target * eased);
+      h3.innerHTML = pre + '<span class="stat-num">' + fmt(val) + "</span>" + suf;
+      if (p < 1) { requestAnimationFrame(frame); }
+    }
+    requestAnimationFrame(frame);
+  }
+
+  function initStats() {
+    var strip = document.querySelector(".stats-strip");
+    if (!strip) { return; }
+    var heads = strip.querySelectorAll(".stat-item h3");
+    if (!("IntersectionObserver" in window)) {
+      heads.forEach(animateStat);
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          heads.forEach(animateStat);
+          io.disconnect();
+        }
+      });
+    }, { threshold: 0.4 });
+    io.observe(strip);
+  }
+
+  /* ---------- Project filtering ---------- */
+  function initFilter() {
+    var bar = document.querySelector(".filter-bar");
+    if (!bar) { return; }
+    var btns = bar.querySelectorAll(".filter-btn");
+    var cards = document.querySelectorAll(".project-card[data-track]");
+    btns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var f = btn.getAttribute("data-filter");
+        btns.forEach(function (b) { b.classList.remove("active"); });
+        btn.classList.add("active");
+        cards.forEach(function (card) {
+          var tracks = (card.getAttribute("data-track") || "").split(/\s+/);
+          var show = f === "all" || tracks.indexOf(f) !== -1;
+          card.classList.toggle("is-hidden", !show);
+        });
+      });
+    });
+  }
+
+  /* ---------- Navbar scroll shadow ---------- */
+  function initNavbar() {
+    var nav = document.querySelector(".navbar");
+    if (!nav) { return; }
+    function onScroll() {
+      nav.classList.toggle("scrolled", window.scrollY > 24);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  function boot() {
+    initReveal();
+    initStats();
+    initFilter();
+    initNavbar();
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -791,13 +871,32 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p><strong>Simon Yan</strong> · Data Scientist &amp; Quantitative Analyst</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2026 Simon Yan · Built with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2026 · Built with <a href="https://quarto.org">Quarto</a></p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/hy86652">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/in/sy31">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:hyan86652@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
     </div>
   </div>
 </footer>
@@ -805,4 +904,5 @@ window.Quarto = {
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
