@@ -412,7 +412,15 @@ html { scroll-behavior: smooth; }
 .card-icon.purple  { background: var(--ai-wash);   color: var(--ai); }
 .card-icon.red     { background: #ffe8e8; color: #e84545; }
 .card-icon.teal    { background: var(--data-wash); color: var(--data); }
-.card-icon > p { margin: 0; line-height: 1; display: flex; }
+.card-icon > p {
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
 
 .project-card h3 {
   font-family: 'DM Sans', sans-serif;
