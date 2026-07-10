@@ -112,7 +112,7 @@ Led a 7-person team analyzing a private-equity portfolio, combining statistical 
 
 ### Wikipedia RAG ChatBot
 
-[Team Leader · R · Shiny · OpenAI + MediaWiki APIs]{.role-line}
+[Team Leader (team of 3) · R · Shiny · OpenAI + MediaWiki APIs]{.role-line}
 
 Architected and deployed a Retrieval-Augmented Generation web app with an automated query-optimization pipeline and source-grounded prompt design that measurably reduces LLM hallucination. Shipped a reactive UI with session history and exportable citations — end-to-end from question to verifiable, cited answer.
 

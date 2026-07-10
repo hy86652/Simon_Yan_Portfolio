@@ -64,7 +64,7 @@ Led a 7-person team through a multi-question analysis of Riverside's portfolio, 
 
 ### Wikipedia RAG ChatBot
 
-[Team Leader · R · Shiny · OpenAI + MediaWiki APIs · Posit Cloud]{.role-line}
+[Team Leader (team of 3) · R · Shiny · OpenAI + MediaWiki APIs · Posit Cloud]{.role-line}
 
 Architected and deployed a Retrieval-Augmented Generation web application with an automated query-optimization pipeline and source-grounded prompt design that reduces LLM hallucination in generated answers. Built a reactive UI with session-based history and exportable citations, enabling end-to-end use from query to verifiable, cited answer.
 

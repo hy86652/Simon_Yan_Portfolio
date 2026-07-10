@@ -8,9 +8,7 @@ page-layout: custom
 ::: {.about-hero}
 ::: {.about-grid}
 
-::: {.profile-photo-placeholder}
-<i class="bi bi-person"></i>
-:::
+<img src="images/profile.jpg" alt="Simon Yan" class="profile-photo">
 
 ::: {.about-intro}
 

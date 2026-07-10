@@ -72,7 +72,7 @@ Coursework: Data Science · Machine Learning · GIS Database Programming · Elem
 [June 2024 — Aug 2024]{.period}
 
 ### Quantitative Investment Researcher Intern {.mb-0}
-[Central China Securities Co., Ltd. (HKEX: 1375) · Shanghai, China · Data Analytics & Reporting]{.org}
+[Central China Securities Co., Ltd. (HKEX: 1375) · Shanghai, China · Data Engineering & Quantitative Modeling]{.org}
 
 ::: {.desc}
 - Optimized 10+ multi-factor alpha signal strategies (e.g., Momentum, Volatility) by incorporating market-regime classification to enhance signal stability and reduce drawdown during volatile periods.
